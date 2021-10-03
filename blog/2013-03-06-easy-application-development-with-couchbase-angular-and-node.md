@@ -3,6 +3,9 @@ title: "Easy application development with Couchbase, Angular and Node"
 
 categories: couchbase node nosql angular
 ---
+import Gist from 'react-gist';
+
+
 > Note : This article has been written in March 2013, since Couchbase and its drivers have a changed a lot. I am not working with/for Couchbase anymore, with no time to update the code.
 
 A friend of mine wants to build a simple system to capture ideas, and votes. Even if you can find many online services to do that, I think it is a good opportunity to show how easy it is to develop new application using a Couchbase and Node.js.
@@ -46,7 +49,7 @@ You can argue that it is possible to put the votes as a list of element inside t
 
 So documents will look like:
 
-{% gist 79f57b13e7a637c7e62e %}
+<Gist id="79f57b13e7a637c7e62e" />
 
 What I really like is the fact that I can quickly create a small dataset to validate that it is correct and help me to design the view. The way I do it, I start my server, launch the Couchbase Administration Console, create a bucket, and finally insert document manually and validate the model and views.
 
@@ -59,11 +62,11 @@ Now that I have created some documents, I can think about the way I want to get 
 
 The list of idea for this first version is very simple, we just need to emit the title:
 
-{% gist 989a5450811dec8f305e%}
+<Gist id="989a5450811dec8f305e" />
 
 For the votes by ideas, I choose to create a collated view, this will give me some interesting options when I will expose them into an API/View layer. I am also for this view using `sum()` reduce function to be sure I capture the number of votes.
 
-{% gist 5fe945cbc12cc59e9dbd %}
+<Gist id="5fe945cbc12cc59e9dbd" />
 
 I have my documents, I have some views that allow me to retrieve the list of ideas, the number of vote by idea and count the vote... So I am ready to expose all these informations to the application using a simple API layer.
 
@@ -110,13 +113,13 @@ After running the install, let's code the new API interface, as said before I am
 
 I am starting with the endpoints to get and set the documents. I am creating a generic endpoints that take the type as URI parameter allowing user/application to do a get/post on `/api/vote`, `/api/idea`. The following code captures this:
 
-{% gist 42f0b936a55fd2dcefac %}
+<Gist id="42f0b936a55fd2dcefac" />
 
 In each case I start to test if the URI is one of the supported types (idea, vote, user) and if this is the case I call the `get()` or `upsert()` method that will do the call to Couchbase.
 
 The `get()` and `upsert()` methods are using more or less the same approach. I test if the document exists, if the type is correct and do the operation to Couchbase. Let's focus on the `upsert()`` method. I call it `upsert()` since the same operation is used to create and update the document.
 
-{% gist 91858dcad51affdf3521 %}
+<Gist id="91858dcad51affdf3521" />
 
 In this function I start by testing if the document contains a type and if the type is the one expected (line 3).
 
@@ -130,11 +133,11 @@ The delete operation is equivalent to the get, using the delete HTTP operation.
 
 So now I can get, insert and update the documents. I still need to do some work to deal with the lists. As you can guess, here I need to call the views. I won't go in the detail of the simple list of ideas. Let's focus on the view that shows the result of the votes.
 
-{% gist 6468058737ff53553ae1 %}
+<Gist id="6468058737ff53553ae1" />
 
 For this part of the application I use a small trick to use the collated view. The `/api/results/` call returns the list of ideas with their title and the total number of votes. The result looks like the following:
 
-{% gist 6cfdedf1410ca99744bd %}
+<Gist id="6cfdedf1410ca99744bd" />
 
 
 Note that it is also possible to select only one idea , you just need to pass the id to the call for example.
@@ -155,7 +158,7 @@ The code of the application without login is available branch in [02-simple-ui-n
 
 You can run the application &nbsp;with simple services using the following command:
 
-```
+```shell
 > git checkout -f 02-simple-ui-no-login
 > node app.js
 ```
@@ -178,7 +181,7 @@ In this first version of the UI I have not yet integrated any login/security, so
 
 The home page of the application contains the list of ideas and number of votes.
 
-{% img http://2.bp.blogspot.com/-tniNkr_Pl0Q/USidTLKHw1I/AAAAAAAAAbQ/BWtfTaAWG1w/s320/ideas-home-page.png %}
+![](http://2.bp.blogspot.com/-tniNkr_Pl0Q/USidTLKHw1I/AAAAAAAAAbQ/BWtfTaAWG1w/s320/ideas-home-page.png)
 
 Look at the EntriesListCtrl controller and the `view/index.html` file. As you can guess this is based on the Couchbase collated view that return the list of ideas and number of vote.
 
@@ -247,11 +250,11 @@ This is it! AngularJS deals with the binding of the new field, so I just need to
 
 The list of value located in the `$scope.ratings` variable :
 
-{% gist fe7c8625a6f54dfd2425 %}
+<Gist id="fe7c8625a6f54dfd2425" />
 
 Once this is done you can add a select box into your view using the following code :
 
-{% gist d4115c3dbdd5a25614d9 %}
+<Gist id="d4115c3dbdd5a25614d9" />
 
 To add the select box into the form, I just use AngularJS features:
 
@@ -264,7 +267,7 @@ I am adding the field in my form, I bind this field to my Javascript object; and
 
 Now that my database is dealing with a new attribute in the vote, I need to update my view to use this in the sum function. (I could calculate an average too, but here I want the sum of all the vote/ratings).
 
-{% gist c2fb3f9a3127df75e454 %}
+<Gist id="c2fb3f9a3127df75e454" />
 
 The only line that I have changed is the line number 7. The logic is simple, if the rating is present I emit it, if not I emit a 2, that is a medium rating for an idea.
 

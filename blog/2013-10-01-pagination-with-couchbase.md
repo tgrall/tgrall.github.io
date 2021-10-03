@@ -3,6 +3,10 @@ title: "Pagination with Couchbase"
 
 categories: couchbase nosql json
 ---
+
+import Gist from 'react-gist';
+
+
 If you have to deal with a large number of documents when doing queries against a Couchbase cluster it is important to use pagination to get rows by page. You can find some information in the documentation in the chapter "[Pagination](http://docs.couchbase.com/couchbase-manual-2.2/#pagination)", but I want to go in more details and sample code in this article.
 
 For this example I will start by creating a simple view based on the `beer-sample` dataset, the view is used to find brewery by country:
@@ -51,7 +55,7 @@ So now you want to navigate in this index with a page size of 5 rows.
 
 ### Using skip / limit Parameters
 
-The most simplistic approach is to use <span style="font-family: Courier New, Courier, monospace;">limit</span> and <span style="font-family: Courier New, Courier, monospace;">skip</span> parameters for example:
+The most simplistic approach is to use `limit` and `skip` parameters for example:
 
 Page 1 : `?limit=5&amp;skip0`  
 Page 2 : `?limit=5&amp;skip=5`
@@ -64,7 +68,8 @@ This is simple but not the most efficient way, since the query engine has to rea
 
 Some code sample in python that paginate using this view :
 
-{% gist 6174762 )
+
+<Gist id="6174762" />
 
 This application loops on all the pages until the end of the index.
 
@@ -85,7 +90,7 @@ So if we look at the index, and add a row number to explain the pagination
 <tr><th>Row num</th><th>Doc id</th><th>Key</th><th>Value</th></tr>
 <tr><td colspan="4"><br />
 Query for page 1<br />
-<span style="font-family: Courier New, Courier, monospace;">?limit=5</span></td></tr>
+`?limit=5`</td></tr>
 <tr><td>1</td><td></td><td>bersaglier</td><td>Argentina</td><td>null</td></tr>
 <tr><td>2</td><td></td><td>cervecera_jerome</td><td>Argentina</td><td>null</td></tr>
 <tr><td>3</td><td></td><td>brouwerij_nacional_balashi</td><td>Aruba</td><td>null</td></tr>
@@ -93,7 +98,7 @@ Query for page 1<br />
 <tr><td>5</td><td></td><td>carlton_and_united_breweries</td><td>Australia</td><td>null</td></tr>
 <tr><td colspan="4">
 Query for page 2<br />
-<span style="font-family: Courier New, Courier, monospace;">?limit=5&amp;startkey="Australia"&amp;startkey_docid=carlton_and_united_breweries&amp;skip=1</span>
+`?limit=5&amp;startkey="Australia"&amp;startkey_docid=carlton_and_united_breweries&amp;skip=1`
 </td></tr>
 <tr><td>6</td><td></td><td>coopers_brewery</td><td>Australia</td><td>null</td></tr>
 <tr><td>7</td><td></td><td>foster_s_australia_ltd</td><td>Australia</td><td>null</td></tr>
@@ -102,7 +107,7 @@ Query for page 2<br />
 <tr><td>10</td><td></td><td>little_creatures_brewery</td><td>Australia</td><td>null</td></tr>
 <tr><td colspan="4"><br />
 Query for page 3<br />
-<span style="font-family: Courier New, Courier, monospace;">?limit=5&amp;startkey="Australia"&amp;startkey_docid=little_creatures_brewery</span><span style="font-family: 'Courier New', Courier, monospace;">&amp;skip=1</span>
+`?limit=5&amp;startkey="Australia"&amp;startkey_docid=little_creatures_brewery``&amp;skip=1`
 </td></tr>
 <tr><td>11</td><td></td><td>malt_shovel_brewery</td><td>Australia</td><td>null</td></tr>
 <tr><td>12</td><td></td><td>matilda_bay_brewing</td><td>Australia</td><td>null</td></tr>
@@ -120,7 +125,29 @@ So as you can see in the examples above, the query uses the startkey, a document
 
 Let's now look at the application code, once again in Python
 
-{% gist 6176322 )
+```python
+from couchbase import Couchbase
+cb = Couchbase.connect(bucket='beer-sample')
+
+hasRow = True
+rowPerPage = 5
+page = 0
+currentStartkey=""
+startDocId=""
+
+while hasRow :
+	hasRow = False
+	skip = 0 if page == 0 else 1
+	page = page + 1
+	print "-- Page %s --" % (page)
+	rows = cb.query("test", "by_country", limit=rowPerPage, skip=skip, startkey=currentStartkey, startkey_docid=startDocId)
+	for row in rows:
+		hasRow = True
+		print "Country: \"%s\" \t Id: '%s'" % (row.key, row.docid)
+		currentStartkey = row.key
+		startDocId = row.docid
+	print " -- -- -- -- \n"
+```
 
 This application loops on all the pages until the end of the index
 
@@ -135,7 +162,87 @@ When you are using the  paramater `startkey_docid` with a reduce function it wil
 
 In the previous examples, I have showed how to do pagination using the various query parameters. The Java SDK provides a Paginator object to help developers to deal with pagination. The following example is using the same view with the Paginator API.
 
-{% gist 6774932 )
+```java
+package com.couchbase.devday;
+
+import com.couchbase.client.CouchbaseClient;
+import com.couchbase.client.protocol.views.*;
+import java.net.URI;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Properties;
+import java.util.concurrent.TimeUnit;
+import java.util.logging.ConsoleHandler;
+import java.util.logging.Handler;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+public class JavaPaginatorSample {
+
+public static void main(String[] args) {
+
+	configure();
+	System.out.println("--------------------------------------------------------------------------");
+	System.out.println("\tCouchbase - Paginator");
+	System.out.println("--------------------------------------------------------------------------");
+
+    List<URI> uris = new LinkedList<URI>();
+    uris.add(URI.create("http://127.0.0.1:8091/pools"));
+
+    CouchbaseClient cb = null;
+    try {
+    	cb = new CouchbaseClient(uris, "beer-sample", "");
+	  	System.out.println("--------------------------------------------------------------------------");
+	  	System.out.println("Breweries (by_name) with docs & JSON parsing");
+		View view = cb.getView("test", "by_country");
+		Query query = new Query();
+		int docsPerPage = 5;
+
+		Paginator paginatedQuery = cb.paginatedQuery(view, query, docsPerPage);
+		int pageCount = 0;
+		while(paginatedQuery.hasNext()) {
+			pageCount++;
+			System.out.println(" -- Page "+ pageCount +" -- ");
+			ViewResponse response = paginatedQuery.next();
+			for (ViewRow row : response) {
+				System.out.println(row.getKey() + " : " + row.getId());
+			}
+			System.out.println(" -- -- -- ");
+		}
+		
+		System.out.println("\n\n");
+    	cb.shutdown(10, TimeUnit.SECONDS);
+    } catch (Exception e) {
+    	System.err.println("Error connecting to Couchbase: " + e.getMessage());
+    }
+}
+
+
+
+private static void configure() {
+
+	for(Handler h : Logger.getLogger("com.couchbase.client").getParent().getHandlers()) {
+		if(h instanceof ConsoleHandler) {
+			h.setLevel(Level.OFF);
+		}
+	}
+	Properties systemProperties = System.getProperties();
+	systemProperties.put("net.spy.log.LoggerImpl", "net.spy.memcached.compat.log.SunLogger");
+	System.setProperties(systemProperties);
+
+	Logger logger = Logger.getLogger("com.couchbase.client");
+	logger.setLevel(Level.OFF);
+	for(Handler h : logger.getParent().getHandlers()) {
+		if(h instanceof ConsoleHandler){
+			h.setLevel(Level.OFF);
+		}
+	}
+}
+
+}
+```
+
 
 So as you can see you can easily paginate on the results of a Query using the Java Paginator.
 

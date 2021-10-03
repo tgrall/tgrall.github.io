@@ -41,7 +41,7 @@ Just for the fun of it, let's inspect this folder using the eXo CRaSH utility. I
 2-  Connect to the JCR workspace using the following command:
 
 ``` sh
- connect -u root -p gtn -c portal dms-system</span>
+ connect -u root -p gtn -c portal dms-system
 ```
 
 Where: -u is the user, -p the password, -c the Portal Container, and dms-system the workspace to use
@@ -153,7 +153,7 @@ def isShowSummary = uicomponent.isShowField(UICLVPortlet.PREFERENCE_SHOW_SUMMARY
 
 ```
 
-The <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">uicomponent</span> object is defined by the container class of the portlet that calls the template. This class contains many utility methods. In the code above I retrieve all the preferences of the portlet, since the name are self-explanatory it is not necessary to detail them, especially when you look at the preferences screen below:
+The `uicomponent` object is defined by the container class of the portlet that calls the template. This class contains many utility methods. In the code above I retrieve all the preferences of the portlet, since the name are self-explanatory it is not necessary to detail them, especially when you look at the preferences screen below:
 
 ![]( http://3.bp.blogspot.com/-bDIJtSVaD9A/TblkjTr2wMI/AAAAAAAAAQE/6mRLmEYqpsE/s320/preference-screen.png )
 

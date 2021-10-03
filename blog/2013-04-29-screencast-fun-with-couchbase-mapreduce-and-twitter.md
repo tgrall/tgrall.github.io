@@ -3,6 +3,8 @@ title: "Screencast : Fun with Couchbase MapReduce and Twitter"
 
 categories: couchbase twitter nosql
 ---
+import Gist from 'react-gist';
+
 I have created this simple screencast to show how you can, using Couchbase do some realtime analysis based on Twitter feed.
 
 The key steps of this demonstration are
@@ -19,4 +21,4 @@ The views that I used in this demonstration are available at the bottom of this 
 
 Views:
 
-{% gist 1df10b10c9dd387995cb )
+<Gist id="1df10b10c9dd387995cb" />

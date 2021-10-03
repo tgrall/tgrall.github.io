@@ -54,7 +54,7 @@ private Cookie getJSessionCookie(Call call) {
 }
 ```
 
-Note that the Cookie object is an instance of Oracle <span style="font-family:courier new;">HTTPClient.Cookie</span>.
+Note that the Cookie object is an instance of Oracle `HTTPClient.Cookie`.
 
 4- Utilizing the Cookie
 

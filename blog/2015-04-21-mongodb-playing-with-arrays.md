@@ -15,7 +15,7 @@ Let's use a very simple example based on e-commerce platform, with two document 
 
 The first thing you have, is a simple list of values into a JSON array. Let's look at a user profile where user have a list of interests  (field `interested_by`) :
 
-``` json
+```json
 {
   "_id" : 654321,
   "first_name" : "John",
@@ -35,7 +35,7 @@ The first thing you have, is a simple list of values into a JSON array. Let's lo
 Another thing you do with array, is to represent "one-to-many" relations. These relations in your RDBMS are based on multiple tables and foreign keys.
 In document databases, like MongoDB, these relations are, most of the time, represented using an *array of documents*, something like (look at the `items` field):
 
-``` json
+```json
 {
   "_id" : 45218468309,
   "date" : ISODate("2015-01-28T09:40:50.615Z"),
@@ -80,12 +80,12 @@ Documents above are not necessary complete, I just want to focus on the various 
 
 ### Adding new interest to the user
 
-To achieve this you have 2 operators that you can use in your update: [`$push`](1) and [`$addToSet`](2). Since these one a very simple I won't go into too much details.
+To achieve this you have 2 operators that you can use in your update: [`$push`](http://docs.mongodb.org/manual/reference/operator/update/push/) and [`$addToSet`](http://docs.mongodb.org/manual/reference/operator/update/addToSet/). Since these one a very simple I won't go into too much details.
 
 The `$push` will add the value at the end of the list, if the value already exits it will be added (many copies), this is why it makes sense to use the `$addToSet` operator, that only add the value if the value does not already exist in the array.
 
 
-```
+```javascript
 db.customers.update(
   { "_id" : 654321  },
   { "$addToSet" : { "interested_by" :  "sports"}  }
@@ -93,7 +93,7 @@ db.customers.update(
 ```
 This update command above **will not change** the document since the "sports" value is already in the list.
 
-```
+```javascript
 db.customers.update(
   { "_id" : 654321  },
   { "$addToSet" : { "interested_by" :  "books"}  }
@@ -103,7 +103,8 @@ This **will add** the "books" value at the end of the list.
 
 If the attribute `interested_by` does not exist in the document, it will be added with one single entry (here the `$push` is working the same way ).
 
-If the attribute is not an array, the database will not do anything and return the error [#16837](3) *"The field 'first_name' must be an array but is of type String in document"*.
+If the attribute is not an array, the database will not do anything and return the error [#16837](https://github.com/mongodb/mongo/blob/master/docs/errors.md
+) *"The field 'first_name' must be an array but is of type String in document"*.
 
 Here we use *interest*, but you can imagine doing the same thing for tagging, or any other business use case with a list of values.
 
@@ -111,7 +112,7 @@ Here we use *interest*, but you can imagine doing the same thing for tagging, or
 
 The previous case, is very simple since it is a scalar value. Now I need to add a new order line, it is not harder than before:
 
-```
+```js
 db.orders.update(
   { "_id" : 45218468309   },
   {
@@ -145,7 +146,7 @@ In our example, to update a specific line in the order
 The proper way is simply to use the an update and `$set`,
  but you have to select the exact entry in the array in your filter. For example in our case we want to update the number of mouses and the price, this will look like:
 
-```
+```js
 db.orders.update(
   {
     "_id" : 45218468309,
@@ -181,7 +182,7 @@ You have learned so far that you can easily query and add values into an array; 
 
 For example, let's remove the "electronics" interest from the customer id 654321.
 
-```
+```js
 db.customers.update(
   { "_id" : 654321  },
   { "$pull" : { "interested_by" :  "electronics"}  }
@@ -191,7 +192,7 @@ db.customers.update(
 
 If you want to remove sports and music interest from the customer you can use the `$pullAll` operator as follow:
 
-```
+```js
 db.customers.update(
   { "_id" : 654321  },
   { "$pullAll" : { "interested_by" :  ["sports","music"]}  }
@@ -205,7 +206,7 @@ Here we use *interest*, but you can imagine doing the same thing for tagging, or
 
 Using the same operator you can also remove a line order (item) from an order document, for example let's remove the line with the item MO001 (Bluetooth mouse). For this we can use the `$pull` operator with the proper sku.
 
-```
+```js
 db.orders.update(
   {
     "_id" : 45218468309,
@@ -221,11 +222,6 @@ db.orders.update(
 
 In this article you have learn how to create/edit arrays in JSON documents.
 
-In addition to all the update operators, MongoDB provides many operators for querying arrays such as  [$size](5) or [`$elemMatch`](4).
+In addition to all the update operators, MongoDB provides many operators for querying arrays such as  [$size](http://docs.mongodb.org/manual/reference/operator/query/size/
+) or [`$elemMatch`](http://docs.mongodb.org/manual/reference/operator/query/elemMatch/).
 
-
-[1]: http://docs.mongodb.org/manual/reference/operator/update/push/
-[2]: http://docs.mongodb.org/manual/reference/operator/update/addToSet/
-[3]: https://github.com/mongodb/mongo/blob/master/docs/errors.md
-[4]: http://docs.mongodb.org/manual/reference/operator/query/elemMatch/
-[5]: http://docs.mongodb.org/manual/reference/operator/query/size/

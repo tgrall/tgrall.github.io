@@ -3,6 +3,7 @@ title: "Using Apache Drill REST API to build ASCII Dashboard with node"
 
 categories: Drill SQL node.js dataviz
 ---
+import Gist from 'react-gist';
 
 [Apache Drill](http://drill.apache.org) has a hidden gem: an easy to use REST interface. This API can be used to Query, Profile and Configure Drill engine.
 
@@ -160,7 +161,7 @@ SELECT `YEAR`, SUM(`PASSENGER_COUNT`) FROM dfs.tmp.`airport_data_view` GROUP BY 
 
 The complete Bar Chat application looks like:
 
-{% gist 00c5d83b85f59d80ad95 app001.js )
+<Gist id="00c5d83b85f59d80ad95" file="app001.js" />
 
 * The lines 15-17 contain the query object used by the Drill REST API
 * The lines 26-38 contain the callback from the HTTP call, and the results values are store in the data object (lines 33-34), and then set in the bar chart (line 36)

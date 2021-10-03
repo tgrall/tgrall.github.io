@@ -41,8 +41,8 @@ not dynamique and are set to the port 9700. So in this case you wont's
 see the request coming from the BPEL to a local partner link (and I am
   not talking about the SOAP Optimization yet).
 
-One way that I use to work around this issue in development --<span style="font-style: italic;">may be we have more simple
-  solutions, but this is the one that I use</span>-- is to change
+One way that I use to work around this issue in development _--maybe we have more simple
+  solutions, but this is the one that I use--_ is to change
   the port of the OC4J and make the proxy listening on the port 9700. In
   this case you will be able to capture the requests made from BPEL to
   its partnerlinks.

@@ -10,8 +10,9 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'tgrall', // Usually your GitHub org/user name.
+  projectName: 'tgrall.githib.io', // Usually your repo name.
+  trailingSlash: false,
   themeConfig: {
     navbar: {
       title: "Tug's Site",

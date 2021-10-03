@@ -129,7 +129,7 @@ When developing view, from Java or from any other tool/language be sure you unde
 
 *   [View Writing Best Practice](http://www.couchbase.com/docs/couchbase-manual-2.0/couchbase-views-writing-bestpractice.html) : for example in the map function, I do not emit any value. I only emit a key (the beer name).
 *   [Views and Stored Data](http://www.couchbase.com/docs/couchbase-manual-2.0/couchbase-views-datastore.html)
-*   [Development and Production Views](http://www.couchbase.com/docs/couchbase-manual-2.0/couchbase-views-types.html) : in the view above, I have created the view in the development environment (<span style="font-family: Courier New, Courier, monospace;">dev_</span> prefix) allowing me to test and use it on a subset of the data (cluster/index)
+*   [Development and Production Views](http://www.couchbase.com/docs/couchbase-manual-2.0/couchbase-views-types.html) : in the view above, I have created the view in the development environment (`dev_` prefix) allowing me to test and use it on a subset of the data (cluster/index)
 
 
 #### Using the view

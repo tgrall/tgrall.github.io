@@ -271,14 +271,14 @@ grails war
 ```
 
 When you run this command you end with a WAR with the name of your
-  application located in the root of your project, in our case: <span class="code">comics_catalog.war</span>
+  application located in the root of your project, in our case: `comics_catalog.war`
 
 If you take a look to this WAR you'll see that it is quite big ~10Mb,
   this is because all the libraries are included in the Lib directory of
   the web application. You can see the exact structure of the WAR in the
-  ./tmp (<span class="code">./comics_catalog/tmp/war</span>) directory of the application.
+  ./tmp (`./comics_catalog/tmp/war`) directory of the application.
 
-You can deploy the application as it is to Oracle Application Server 10<span style="font-style: italic;">g</span>,
+You can deploy the application as it is to Oracle Application Server 10_g_,
   but to avoid the issue with the class loader you should configure the
   Web application to load the local classes first. It can be done during
   deployment with the class loader configuration screen:

@@ -88,7 +88,7 @@ if (obj != null) {
 
 Quite simple isn't?
 
-The application can access the document using the key, but also get one version or the list of all versions, this is one of the reasons why it is interesting to create a key (<span style="font-family: Courier New, Courier, monospace;">mykey_version</span>), and use it also to delete documents and related versions.
+The application can access the document using the key, but also get one version or the list of all versions, this is one of the reasons why it is interesting to create a key (`mykey_version`), and use it also to delete documents and related versions.
 
 Based on the previous comment, the delete operation looks like:
 

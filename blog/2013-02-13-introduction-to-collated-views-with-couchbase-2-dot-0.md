@@ -66,7 +66,7 @@ You can use any pattern to create a key, for example for the employee you could 
 
 Note the “dept_id” attribute in the employee document. This is the key of the department; you can see that as the “foreign key”. But remember, the relationship between the department and employee documents are managed entirely by the application, Couchbase Server does not enforce it.
 
-I have created a Zip file that contains all the data, you can download it from [here](http://db.tt/NsUfweBM); and import the data into Couchbase using the <span style="font-family: Courier New, Courier, monospace;">cbdocloader</span> utility. To import the data run the following command from a terminal window:
+I have created a Zip file that contains all the data, you can download it from [here](http://db.tt/NsUfweBM); and import the data into Couchbase using the `cbdocloader` utility. To import the data run the following command from a terminal window:
 
 ```
 ./cbdocloader -n 127.0.0.1:8091 -u Administrator -p password -b default ~/Downloads/emp-dept.zip

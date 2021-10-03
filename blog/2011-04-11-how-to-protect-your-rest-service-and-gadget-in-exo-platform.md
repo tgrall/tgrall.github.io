@@ -175,8 +175,8 @@ public class SimpleResponseWrapper {
 
 To summarize:
 
-* Line 24 : the <span style="font-family: Courier New,Courier,mono">SecurityContext</span> is injected to the method
-* Line 26 : Initialization of a simple <span style="font-family: Courier New,Courier,mono">ResponseWrapper</span> defined on line 51, that contains a status and data. That will be serialized in JSON by the eXo REST engine.* Line 28 : the method check if a user is connected and member of <span style="font-family: Courier New,Courier,mono">/platform/administrator</span>. If not it send response with the status NO-ALLOWED.
+* Line 24 : the `SecurityContext` is injected to the method
+* Line 26 : Initialization of a simple `ResponseWrapper` defined on line 51, that contains a status and data. That will be serialized in JSON by the eXo REST engine.* Line 28 : the method check if a user is connected and member of `/platform/administratorc. If not it send response with the status NO-ALLOWED.
 * Line 31/32 : The response object is sent. This response contains an OK status and the data (system properties list)
 * Line 42 : Using the eXo Identity Service, the method check if the connected user is member of a specific group.
 
@@ -223,8 +223,8 @@ gadgets.util.registerOnLoadHandler(init);
 
 Here some quick explanation about this code:
 
-* Line 23: To call the REST service, I use the <span style="font-family: Courier New,Courier,mono">$.getJSON()</span> method. This method is really easy to use when you are executing the Gadget is in the same container than the portal that consumes it. When you are using the gadget.io.MakeRequest is interesting to proxy a request and you need to re-authenticate, for example using oAuth.
-* Line 3 : This is the call back method, as you can see in this method I use the <span style="font-family: Courier New,Courier,mono">ResponseWrapper</span> to check the code in the status attribute. Depending of the status OK or not I do print the value.
+* Line 23: To call the REST service, I use the `$.getJSON()` method. This method is really easy to use when you are executing the Gadget is in the same container than the portal that consumes it. When you are using the gadget.io.MakeRequest is interesting to proxy a request and you need to re-authenticate, for example using oAuth.
+* Line 3 : This is the call back method, as you can see in this method I use the `ResponseWrapper` to check the code in the status attribute. Depending of the status OK or not I do print the value.
 
 ### Conclusion
 

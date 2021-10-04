@@ -146,10 +146,10 @@ This is done from the line 09 to 13.
 To generate the shell script, I use [Ansible Template](http://ansible.cc/docs/modules.html#template), the template is available in the [couchbase-add-node.j2](https://github.com/tgrall/couchbase-ansible-playbook/blob/master/couchbase-add-node.j2) file.
 
 
-```
-{% for host in groups['couchbase-nodes'] )
+```sh
+{% for host in groups['couchbase-nodes'] %}
 /opt/couchbase/bin/couchbase-cli server-add -c 127.0.0.1:8091 -u ${admin_user} -p ${admin_password} --server-add={{ hostvars[host]['ansible_eth0']['ipv4']['address'] }}:8091 --server-add-username=${admin_user} --server-add-password=${admin_password}
-{% endfor )
+{% endfor %}
 ```
 
 As you can see this script loop on each server in the [couchbase-nodes] group and use its IP address to add the node to the cluster.

@@ -36,12 +36,12 @@ To create a new App Engine project in Eclipse:
 * Check that the SDK version your are using is "`App Engine 1.3.0`"; if not configure the project to use it.
 * The screen should look like the following screen :
 
-![]( http://3.bp.blogspot.com/_aoQgQ1obiyE/S4pu9erB81I/AAAAAAAAAKE/ER3aDZKd520/s320/app-engine-wizard.png )
+![](http://3.bp.blogspot.com/_aoQgQ1obiyE/S4pu9erB81I/AAAAAAAAAKE/ER3aDZKd520/s320/app-engine-wizard.png )
 
 * Click Finish
 * The project should look like the following screen :
 
-{%img http://4.bp.blogspot.com/_aoQgQ1obiyE/S4pvDuZVWQI/AAAAAAAAAKM/8I2aUTtx7Os/s320/project-structure.png )
+![](http://4.bp.blogspot.com/_aoQgQ1obiyE/S4pvDuZVWQI/AAAAAAAAAKM/8I2aUTtx7Os/s320/project-structure.png )
 
 
 #### Running the application

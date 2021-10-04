@@ -3,6 +3,7 @@ title: "Using HTTPS with Web Services"
 
 categories: ws
 ---
+
 *Prerequisites:*
 
 In this article you have
@@ -163,4 +164,4 @@ System.out.println("Result of the operation is "+ myPort.add(2,2));
 
 You should now be able to run the client and call the service using HTTPS. This would look like:
 
-{% img http://static.flickr.com/86/268580831_c24ec07d89_o.png )
+![](http://static.flickr.com/86/268580831_c24ec07d89_o.png)

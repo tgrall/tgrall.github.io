@@ -6,7 +6,7 @@ const FeatureList = [
   {
     title: 'Technical Blog',
     link: '/blog',
-    img: '/img/tgrall-devoxx-2021.png',
+    img: '/img/tgrall-screen.png',
     description: (
       <>
         Sharing my experience and discoveries around Development, DevOps, Github and other things....
@@ -25,12 +25,12 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Youtube Channel',
-    link: 'http://youtube.com/tugdualgrall',
-    img: '/img/youtube.png',
+    title: 'Talks',
+    link: '/talks',
+    img: '/img/tgrall-devoxx-2021.png',
     description: (
       <>
-        Mostly windsurfing videos...
+        Past and future talks
       </>
     ),
   },

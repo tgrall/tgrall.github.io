@@ -22,6 +22,12 @@ module.exports = {
       },
       items: [
         {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/talks', label: 'Talks', position: 'left'},
+        {
+          href: 'https://windr.org',
+          label: 'Windsurfing App',
+          position: 'right',
+        },
         {
           href: 'https://github.com/tgrall/tgrall.github.io',
           label: 'GitHub',

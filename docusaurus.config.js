@@ -11,7 +11,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'tgrall', // Usually your GitHub org/user name.
-  projectName: 'tgrall.githib.io', // Usually your repo name.
+  projectName: 'tgrall.github.io', // Usually your repo name.
   trailingSlash: false,
   themeConfig: {
     navbar: {

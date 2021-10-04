@@ -92,7 +92,7 @@ The date is <= new Date()>
 
 ![]( http://3.bp.blogspot.com/-EsSUDUdUo_8/TbbRJZlZlHI/AAAAAAAAAPk/5iTn-NoC-JE/s200/edit-mode.png )
 
-10-  Move you mouse at the top of the list of news and click on the preference button: {%img http://1.bp.blogspot.com/-ksljDe3llf4/TbbSIOl0DII/AAAAAAAAAPs/C0eBv-SJ25I/s200/PreferencesIcon.png )
+10-  Move you mouse at the top of the list of news and click on the preference button: ![](http://1.bp.blogspot.com/-ksljDe3llf4/TbbSIOl0DII/AAAAAAAAAPs/C0eBv-SJ25I/s200/PreferencesIcon.png )
 
 11-  In the list of templates, select the "MyNewTemplate", and click save.
 

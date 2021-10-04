@@ -14,7 +14,6 @@ This IDE is the last mile between the users and the developers. It provides a wa
 
 What eXo has launched yesterday is a big step for developers since you can now develop, test and deploy your gadgets and services online, and this in your "personal environment" using eXo Cloud IDE supports multi-tenancy. I won't go in all the features of the IDE since you can test it yourself by joining the [beta program](http://cloud-ide.com/) and look at this video:
 
-{% vimeo 20815141 )
 
 eXo Cloud IDE resources:
 

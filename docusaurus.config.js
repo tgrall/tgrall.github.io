@@ -49,6 +49,10 @@ module.exports = {
               label: 'LinkedIn',
               href: 'https://www.linkedin.com/in/tugdualgrall/',
             },
+            {
+              label: 'Instagram',
+              href: 'https://www.instagram.com/tgrall/',
+            },            
           ],
         },
         {

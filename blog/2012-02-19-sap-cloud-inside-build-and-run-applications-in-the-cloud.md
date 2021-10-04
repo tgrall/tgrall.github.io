@@ -9,8 +9,6 @@ During this presentation I have introduced the [eXo Cloud IDE](http://www.cloud-
 
 Here the slides that I have used during this presentation:
 
-{% slideshare 95672 )
-
 **[SAP Cloud Inside : Develop and Run on the Cloud](http://www.slideshare.net/tgrall/sap-cloud-inside-develop-and-deploy-on-the-cloud "SAP Cloud Inside : Develop and Run on the Cloud")**
 
 

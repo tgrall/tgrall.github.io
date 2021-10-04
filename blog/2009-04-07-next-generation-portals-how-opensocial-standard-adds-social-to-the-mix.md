@@ -7,4 +7,4 @@ I have published on SlideShare a new presentation about OpenSocial and eXo Platf
 
 Feel free to test OpenSocial and eXo Platform integration by downloading latest release of eXo products.
 
-{% slideshare 1258208 )
+[Open Social Introduction - JUG SummerCamp 2010](https://www.slideshare.net/tgrall/open-social-introduction-jug-summercamp-2010)

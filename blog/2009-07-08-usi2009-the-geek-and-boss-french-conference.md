@@ -18,5 +18,4 @@ The main message of the talk was:
 * **For collaboration on content** the wiki is king
 * **For publication of content** the CMS is king
 
-{% slideshare 1678352 )
 [Wiki vs CMS ](http://www.slideshare.net/tgrall/wiki-vs-cms-1678352 "Wiki vs CMS ")

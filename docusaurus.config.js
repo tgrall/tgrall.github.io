@@ -75,6 +75,9 @@ module.exports = {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
       additionalLanguages: ['java'],
+    },
+    googleAnalytics: {
+      trackingID: 'UA-1520374-2'
     }
 },
   presets: [

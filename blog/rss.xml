@@ -1,0 +1,1761 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Tug's Site Blog</title>
+        <link>https://tgrall.github.io/blog</link>
+        <description>Tug's Site Blog</description>
+        <lastBuildDate>Sat, 16 May 2020 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Simple caching service with Redis]]></title>
+            <link>https://tgrall.github.io/blog/2020/05/16/simple-caching-service-with-redis</link>
+            <guid>Simple caching service with Redis</guid>
+            <pubDate>Sat, 16 May 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[One of the most common use cases for Redis is to use it the database as a caching layer for your data, but Redis can do a lot more (I will publish new articles later)!]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How to use SSL/TLS with Redis Enterprise]]></title>
+            <link>https://tgrall.github.io/blog/2020/01/02/how-to-use-ssl-slash-tls-with-redis-enterprise</link>
+            <guid>How to use SSL/TLS with Redis Enterprise</guid>
+            <pubDate>Thu, 02 Jan 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[In this article, I will explain how to secure your Redis databases using SSL (Secure Sockets Layer). In production, it is a good practice to use SSL to protect the data that are moving between various computers (client applications and Redis servers). Transport Level Security (TLS) guarantees that only allowed applications/computers are connected to the database, and also that data is not viewed or altered by a middle man process.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Redis Rolling Upgrade on Pivotal Cloud Foundry (PCF)]]></title>
+            <link>https://tgrall.github.io/blog/2019/09/19/redis-rolling-upgrade-on-pivotal-cloud-foundry-pcf</link>
+            <guid>Redis Rolling Upgrade on Pivotal Cloud Foundry (PCF)</guid>
+            <pubDate>Thu, 19 Sep 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Introduction]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Multi-Nodes Redis Cluster with Docker]]></title>
+            <link>https://tgrall.github.io/blog/2019/09/04/multi-nodes-redis-cluster-with-docker</link>
+            <guid>Multi-Nodes Redis Cluster with Docker</guid>
+            <pubDate>Wed, 04 Sep 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[As part of my on-boarding/training at RedisLabs I continue to play with the product, and I have decided today to install a local 3 nodes cluster of Redis Enterprise Software (RS); and show how easy is to move from a single node/shard database to a multi nodes highly available one.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Getting Started with Redis Streams and Java]]></title>
+            <link>https://tgrall.github.io/blog/2019/09/02/getting-with-redis-streams-and-java</link>
+            <guid>Getting Started with Redis Streams and Java</guid>
+            <pubDate>Mon, 02 Sep 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[As you may have seen, I have joined Redis Labs a month ago; one of the first task as a new hire is to learn more about Redis. So I learned, and I am still learning.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Getting Started With MapR-DB JSON REST API]]></title>
+            <link>https://tgrall.github.io/blog/2018/05/23/getting-started-with-mapr-db-json-rest-api</link>
+            <guid>Getting Started With MapR-DB JSON REST API</guid>
+            <pubDate>Wed, 23 May 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Introduction]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Getting started with MapR-DB Table Replication]]></title>
+            <link>https://tgrall.github.io/blog/2017/08/08/getting-started-with-mapr-db-table-replication</link>
+            <guid>Getting started with MapR-DB Table Replication</guid>
+            <pubDate>Tue, 08 Aug 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Introduction]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Getting Started with Kafka REST Proxy for MapR Streams]]></title>
+            <link>https://tgrall.github.io/blog/2017/01/20/getting-started-with-kafka-rest-proxy-for-mapr-streams</link>
+            <guid>Getting Started with Kafka REST Proxy for MapR Streams</guid>
+            <pubDate>Fri, 20 Jan 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Introduction]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Getting Started with MQTT and Java]]></title>
+            <link>https://tgrall.github.io/blog/2017/01/02/getting-started-with-mqtt</link>
+            <guid>Getting Started with MQTT and Java</guid>
+            <pubDate>Mon, 02 Jan 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[MQTT (MQ Telemetry Transport) is a lightweight publish/subscribe messaging protocol.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Getting started with Apache Flink and Mapr Streams]]></title>
+            <link>https://tgrall.github.io/blog/2016/10/17/getting-started-with-apache-flink-and-mapr-streams</link>
+            <guid>Getting started with Apache Flink and Mapr Streams</guid>
+            <pubDate>Mon, 17 Oct 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[Introduction]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Getting started with Apache Flink and Kafka]]></title>
+            <link>https://tgrall.github.io/blog/2016/10/12/getting-started-with-apache-flink-and-kafka</link>
+            <guid>Getting started with Apache Flink and Kafka</guid>
+            <pubDate>Wed, 12 Oct 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[Introduction]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Streaming Analytics in a Digitally Industrialized World]]></title>
+            <link>https://tgrall.github.io/blog/2016/09/26/streaming-analytics-in-a-digitally-industrialized-world</link>
+            <guid>Streaming Analytics in a Digitally Industrialized World</guid>
+            <pubDate>Mon, 26 Sep 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[Get an introduction to streaming analytics, which allows you real-time insight from captured events and big data. There are applications across industries, from finance to wine making, though there are two primary challenges to be addressed.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Setting up Spark Dynamic Allocation on MapR]]></title>
+            <link>https://tgrall.github.io/blog/2016/09/01/setting-up-spark-dynamic-allocation-on-mapr</link>
+            <guid>Setting up Spark Dynamic Allocation on MapR</guid>
+            <pubDate>Thu, 01 Sep 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[Apache Spark can use various cluster manager to execute application (Stand Alone, YARN, Apache Mesos). When you install Apache Spark on MapR you can submit application in a Stand Alone mode or using YARN.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Save MapR Streams messages into MapR DB JSON]]></title>
+            <link>https://tgrall.github.io/blog/2016/03/30/save-mapr-streams-messages-into-mapr-db-json</link>
+            <guid>Save MapR Streams messages into MapR DB JSON</guid>
+            <pubDate>Wed, 30 Mar 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[In this article you will learn how to create a MapR Streams Consumer that saves all the messages into a MapR-DB JSON Table.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Getting Started with MapR Streams]]></title>
+            <link>https://tgrall.github.io/blog/2016/03/10/getting-started-with-mapr-streams</link>
+            <guid>Getting Started with MapR Streams</guid>
+            <pubDate>Thu, 10 Mar 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[You can find a new tutorial that explains how to deploy an Apache Kafka application to MapR Streams, the tutorial is available here:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Getting Started with Sample Programs for Apache Kafka 0.9]]></title>
+            <link>https://tgrall.github.io/blog/2016/02/10/getting-started-with-sample-programs-for-apache-kafka-0-dot-9</link>
+            <guid>Getting Started with Sample Programs for Apache Kafka 0.9</guid>
+            <pubDate>Wed, 10 Feb 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ted Dunning and I have worked on a tutorial that explains how to write your first Kafka application. In this tutorial you will learn how to:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Using Apache Drill REST API to build ASCII Dashboard with node]]></title>
+            <link>https://tgrall.github.io/blog/2015/12/10/using-apache-drill-rest-api-to-build-ascii-dashboard-with-node</link>
+            <guid>Using Apache Drill REST API to build ASCII Dashboard with node</guid>
+            <pubDate>Thu, 10 Dec 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[Apache Drill has a hidden gem: an easy to use REST interface. This API can be used to Query, Profile and Configure Drill engine.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Convert a CSV File to Apache Parquet with Drill]]></title>
+            <link>https://tgrall.github.io/blog/2015/08/17/convert-csv-file-to-apache-parquet-dot-dot-dot-with-drill</link>
+            <guid>Convert a CSV File to Apache Parquet with Drill</guid>
+            <pubDate>Mon, 17 Aug 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[A very common use case when working with Hadoop is to store and query simple files (CSV, TSV, ...); then to get better performance and efficient storage convert these files into more efficient format, for example Apache Parquet.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Apache Drill : How to create a new function?]]></title>
+            <link>https://tgrall.github.io/blog/2015/07/21/apache-drill-how-to-create-a-new-function</link>
+            <guid>Apache Drill : How to create a new function?</guid>
+            <pubDate>Tue, 21 Jul 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[Apache Drill allows users to explore any type of data using ANSI SQL. This is great, but Drill goes even further than that and allows you to create custom functions to extend the query engine. These custom functions have all the performance of any of the Drill primitive operations, but allowing that performance makes writing these functions a little trickier than you might expect.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[MongoDB : Playing with Arrays]]></title>
+            <link>https://tgrall.github.io/blog/2015/04/21/mongodb-playing-with-arrays</link>
+            <guid>MongoDB : Playing with Arrays</guid>
+            <pubDate>Tue, 21 Apr 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[As you know,  you have many differences between relational and document databases. The biggest, for the developer, is probably the data model: Row versus Document. This is particularly true when we talk about "relations" versus "embedded documents (or values)". Let's look at some examples, then see what are the various operations provided by MongoDB to help you to deal with this.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Introduction to MongoDB Security]]></title>
+            <link>https://tgrall.github.io/blog/2015/02/04/introduction-to-mongodb-security</link>
+            <guid>Introduction to MongoDB Security</guid>
+            <pubDate>Wed, 04 Feb 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[Last week at the Paris MUG, I had a quick chat about security and MongoDB, and I have decided to create this post that explains how to configure out of the box security available in MongoDB.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Moving my beers from Couchbase to MongoDB]]></title>
+            <link>https://tgrall.github.io/blog/2015/02/01/moving-my-beers-from-couchbase-to-mongodb</link>
+            <guid>Moving my beers from Couchbase to MongoDB</guid>
+            <pubDate>Sun, 01 Feb 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[Few days ago I have posted a joke on Twitter]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Everybody says “Hackathon”!]]></title>
+            <link>https://tgrall.github.io/blog/2015/01/23/everybody-says-hackathon</link>
+            <guid>Everybody says “Hackathon”!</guid>
+            <pubDate>Fri, 23 Jan 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[TLTR:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Nantes MUG : Event #2]]></title>
+            <link>https://tgrall.github.io/blog/2015/01/21/nantes-mug-event-number-2</link>
+            <guid>Nantes MUG : Event #2</guid>
+            <pubDate>Wed, 21 Jan 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[Last night the Nantes MUG (MongoDB Users Group) had its second event. More than 45 people signed up and joined us at the Epitech school (thanks for this!). &nbsp;We were lucky to have 2 talks from local community members:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How to create a pub/sub application with MongoDB ? Introduction]]></title>
+            <link>https://tgrall.github.io/blog/2015/01/12/how-to-create-a-pub-slash-sub-application-with-mongodb-introduction</link>
+            <guid>How to create a pub/sub application with MongoDB ? Introduction</guid>
+            <pubDate>Mon, 12 Jan 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[In this article we will see how to create a pub/sub application (messaging, chat, notification), and this fully based on MongoDB (without any message broker like RabbitMQ, JMS, ... ).]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Big Data... Is Hadoop the good way to start?]]></title>
+            <link>https://tgrall.github.io/blog/2014/11/25/big-data-dot-dot-dot-is-hadoop-the-good-way-to-start</link>
+            <guid>Big Data... Is Hadoop the good way to start?</guid>
+            <pubDate>Tue, 25 Nov 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[In the past 2 years, I have met many developers, architects that are working on “big data” projects. This sounds amazing, but quite often the truth is not that amazing.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Introduction to MongoDB Geospatial feature]]></title>
+            <link>https://tgrall.github.io/blog/2014/08/21/introduction-to-mongodb-geospatial-feature</link>
+            <guid>Introduction to MongoDB Geospatial feature</guid>
+            <pubDate>Thu, 21 Aug 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[This post is a quick and simple introduction to Geospatial feature of MongoDB 2.6 using simple dataset and queries.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[db.person.find( { 'role' : 'DBA' } )]]></title>
+            <link>https://tgrall.github.io/blog/2014/03/28/dbpersonfind-role-dba</link>
+            <guid>db.person.find( { 'role' : 'DBA' } )</guid>
+            <pubDate>Fri, 28 Mar 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[Wow! it has been a while since I posted something on my blog post. I have been very busy, moving to MongoDB, learning, learning, learning…finally I can breath a little and answer some questions.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Pagination with Couchbase]]></title>
+            <link>https://tgrall.github.io/blog/2013/10/01/pagination-with-couchbase</link>
+            <guid>Pagination with Couchbase</guid>
+            <pubDate>Tue, 01 Oct 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[If you have to deal with a large number of documents when doing queries against a Couchbase cluster it is important to use pagination to get rows by page. You can find some information in the documentation in the chapter "Pagination", but I want to go in more details and sample code in this article.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How to implement Document Versioning with Couchbase]]></title>
+            <link>https://tgrall.github.io/blog/2013/07/18/how-to-implement-document-versioning-with-couchbase</link>
+            <guid>How to implement Document Versioning with Couchbase</guid>
+            <pubDate>Thu, 18 Jul 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[Introduction]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Deploy your Node/Couchbase application to the cloud with Clever Cloud]]></title>
+            <link>https://tgrall.github.io/blog/2013/07/11/deploy-your-node-slash-couchbase-application-to-the-cloud-with-clever-cloud</link>
+            <guid>Deploy your Node/Couchbase application to the cloud with Clever Cloud</guid>
+            <pubDate>Thu, 11 Jul 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[Introduction]]></description>
+        </item>
+        <item>
+            <title><![CDATA[SQL to NoSQL : Copy your data from MySQL to Couchbase]]></title>
+            <link>https://tgrall.github.io/blog/2013/07/03/sql-to-nosql-copy-your-data-from-mysql-to-couchbase</link>
+            <guid>SQL to NoSQL : Copy your data from MySQL to Couchbase</guid>
+            <pubDate>Wed, 03 Jul 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[TL;DR: Look at the project on Github.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Create a Couchbase cluster in less than a minute with Ansible]]></title>
+            <link>https://tgrall.github.io/blog/2013/05/31/create-a-couchbase-cluster-in-less-than-a-minute-with-ansible</link>
+            <guid>Create a Couchbase cluster in less than a minute with Ansible</guid>
+            <pubDate>Fri, 31 May 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[TL;DR: Look at the Couchbase Ansible Playbook on my Github.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Six months as Technical Evangelist at Couchbase]]></title>
+            <link>https://tgrall.github.io/blog/2013/05/28/six-months-as-technical-evangelist-at-couchbase</link>
+            <guid>Six months as Technical Evangelist at Couchbase</guid>
+            <pubDate>Tue, 28 May 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[Already 6 months! Already 6 months that I have joined Couchbase as Technical Evangelist. This is a good opportunity to take some time to look back.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Screencast : Fun with Couchbase MapReduce and Twitter]]></title>
+            <link>https://tgrall.github.io/blog/2013/04/29/screencast-fun-with-couchbase-mapreduce-and-twitter</link>
+            <guid>Screencast : Fun with Couchbase MapReduce and Twitter</guid>
+            <pubDate>Mon, 29 Apr 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[I have created this simple screencast to show how you can, using Couchbase do some realtime analysis based on Twitter feed.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Easy application development with Couchbase, Angular and Node]]></title>
+            <link>https://tgrall.github.io/blog/2013/03/06/easy-application-development-with-couchbase-angular-and-node</link>
+            <guid>Easy application development with Couchbase, Angular and Node</guid>
+            <pubDate>Wed, 06 Mar 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[Note : This article has been written in March 2013, since Couchbase and its drivers have a changed a lot. I am not working with/for Couchbase anymore, with no time to update the code.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How to get the latest document by date/time field?]]></title>
+            <link>https://tgrall.github.io/blog/2013/02/18/how-to-get-the-latest-document-by-date-slash-time-field</link>
+            <guid>How to get the latest document by date/time field?</guid>
+            <pubDate>Mon, 18 Feb 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[I read this question on Twitter, let me answer the question in this short article.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Introduction to Collated Views with Couchbase 2.0]]></title>
+            <link>https://tgrall.github.io/blog/2013/02/13/introduction-to-collated-views-with-couchbase-2-dot-0</link>
+            <guid>Introduction to Collated Views with Couchbase 2.0</guid>
+            <pubDate>Wed, 13 Feb 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[Most of the applications have to deal with "master/detail" type of data:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Getting started with Couchbase and node.js on Windows]]></title>
+            <link>https://tgrall.github.io/blog/2013/01/04/getting-started-with-couchbase-and-node-dot-js-on-windows</link>
+            <guid>Getting started with Couchbase and node.js on Windows</guid>
+            <pubDate>Fri, 04 Jan 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[In a previous post I have explained how to use Couchbase and Node.js on OS X. Since it is quite different on Windows here another article about it.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Couchbase 101: Create views (MapReduce) from your Java application]]></title>
+            <link>https://tgrall.github.io/blog/2012/12/30/couchbase-101-create-views-mapreduce-from-your-java-application</link>
+            <guid>Couchbase 101: Create views (MapReduce) from your Java application</guid>
+            <pubDate>Sun, 30 Dec 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[When you are developing a new applications with Couchbase 2.0, you sometimes need to create view dynamically from your code. For example you may need this when you are installing your application, writing some test, or you can also use that when you are building frameworks, and wants to dynamically create views to query data. This post shows how to do it.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What to do if your Couchbase Server does not start?]]></title>
+            <link>https://tgrall.github.io/blog/2012/12/26/what-to-do-if-your-couchbase-server-does-not-start</link>
+            <guid>What to do if your Couchbase Server does not start?</guid>
+            <pubDate>Wed, 26 Dec 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[Working with the Couchbase 2.0.0 release you may have issues when trying to access the Web Admin Console or simply starting the server. This is due to the way Couchbase Server uses the IP address/hostname during the installation process. So when you have one of the following errors :]]></description>
+        </item>
+        <item>
+            <title><![CDATA[New Adventure...]]></title>
+            <link>https://tgrall.github.io/blog/2012/12/01/new-adventure-dot-dot-dot</link>
+            <guid>New Adventure...</guid>
+            <pubDate>Sat, 01 Dec 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[Yesterday was my last day at eXo... I have been working at eXo since 2008, and we have achieved many exciting things such as building eXo Platform, the open source social platform, and the Cloud-IDE allowing developers to build, test, and deploy applications online.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Couchbase : Create a large dataset using Twitter and Java]]></title>
+            <link>https://tgrall.github.io/blog/2012/11/05/couchbase-create-a-large-dataset-using-twitter-and-java</link>
+            <guid>Couchbase : Create a large dataset using Twitter and Java</guid>
+            <pubDate>Mon, 05 Nov 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[An easy way to create large dataset when playing/demonstrating Couchbase -or any other NoSQL engine- is to inject Twitter feed into your database.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Create a Simple Node.js and Couchbase application... on OS X]]></title>
+            <link>https://tgrall.github.io/blog/2012/09/24/create-a-simple-node-dot-js-and-couchbase-application-dot-dot-dot-on-os-x</link>
+            <guid>Create a Simple Node.js and Couchbase application... on OS X</guid>
+            <pubDate>Mon, 24 Sep 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[NOTE: The Couchbase Node.js Client Library is currently changing. I will update this article and source code once the API is stable.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Couchbase 101 : install, store and query data]]></title>
+            <link>https://tgrall.github.io/blog/2012/07/06/couchbase-101-install-store-and-query-data</link>
+            <guid>Couchbase 101 : install, store and query data</guid>
+            <pubDate>Fri, 06 Jul 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[Introduction]]></description>
+        </item>
+        <item>
+            <title><![CDATA[eXo Platform: Internationalization of content]]></title>
+            <link>https://tgrall.github.io/blog/2012/05/11/exo-platform-internationalization-of-content</link>
+            <guid>eXo Platform: Internationalization of content</guid>
+            <pubDate>Fri, 11 May 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[In this screencast I explain the support of multi-lingual content of eXo Platform 3.5. The different features that you can see in this video are:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Twitter Boostrap 2 and Google Maps]]></title>
+            <link>https://tgrall.github.io/blog/2012/04/11/twitter-boostrap-2-and-google-maps</link>
+            <guid>Twitter Boostrap 2 and Google Maps</guid>
+            <pubDate>Wed, 11 Apr 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[Like many developers I am using Twitter Boostrap for my Web applications. Using this framework has been very helpful for me, since I am really not a good HTML/CSS developer. For now, on my site Resultri I am using the default look and feel, will customize it later.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[SAP Cloud Inside : Build and Run Applications in the Cloud]]></title>
+            <link>https://tgrall.github.io/blog/2012/02/19/sap-cloud-inside-build-and-run-applications-in-the-cloud</link>
+            <guid>SAP Cloud Inside : Build and Run Applications in the Cloud</guid>
+            <pubDate>Sun, 19 Feb 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[Last week I was invited to present eXo Cloud IDE during the SAP Cloud Inside. This SAP Community event was a great opportunity to discuss about the cloud with an interesting point of view: the impact of the cloud for SAP customers (especially administrators and developers).]]></description>
+        </item>
+        <item>
+            <title><![CDATA[eXo Platform : Integrate Twitter and eXo Activity Stream]]></title>
+            <link>https://tgrall.github.io/blog/2012/01/19/exo-platform-integrate-twitter-and-exo-activity-stream</link>
+            <guid>eXo Platform : Integrate Twitter and eXo Activity Stream</guid>
+            <pubDate>Thu, 19 Jan 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[eXo Platform 3.5 provides many extension points and API for developers, allowing them to create very cool stuff.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How to watch YouTube videos offline (on OS X)?]]></title>
+            <link>https://tgrall.github.io/blog/2011/12/05/how-to-watch-youtube-videos-offline-on-os-x</link>
+            <guid>How to watch YouTube videos offline (on OS X)?</guid>
+            <pubDate>Mon, 05 Dec 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[Lately I have been traveling a lot, and I was not able to access the internet all the time; but I still want to look at some YouTube video, for example the greate Google I/O Sessions...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Installing Memcached on Mac OS X and using it in Java]]></title>
+            <link>https://tgrall.github.io/blog/2011/11/20/installing-memcached-on-mac-os-x-and-using-it-in-java</link>
+            <guid>Installing Memcached on Mac OS X and using it in Java</guid>
+            <pubDate>Sun, 20 Nov 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[Introduction]]></description>
+        </item>
+        <item>
+            <title><![CDATA[JAX-RS: Jersey and JSON single element arrays]]></title>
+            <link>https://tgrall.github.io/blog/2011/09/02/jax-rs-jersey-and-json-single-element-arrays</link>
+            <guid>JAX-RS: Jersey and JSON single element arrays</guid>
+            <pubDate>Fri, 02 Sep 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[Last week I have been struggling with a small issue while developing a service using Jersey.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How to create a new Content List Template for eXo Platform 3]]></title>
+            <link>https://tgrall.github.io/blog/2011/08/31/how-to-create-a-new-content-list-template-for-exo-platform-3</link>
+            <guid>How to create a new Content List Template for eXo Platform 3</guid>
+            <pubDate>Wed, 31 Aug 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[Introduction]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How to protect your REST service and Gadget in eXo Platform]]></title>
+            <link>https://tgrall.github.io/blog/2011/04/11/how-to-protect-your-rest-service-and-gadget-in-exo-platform</link>
+            <guid>How to protect your REST service and Gadget in eXo Platform</guid>
+            <pubDate>Mon, 11 Apr 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[During a partner workshop I was showing to the developers how the eXo IDE can help them to develop new features quickly and push them to the users in few minutes. A person asked me if it is possible to put some restriction in services and gadgets based on user profile.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[eXo Cloud IDE : develop for the Cloud on the Cloud]]></title>
+            <link>https://tgrall.github.io/blog/2011/03/16/exo-cloud-ide-develop-for-the-cloud-on-the-cloud</link>
+            <guid>eXo Cloud IDE : develop for the Cloud on the Cloud</guid>
+            <pubDate>Wed, 16 Mar 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[Yesterday, eXo has launched a new cloud based service: the eXo Cloud IDE. This IDE is an online service that facilitates the development of gadgets and mashups that could be deployed directly to a PaaS.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How to calculate the size of a folder in JCR (Java Content Repository)?]]></title>
+            <link>https://tgrall.github.io/blog/2011/03/01/how-to-calculate-the-size-of-a-folder-in-jcr-java-content-repository</link>
+            <guid>How to calculate the size of a folder in JCR (Java Content Repository)?</guid>
+            <pubDate>Tue, 01 Mar 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[Today I was working with a partner in Paris and he wanted to know how to calculate the size of a specific folder in the eXo Java Content Repository (JCR).]]></description>
+        </item>
+        <item>
+            <title><![CDATA[iOS 101: How to convert a String to a NSDate]]></title>
+            <link>https://tgrall.github.io/blog/2011/01/02/ios-101-how-to-convert-a-string-to-a-nsdate</link>
+            <guid>iOS 101: How to convert a String to a NSDate</guid>
+            <pubDate>Sun, 02 Jan 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[During my vacations, I took some time to play with iOS development. I have been struggling with many small issues... This is the price to pay when learning a new technology, and this is part of the fun of doing it. I will try to document some of these issues in articles...  Let's start with a very common story : working with date.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What Apple’s Announcement Really Means to Java Developers]]></title>
+            <link>https://tgrall.github.io/blog/2010/10/29/what-apples-announcement-really-means-to-java-developers</link>
+            <guid>What Apple’s Announcement Really Means to Java Developers</guid>
+            <pubDate>Fri, 29 Oct 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hey Steve, keep the bean in the Apple!]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Create and Deploy a JAX-RS REST service on Google App Engine]]></title>
+            <link>https://tgrall.github.io/blog/2010/02/28/create-and-deploy-a-jax-rs-rest-service-on-google-app-engine</link>
+            <guid>Create and Deploy a JAX-RS REST service on Google App Engine</guid>
+            <pubDate>Sun, 28 Feb 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[In this article you will learn how to create a REST service using JAX-RS reference implementation (Jersey) and deploy it on Google AppEngine.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[VirtualBox: How to clone a virtual machine?]]></title>
+            <link>https://tgrall.github.io/blog/2010/02/24/virtualbox-how-to-clone-a-virtual-machine</link>
+            <guid>VirtualBox: How to clone a virtual machine?</guid>
+            <pubDate>Wed, 24 Feb 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[During some testing I had to put in place a cluster on my network. So I create a first virtual machine. It is not possible to directly copy the Virtual Disk Image (.vdi). VirtualBox saved in each disk image a UUID that is also store inside the virtual machine image. VirtualBox does not support two images with the same number. So to clone the an image you need to use the VBoxManage clonehd command line.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[NantesJUG: Next Meeting Friday November 13th about 'Google Technologies']]></title>
+            <link>https://tgrall.github.io/blog/2009/11/08/nantesjug-next-meeting-friday-november-13th-about-google-technologies</link>
+            <guid>NantesJUG: Next Meeting Friday November 13th about 'Google Technologies'</guid>
+            <pubDate>Sun, 08 Nov 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[This Friday , the Nantes JUG is pleased to organize a conference about "Google Technologies". Didier Girard, http]]></description>
+        </item>
+        <item>
+            <title><![CDATA[USI2009: The Geek and Boss French Conference]]></title>
+            <link>https://tgrall.github.io/blog/2009/07/08/usi2009-the-geek-and-boss-french-conference</link>
+            <guid>USI2009: The Geek and Boss French Conference</guid>
+            <pubDate>Wed, 08 Jul 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[This year I was lucky enough to have a presentation at the second edition of the "Université du SI", organized by Octo Technologies. I have to say that this conference is one of the best that I have attended, for sure it is the best in France. Unfortunately I was only able to attend the first day of the conference, but even in one day, I was very happy with the content of the presentations, keynotes, and networking opportunities.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Next Generation Portals : How OpenSocial Standard Adds Social to the Mix?]]></title>
+            <link>https://tgrall.github.io/blog/2009/04/07/next-generation-portals-how-opensocial-standard-adds-social-to-the-mix</link>
+            <guid>Next Generation Portals : How OpenSocial Standard Adds Social to the Mix?</guid>
+            <pubDate>Tue, 07 Apr 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[I have published on SlideShare a new presentation about OpenSocial and eXo Platform.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Conference season for eXo Platform in Paris]]></title>
+            <link>https://tgrall.github.io/blog/2009/03/30/conference-season-for-exo-platform-in-paris</link>
+            <guid>Conference season for eXo Platform in Paris</guid>
+            <pubDate>Mon, 30 Mar 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[eXo Platform, and I, will be present in conferences in the upcoming weeks:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[JAX-WS: How to configure the service end point at runtime?]]></title>
+            <link>https://tgrall.github.io/blog/2009/02/17/jax-ws-how-to-configure-the-service-end-point-at-runtime</link>
+            <guid>JAX-WS: How to configure the service end point at runtime?</guid>
+            <pubDate>Tue, 17 Feb 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[When deploying your Web Service client you often need to change the endpoint of the service that &nbsp;has been set during the code generation. This short post explains how you can set change it at runtime in the client code.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Interest of Enterprise Portals]]></title>
+            <link>https://tgrall.github.io/blog/2009/02/10/interest-of-enterprise-portals</link>
+            <guid>Interest of Enterprise Portals</guid>
+            <pubDate>Tue, 10 Feb 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[I am writing this post as an answer to Christian Faure's blog post, (in French), about interest of enterprise portals. Let me take each point, one by one and comment them. I won't go in the all the details of many other points that why new enterprise portals are interesting for many of us, I just want to focus on Christian's remarks.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Screen Cast: eXo WebOS: How to use a Google Gadget as an eXo WebOS Application]]></title>
+            <link>https://tgrall.github.io/blog/2009/01/26/screen-cast-exo-webos-how-to-use-a-google-gadget-as-an-exo-webos-application</link>
+            <guid>Screen Cast: eXo WebOS: How to use a Google Gadget as an eXo WebOS Application</guid>
+            <pubDate>Mon, 26 Jan 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[In this short screen cast I show you, how you can easily take a Google Gadget and use it inside WebOS.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[eXo Portal and Google Gadgets: Great post from Laurent Bois]]></title>
+            <link>https://tgrall.github.io/blog/2008/11/24/exo-portal-and-google-gadgets-great-post-from-laurent-bois</link>
+            <guid>eXo Portal and Google Gadgets: Great post from Laurent Bois</guid>
+            <pubDate>Mon, 24 Nov 2008 00:00:00 GMT</pubDate>
+            <description><![CDATA[I cannot find time to post any interesting things lately, so I can only share great stuff with readers.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[(French) eXo Platform Nominee for 01.Net awards.]]></title>
+            <link>https://tgrall.github.io/blog/2008/10/06/french-exo-platform-nominee-for-01-dot-net-awards</link>
+            <guid>(French) eXo Platform Nominee for 01.Net awards.</guid>
+            <pubDate>Mon, 06 Oct 2008 00:00:00 GMT</pubDate>
+            <description><![CDATA[eXo Platform is a nominee in the 01.net Pro 2008 awards. If you like our product I am inviting you to vote for our solution:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[New cool tools that  I am using: DabbleBoard &amp; Balsamiq]]></title>
+            <link>https://tgrall.github.io/blog/2008/08/07/new-cool-tools-that-i-am-using-dabbleboard-and-balsamiq</link>
+            <guid>New cool tools that  I am using: DabbleBoard &amp; Balsamiq</guid>
+            <pubDate>Thu, 07 Aug 2008 00:00:00 GMT</pubDate>
+            <description><![CDATA[When working on software design, UI Mockups are quite important and Patrice, colleague of mine at eXo has pointed me to a very cool tool to use when you have to quickly do a mockup, and work with the dev team in an iterative fashion]]></description>
+        </item>
+        <item>
+            <title><![CDATA[A month in eXo... busy busy busy...]]></title>
+            <link>https://tgrall.github.io/blog/2008/07/29/a-month-in-exo-dot-dot-dot-busy-busy-busy-dot-dot-dot</link>
+            <guid>A month in eXo... busy busy busy...</guid>
+            <pubDate>Tue, 29 Jul 2008 00:00:00 GMT</pubDate>
+            <description><![CDATA[I have been within eXo Platform for almost 2 months now.. As expected, it is crazy, and exciting. This is why I did not have lot of time to blog... Ideas are here, just time is not... So here a very quick post on my current work...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Joining eXo Platform]]></title>
+            <link>https://tgrall.github.io/blog/2008/06/17/joining-exo-platform</link>
+            <guid>Joining eXo Platform</guid>
+            <pubDate>Tue, 17 Jun 2008 00:00:00 GMT</pubDate>
+            <description><![CDATA[I am very excited to say that this week is my first week as an employee]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The good side of expensive oil price...]]></title>
+            <link>https://tgrall.github.io/blog/2008/06/02/the-good-side-of-expensive-oil-price-dot-dot-dot</link>
+            <guid>The good side of expensive oil price...</guid>
+            <pubDate>Mon, 02 Jun 2008 00:00:00 GMT</pubDate>
+            <description><![CDATA[We are all badly impacted with the price of oil. Yeah it really expensive,]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Seesmic in action on TechCrunch's 'great' Twitter post....]]></title>
+            <link>https://tgrall.github.io/blog/2008/05/26/seesmic-in-action-on-techcrunchs-great-twitter-post-dot-dot-dot</link>
+            <guid>Seesmic in action on TechCrunch's 'great' Twitter post....</guid>
+            <pubDate>Mon, 26 May 2008 00:00:00 GMT</pubDate>
+            <description><![CDATA[Like many of you I am following TechCrunch, and one of the latest post was quite "amazing":]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What is Twitter? It is a simple tool to turn off lights]]></title>
+            <link>https://tgrall.github.io/blog/2008/05/21/what-is-twitter-it-is-a-simple-tool-to-turn-off-lights</link>
+            <guid>What is Twitter? It is a simple tool to turn off lights</guid>
+            <pubDate>Wed, 21 May 2008 00:00:00 GMT</pubDate>
+            <description><![CDATA[Lately, I have been presenting Web 2.0 tools to my coworkers, and explaining how it could be used to improve the way we do "things" (especially business). Here a list of some of the tools I am talking about blogs, wikis, second life, social networking/bookmarking/tagging/rating,, facebook, friendfeed, youtube, seesmic, feeddo, flock and many others depending of the questions and the mood of the moment...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[JavaOne 2008: Groovy and Grails presentations and code]]></title>
+            <link>https://tgrall.github.io/blog/2008/05/16/javaone-2008-groovy-and-grails-presentations-and-code</link>
+            <guid>JavaOne 2008: Groovy and Grails presentations and code</guid>
+            <pubDate>Fri, 16 May 2008 00:00:00 GMT</pubDate>
+            <description><![CDATA[Andres and Guillaume have posted on the Groovy Users list the pointers to many (if not all) the Groovy and Grails sessions of JavaOne 2008... You want to learn more, this is a great opportunity to do it so:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Sun/Liferay: why? and what is the next step?]]></title>
+            <link>https://tgrall.github.io/blog/2008/05/09/sun-slash-liferay-why-and-what-is-the-next-step</link>
+            <guid>Sun/Liferay: why? and what is the next step?</guid>
+            <pubDate>Fri, 09 May 2008 00:00:00 GMT</pubDate>
+            <description><![CDATA[Yesterday, I have been surprised when I saw the following announcement:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[JavaOne 2008: my sessions choice...]]></title>
+            <link>https://tgrall.github.io/blog/2008/05/01/javaone-2008-my-sessions-choice-dot-dot-dot</link>
+            <guid>JavaOne 2008: my sessions choice...</guid>
+            <pubDate>Thu, 01 May 2008 00:00:00 GMT</pubDate>
+            <description><![CDATA[I have attended or presented at JavaOne for the last 6 years when I was living in the SF Bay Area... But this year I won't be in San Francisco for JavaOne. As you can guess, I am sad about that... However, I still look at the schedule and events, and here what I would like to do:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Launch of Exo Enterprise WebOS]]></title>
+            <link>https://tgrall.github.io/blog/2008/04/21/launch-of-exo-enterprise-webos</link>
+            <guid>Launch of Exo Enterprise WebOS</guid>
+            <pubDate>Mon, 21 Apr 2008 00:00:00 GMT</pubDate>
+            <description><![CDATA[Last Friday (April 18th) I was attending the launch of "eXo WebOS" in Paris. Benjamin Mestrallet, creator of eXo has started the event with a presentation of the solution and its impact on the IT.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Exposing a Database as a Web Service... with OracleAS and DB]]></title>
+            <link>https://tgrall.github.io/blog/2008/03/25/exposing-a-database-as-a-web-service-dot-dot-dot-with-oracleas-and-db</link>
+            <guid>Exposing a Database as a Web Service... with OracleAS and DB</guid>
+            <pubDate>Tue, 25 Mar 2008 00:00:00 GMT</pubDate>
+            <description><![CDATA[I am just cross posting this entry to react to this very interesting article:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[My (Work) Life on a Key: XWiki and other portables applications]]></title>
+            <link>https://tgrall.github.io/blog/2008/03/07/my-work-life-on-a-key-xwiki-and-other-portables-applications</link>
+            <guid>My (Work) Life on a Key: XWiki and other portables applications</guid>
+            <pubDate>Fri, 07 Mar 2008 00:00:00 GMT</pubDate>
+            <description><![CDATA[Now that I am back in consulting business, I often have customers where I am not allowed to connect my Mac on the network. Annoying!!!! But this is not a big issue since now it is easy to bring you environment on a USB key.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Oracle Acquisitions... cannot remember all of them?]]></title>
+            <link>https://tgrall.github.io/blog/2008/02/11/oracle-acquisitions-dot-dot-dot-cannot-remember-all-of-them</link>
+            <guid>Oracle Acquisitions... cannot remember all of them?</guid>
+            <pubDate>Mon, 11 Feb 2008 00:00:00 GMT</pubDate>
+            <description><![CDATA[A friend of mine asked me some questions about Oracle and acquisitions. He could not, remember all of them and when they occurred...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Looking for a Wiki... take a look to WikiMatrix]]></title>
+            <link>https://tgrall.github.io/blog/2008/02/08/looking-for-a-wiki-dot-dot-dot-take-a-look-to-wikimatrix</link>
+            <guid>Looking for a Wiki... take a look to WikiMatrix</guid>
+            <pubDate>Fri, 08 Feb 2008 00:00:00 GMT</pubDate>
+            <description><![CDATA[You are looking for a Wiki... take a look to this very nice online tools:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Oracle JAX-RPC: How to change the Character Encoding?]]></title>
+            <link>https://tgrall.github.io/blog/2008/02/02/oracle-jax-rpc-how-to-change-the-character-encoding</link>
+            <guid>Oracle JAX-RPC: How to change the Character Encoding?</guid>
+            <pubDate>Sat, 02 Feb 2008 00:00:00 GMT</pubDate>
+            <description><![CDATA[By default Oracle Web Service client is sending the SOAP messages using an UTF-8 encoding. This is the recommendation of WS-I Basic Profile. To be exact it says UTF-8 or UTF-16.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[My first Sogeti Kickoff: a great experience]]></title>
+            <link>https://tgrall.github.io/blog/2008/01/28/my-first-sogeti-kickoff-a-great-experience</link>
+            <guid>My first Sogeti Kickoff: a great experience</guid>
+            <pubDate>Mon, 28 Jan 2008 00:00:00 GMT</pubDate>
+            <description><![CDATA[Last week, more than 400 people of Sogeti group were meeting at Les Fontaines, for the annual KickOff. It was for me the first big event since I have joined this company last October.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[IBM ProjectZero: A new development model for commercial software?]]></title>
+            <link>https://tgrall.github.io/blog/2008/01/23/ibm-projectzero-a-new-development-model-for-commercial-software</link>
+            <guid>IBM ProjectZero: A new development model for commercial software?</guid>
+            <pubDate>Wed, 23 Jan 2008 00:00:00 GMT</pubDate>
+            <description><![CDATA[You have probably heard about IBM ProjectZero, this "incubator"project from IBM pushing a new way of building, assemble and run Web applications. I won't talk about the technology in this post, it will come later, but just comment about the way this project is developped: a Community-Driven Commercial Development process.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[New Poll: Which 'Web 2.0' Tools are you using for business?]]></title>
+            <link>https://tgrall.github.io/blog/2008/01/22/new-poll-which-web-2-dot-0-tools-are-you-using-for-business</link>
+            <guid>New Poll: Which 'Web 2.0' Tools are you using for business?</guid>
+            <pubDate>Tue, 22 Jan 2008 00:00:00 GMT</pubDate>
+            <description><![CDATA[I have just created a poll -see leftbar- asking to list the different tools you are using for business. In fact I would like to have some feedback of you use of Wiki, Blogs, Instant Messaging on you daily job.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Infoq news: 'Request: Sun Drop Support for JRuby]]></title>
+            <link>https://tgrall.github.io/blog/2008/01/18/infoq-news-request-sun-drop-support-for-jruby</link>
+            <guid>Infoq news: 'Request: Sun Drop Support for JRuby</guid>
+            <pubDate>Fri, 18 Jan 2008 00:00:00 GMT</pubDate>
+            <description><![CDATA[With the latest big news around Oracle-BEA and SUN-MySQL deals I have missed an interesting article on Infoq with the following title:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Which sites are you using for 'business'? Another Web2.0 list...]]></title>
+            <link>https://tgrall.github.io/blog/2008/01/04/which-sites-are-you-using-for-business-another-web2-dot-0-list-dot-dot-dot</link>
+            <guid>Which sites are you using for 'business'? Another Web2.0 list...</guid>
+            <pubDate>Fri, 04 Jan 2008 00:00:00 GMT</pubDate>
+            <description><![CDATA[Disclaimer: you do probably already know all these sites if you are like me spending lot of time on the Internet... (too much time?) But still, some people could be interested, like the customer I have been working with lately...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Web Services and Files Exchange]]></title>
+            <link>https://tgrall.github.io/blog/2007/12/20/web-services-and-files-exchange</link>
+            <guid>Web Services and Files Exchange</guid>
+            <pubDate>Thu, 20 Dec 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[SOAP based Web Services are now very common in the enterprise architecture, and quite often, applications that consume or publish services would need to send binary content such as images, PDF or Word documents (or anything you have in mind...). The SOAP and XML provide different way to achieve this. So what are the challenges around binary data exchange using SOAP based Web Services:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Working on a large XML or SOA project: think about 'separation of concerns']]></title>
+            <link>https://tgrall.github.io/blog/2007/12/10/working-on-a-large-xml-or-soa-project-think-about-separation-of-concerns</link>
+            <guid>Working on a large XML or SOA project: think about 'separation of concerns'</guid>
+            <pubDate>Mon, 10 Dec 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[With XML and SOA becoming mainstream in the enterprise XML operation such as Schema validations, XSL transformations are now very common. These specific operations are CPU intensive and could become a performance bottleneck when directly applied on the middleware. It could be even worst now when using SOAP based Web Services and their related WS-* standards. For example with WS-Security, XML encryption and signature is now more and more used in SOA based applications.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Portal Project: Time to Think about your Social Networking Enterprise Strategy]]></title>
+            <link>https://tgrall.github.io/blog/2007/12/03/portal-project-time-to-think-about-your-social-networking-enterprise-strategy</link>
+            <guid>Portal Project: Time to Think about your Social Networking Enterprise Strategy</guid>
+            <pubDate>Mon, 03 Dec 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[Most of the enterprises these days have already put in place a portal -- with more or less success. These projects have started most of the time, with the goal of providing  personalized information to users and communities. When working in a Portal project you probably]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Oracle Open World 2007: presentations available online]]></title>
+            <link>https://tgrall.github.io/blog/2007/11/20/oracle-open-world-2007-presentations-available-online</link>
+            <guid>Oracle Open World 2007: presentations available online</guid>
+            <pubDate>Tue, 20 Nov 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[For the first time since 2001, I was not participating at OOW... As you may know I have moved back to France and now working for a new company Sogeti. So I am quite happy to se that once again all the presentations are available for download there:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[A Groovier ADF with Oracle ADF 11]]></title>
+            <link>https://tgrall.github.io/blog/2007/11/08/a-groovier-adf-with-oracle-adf-11</link>
+            <guid>A Groovier ADF with Oracle ADF 11</guid>
+            <pubDate>Thu, 08 Nov 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[Steve Muench has published in Oracle Magazine an article about the use of Groovy in Oracle ADF. In this article you learn how you can do validation and calculation in you business service layer.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Guillaume Laforge Interview on JavaLobby]]></title>
+            <link>https://tgrall.github.io/blog/2007/11/03/guillaume-laforge-interview-on-javalobby</link>
+            <guid>Guillaume Laforge Interview on JavaLobby</guid>
+            <pubDate>Sat, 03 Nov 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[I am sure you have seen it before, but just in case... Geertjan from JavaLobby has interviewed yesterday Guillaume, in case you do not know.. Guillaume is the Project Leader of the Groovy project and co-founder of the G2One company.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The good and bad of PLC ethernet... in hotels]]></title>
+            <link>https://tgrall.github.io/blog/2007/10/30/the-good-and-bad-of-plc-ethernet-dot-dot-dot-in-hotels</link>
+            <guid>The good and bad of PLC ethernet... in hotels</guid>
+            <pubDate>Tue, 30 Oct 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[I am traveling visiting partner and pleased to see that I have internet access in my room. Unfortunately it is not Wifi access but not that bad, but with PLC (Power line communication)...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Paris 'SOA Forum' feedback; and  little comments about SOA projects]]></title>
+            <link>https://tgrall.github.io/blog/2007/10/07/paris-soa-forum-feedback-and-little-comments-about-soa-projects</link>
+            <guid>Paris 'SOA Forum' feedback; and  little comments about SOA projects</guid>
+            <pubDate>Sun, 07 Oct 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week I have attended a SOA conference in Paris the SOA Forum. (I was not there in 2006). This event is not a technical event targeted towards developers but mainly oriented for IT managers and decision makers. This day was well attended, around 200 people. The content and more important the questions and round tables provide a good snapshot of how SOA is adopted.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Free Burma: International Bloggers' Day for Burma on the 4th of October]]></title>
+            <link>https://tgrall.github.io/blog/2007/10/03/free-burma-international-bloggers-day-for-burma-on-the-4th-of-october</link>
+            <guid>Free Burma: International Bloggers' Day for Burma on the 4th of October</guid>
+            <pubDate>Wed, 03 Oct 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[Free Burma!]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Derek Sivers's blog: 7 reasons I switched back to PHP after 2 years on Rails]]></title>
+            <link>https://tgrall.github.io/blog/2007/09/25/derek-siverss-blog-7-reasons-i-switched-back-to-php-after-2-years-on-rails</link>
+            <guid>Derek Sivers's blog: 7 reasons I switched back to PHP after 2 years on Rails</guid>
+            <pubDate>Tue, 25 Sep 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[The new post on the Ruby section of O'Reilly authored by Derek Sivers is quite interesting, starting with the title:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[IDTVG and Co: how to merge meetic and expedia]]></title>
+            <link>https://tgrall.github.io/blog/2007/09/18/idtvg-and-co-how-to-merge-meetic-and-expedia</link>
+            <guid>IDTVG and Co: how to merge meetic and expedia</guid>
+            <pubDate>Tue, 18 Sep 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[With all the Web 2.0/Social Networking noise we are all used to "virtually socialize", but now you can use it to do more and improve the quality of your trips.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Prototype Windows: the best way to create 'Web 2.0' windows]]></title>
+            <link>https://tgrall.github.io/blog/2007/09/15/prototype-windows-the-best-way-to-create-web-2-dot-0-windows</link>
+            <guid>Prototype Windows: the best way to create 'Web 2.0' windows</guid>
+            <pubDate>Sat, 15 Sep 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[I am sure that most of you already know the "Prototype Windows"  project that provides a very powerful way to create windows and dialogs inside your Web pages. If you do not know it, take a look it's awesome!]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Java 101: Generate a unique identifier with java.util.UUID]]></title>
+            <link>https://tgrall.github.io/blog/2007/08/07/java-101-generate-a-unique-identifier-with-java-dot-util-dot-uuid</link>
+            <guid>Java 101: Generate a unique identifier with java.util.UUID</guid>
+            <pubDate>Tue, 07 Aug 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[A friend of mine was asking me how to generate a unique ID for his application... As you probably already know Java SE 5 has introduced the java.util.UUID class to easily generate Universally Unique Identifier (UUID). As usual  Wikipedia is a great starting point to learn more about UUID.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[OracleAS OC4J and Java EE releases....]]></title>
+            <link>https://tgrall.github.io/blog/2007/08/02/oracleas-oc4j-and-java-ee-releases-dot-dot-dot</link>
+            <guid>OracleAS OC4J and Java EE releases....</guid>
+            <pubDate>Thu, 02 Aug 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[This morning I was helping a customer to debug some Web Services deployment issues, when I simply realized that the error was coming from the fact that he was trying to deploy a JAX-RPC service on a OracleAS 10gR2 server; where it is not supported/available.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Visiting Paris with Velib (new bike transit system)]]></title>
+            <link>https://tgrall.github.io/blog/2007/07/18/visiting-paris-with-velib-new-bike-transit-system</link>
+            <guid>Visiting Paris with Velib (new bike transit system)</guid>
+            <pubDate>Wed, 18 Jul 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[I was in Paris last week end so I took this as a good opportunity to visit the city using the new "Velib" system. Velib is a new self service rental bike system that the city of Paris and JCDecaux put in place on July 15th. So you can take and return any of the 10,000+ bikes in any of the 750 locations all around Paris. I believe that Paris wants to a total number of 20,000 bikes for  1,400 locations.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[BPEL in Cluster: In which node my process is working]]></title>
+            <link>https://tgrall.github.io/blog/2007/07/10/bpel-in-cluster-in-which-node-my-process-is-working</link>
+            <guid>BPEL in Cluster: In which node my process is working</guid>
+            <pubDate>Tue, 10 Jul 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[I was helping a customer with his BPEL in cluster and we needed to follow the flow and on which machine the instance was running.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Using your Built-In iSight with Parallels (and VMWare)]]></title>
+            <link>https://tgrall.github.io/blog/2007/06/04/using-your-built-in-isight-with-parallels-and-vmware</link>
+            <guid>Using your Built-In iSight with Parallels (and VMWare)</guid>
+            <pubDate>Mon, 04 Jun 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[It is probably an old tipe, but I have just configured my Windows XP Parallels VMs]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Endangered Peregrine Falcons Return to Oracle HQ]]></title>
+            <link>https://tgrall.github.io/blog/2007/05/25/endangered-peregrine-falcons-return-to-oracle-hq</link>
+            <guid>Endangered Peregrine Falcons Return to Oracle HQ</guid>
+            <pubDate>Fri, 25 May 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[Peregrine falcons have returned to Oracle's campus in Redwood Shores, California. You can watch the newborns on the Oracle Falconcam.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Oracle Development Kit for Spring]]></title>
+            <link>https://tgrall.github.io/blog/2007/05/21/oracle-development-kit-for-spring</link>
+            <guid>Oracle Development Kit for Spring</guid>
+            <pubDate>Mon, 21 May 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[To help you better understand the support Oracle offers to Spring developers, everything you need to get started with Spring on Oracle Containers for Java EE is now available in the Oracle Development Kit for Spring. Whether you're new to Spring or an old hand, you're sure to benefit from the contents of the Development Kit:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[OracleAS &amp; JDeveloper: JavaEE 5.0 Technology Preview]]></title>
+            <link>https://tgrall.github.io/blog/2007/05/16/oracleas-and-jdeveloper-javaee-5-dot-0-technology-preview</link>
+            <guid>OracleAS &amp; JDeveloper: JavaEE 5.0 Technology Preview</guid>
+            <pubDate>Wed, 16 May 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[During JavaOne last week Oracle has announced the availability of a the new JavaEE 5.0 Technology Preview of Oracle Containers for JavaEE and JDeveloper (release 11).]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Oracle Develop 2007: conference near you from Oracle]]></title>
+            <link>https://tgrall.github.io/blog/2007/04/03/oracle-develop-2007-conference-near-you-from-oracle</link>
+            <guid>Oracle Develop 2007: conference near you from Oracle</guid>
+            <pubDate>Tue, 03 Apr 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[Oracle is has started to deliver the "Oracle Developer 2007" conference. In this two days even you will learn more about multiple technologies: Enterprise Java,]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Online Public Libraries: Google Books and now.. Europeana]]></title>
+            <link>https://tgrall.github.io/blog/2007/03/29/online-public-libraries-google-books-and-now-dot-europeana</link>
+            <guid>Online Public Libraries: Google Books and now.. Europeana</guid>
+            <pubDate>Thu, 29 Mar 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[I am sure that you know about Google Books//books.google.com/]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Grails vs Rails Performance Benchmark]]></title>
+            <link>https://tgrall.github.io/blog/2007/03/23/grails-vs-rails-performance-benchmark</link>
+            <guid>Grails vs Rails Performance Benchmark</guid>
+            <pubDate>Fri, 23 Mar 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[Graeme, the Grails Project Lead has published a very interesting benchmark of Grails versus Rails applications, that is available on the Grails wiki:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Tangosol is joining the Oracle family]]></title>
+            <link>https://tgrall.github.io/blog/2007/03/23/tangosol-is-joining-the-oracle-family</link>
+            <guid>Tangosol is joining the Oracle family</guid>
+            <pubDate>Fri, 23 Mar 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[During The Server Side Symposium in Vegas, Thomas Kurian announced that Oracle is acquiring Tangosol, during the keynote, Cameron Purdy (Tangosol's CEO) has demonstrated how cool Coherence can be, and they have presented how it could be used in the context of XTP (Extreme Transaction Processing).]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Using Groovy within Oracle Data Integrator]]></title>
+            <link>https://tgrall.github.io/blog/2007/03/18/using-groovy-within-oracle-data-integrator</link>
+            <guid>Using Groovy within Oracle Data Integrator</guid>
+            <pubDate>Sun, 18 Mar 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[As you may remember, Oracle acquired few months back a data integration solution from Sunopsis, and has integrated it in our product under the name "Oracle Data Integrator" (ODI).]]></description>
+        </item>
+        <item>
+            <title><![CDATA[JavaEE 5 Features of OracleAS 10gR3]]></title>
+            <link>https://tgrall.github.io/blog/2007/03/07/javaee-5-features-of-oracleas-10gr3</link>
+            <guid>JavaEE 5 Features of OracleAS 10gR3</guid>
+            <pubDate>Wed, 07 Mar 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[OracleAS 10g R3 (10.1.3.x) is a certified J2EE 1.4 container, but OracleAS provides already support to some of the features of the Java Enterprise Edition 5]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Oracle donates Toplink to Eclipse]]></title>
+            <link>https://tgrall.github.io/blog/2007/03/06/oracle-donates-toplink-to-eclipse</link>
+            <guid>Oracle donates Toplink to Eclipse</guid>
+            <pubDate>Tue, 06 Mar 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[Oracle has announced yesterday during  EclipseCon in Santa Clara (California) that it open-sources Oracle Toplink as part of the Eclipse Project.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Netbeans : OC4J support available]]></title>
+            <link>https://tgrall.github.io/blog/2007/03/02/netbeans-oc4j-support-available</link>
+            <guid>Netbeans : OC4J support available</guid>
+            <pubDate>Fri, 02 Mar 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[It has been a long time that I did not look in the update center and development wiki of Netbeans. And I have been very pleased to see that it is possible now to register OC4J 10g as a server in Netbeans 5.5 (and 6.0). To add it in your environment just do a :]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Spring and Oracle: I21 blog entry about Oracle contribution to Spring]]></title>
+            <link>https://tgrall.github.io/blog/2007/02/27/spring-and-oracle-i21-blog-entry-about-oracle-contribution-to-spring</link>
+            <guid>Spring and Oracle: I21 blog entry about Oracle contribution to Spring</guid>
+            <pubDate>Tue, 27 Feb 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[Rod Johnson in the Interface21 team blog entry named "Oracle Contributing Oracle Application Server Integration Code to Spring Framework" described the contribution of Oracle to Spring framework.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[OC4J tip: changing the server information]]></title>
+            <link>https://tgrall.github.io/blog/2007/02/26/oc4j-tip-changing-the-server-information</link>
+            <guid>OC4J tip: changing the server information</guid>
+            <pubDate>Mon, 26 Feb 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[When you are running OC4J in stand alone mode you are using the HTTP server that is bundle with it. This HTTP server returns by default for the HTTP information the following information Oracle Containers for J2EE]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The first International Grails eXchange 2007]]></title>
+            <link>https://tgrall.github.io/blog/2007/02/22/the-first-international-grails-exchange-2007</link>
+            <guid>The first International Grails eXchange 2007</guid>
+            <pubDate>Thu, 22 Feb 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[Packed with presentations on Grails, Groovy, Ajax & Web 2.0 and JavaEE and the core technologies that support the Grails technology, the first Grails eXchange conference (London from May 30th to June 1st) will be the place to be for any member of the Groovy/Grails community... You can already register on the conference web site//www.grails-exchange.com]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Groovy 101: Extracting XML from your database]]></title>
+            <link>https://tgrall.github.io/blog/2007/02/20/groovy-101-extracting-xml-from-your-database</link>
+            <guid>Groovy 101: Extracting XML from your database</guid>
+            <pubDate>Tue, 20 Feb 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[In the previous entry I showed how you can easily take an XML feed and insert the content in the database. Let's do the opposite now, meaning taking the data out of your database as XML. In this post I am using the Sql Dataset again but to create an XML document, using the Groovy MarkupBuilder.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Groovy 101: Importing XML in your database]]></title>
+            <link>https://tgrall.github.io/blog/2007/02/18/groovy-101-importing-xml-in-your-database</link>
+            <guid>Groovy 101: Importing XML in your database</guid>
+            <pubDate>Sun, 18 Feb 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[A friend of mine was looking for an easy way to import some XML content in his database. You have many ways to do it. But the easiest for a Java/Groovy developer is to use Groovy, and I have create this small example for him.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Oracle Application Server 10gR3: iHat]]></title>
+            <link>https://tgrall.github.io/blog/2007/02/15/oracle-application-server-10gr3-ihat</link>
+            <guid>Oracle Application Server 10gR3: iHat</guid>
+            <pubDate>Thu, 15 Feb 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[When preparing a complex topology, where you have multiple HTTP servers ,talking with many OC4J instances, it is sometimes hard to understand what is going on. Oracle Application Server Control provides the complete view of your topologies in different pages. If you want to have a quick overview of your topology, you may want a more graphical view of your Oracle Application Server instance.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Oracle Web Services: Sharing Session between client calls]]></title>
+            <link>https://tgrall.github.io/blog/2007/02/15/oracle-web-services-sharing-session-between-client-calls</link>
+            <guid>Oracle Web Services: Sharing Session between client calls</guid>
+            <pubDate>Thu, 15 Feb 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[OracleAS Web Services Runtime provides a support for stateful Web Services that is based on HTTP /Servlet session. Some people will probably say that Web Services should not be stateful, or at least not based on the protocol... However, today most of Web Services are using HTTP, and in some specific cases it is very useful to be able to have a state.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[New Groovy Plugin for Oracle JDeveloper 10g]]></title>
+            <link>https://tgrall.github.io/blog/2007/02/07/new-groovy-plugin-for-oracle-jdeveloper-10g</link>
+            <guid>New Groovy Plugin for Oracle JDeveloper 10g</guid>
+            <pubDate>Wed, 07 Feb 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[You can find a first release of the Groovy extension for JDeveloper on the Groovy site:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Grails 0.4 Released...]]></title>
+            <link>https://tgrall.github.io/blog/2007/01/31/grails-0-dot-4-released-dot-dot-dot</link>
+            <guid>Grails 0.4 Released...</guid>
+            <pubDate>Wed, 31 Jan 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Grails developer team is pleased to announce the release 0.4 of Grails. The release can be]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Oracle JDeveloper (10.1.3.2) / WebCenter available for download]]></title>
+            <link>https://tgrall.github.io/blog/2007/01/30/oracle-jdeveloper-10-dot-1-3-dot-2-slash-webcenter-available-for-download</link>
+            <guid>Oracle JDeveloper (10.1.3.2) / WebCenter available for download</guid>
+            <pubDate>Tue, 30 Jan 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[Oracle JDeveloper (10.1.3.2.0) extends the SOA development features from  the previous release by introducing the Oracle WebCenter extension.  Oracle WebCenter Suite combines the standards-based, declarative development of JavaServer Faces (JSF), the flexibility and power of portals, and a set of integrated Web 2.0 services to boost end-user productivity.   Oracle WebCenter Suite provides the tools and services to embed portlets, content, customizable components, Web 2.0 content,]]></description>
+        </item>
+        <item>
+            <title><![CDATA[JDJ Review: Oracle JDeveloper An IDE Worth a Second Look]]></title>
+            <link>https://tgrall.github.io/blog/2007/01/27/jdj-review-oracle-jdeveloper-an-ide-worth-a-second-look</link>
+            <guid>JDJ Review: Oracle JDeveloper An IDE Worth a Second Look</guid>
+            <pubDate>Sat, 27 Jan 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[As the saying goes you never get a second chance at a first impression. In general, that's true, but if you've been thoroughly revitalized, matured, and cosmetically re-engineered, shouldn't you get a second shot at that first impression? I'd argue that's true of Oracle's Java/J2EE Workbench, Oracle JDeveloper.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Apple released beta version of Dashcode]]></title>
+            <link>https://tgrall.github.io/blog/2007/01/22/apple-released-beta-version-of-dashcode</link>
+            <guid>Apple released beta version of Dashcode</guid>
+            <pubDate>Mon, 22 Jan 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dashcode is a new application for developing Dashboard widgets coming in Mac OS X 10.5 (Leopard).  This tools is already available as developer preview on Tiger.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Using Oracle Data Integrator on Mac OS X]]></title>
+            <link>https://tgrall.github.io/blog/2007/01/18/using-oracle-data-integrator-on-mac-os-x</link>
+            <guid>Using Oracle Data Integrator on Mac OS X</guid>
+            <pubDate>Thu, 18 Jan 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[Oracle just released on OTN a new product "Oracle Data Integrator" (ODI), I wanted]]></description>
+        </item>
+        <item>
+            <title><![CDATA[OTN Article: Install Oracle RAC 10g on Oracle Enterprise Linux Using VMware Server]]></title>
+            <link>https://tgrall.github.io/blog/2007/01/15/otn-article-install-oracle-rac-10g-on-oracle-enterprise-linux-using-vmware-server</link>
+            <guid>OTN Article: Install Oracle RAC 10g on Oracle Enterprise Linux Using VMware Server</guid>
+            <pubDate>Mon, 15 Jan 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[Install Oracle RAC 10g on Oracle Enterprise Linux using VMware Server is a very interesting article on using Oracle RAC using Oracle Linux on VMWare.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Oracle JDeveloper Features Matrix]]></title>
+            <link>https://tgrall.github.io/blog/2007/01/08/oracle-jdeveloper-features-matrix</link>
+            <guid>Oracle JDeveloper Features Matrix</guid>
+            <pubDate>Mon, 08 Jan 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[Not familiar with Oracle JDeveloper?]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How to use SOAP Compression using JAX-RPC]]></title>
+            <link>https://tgrall.github.io/blog/2007/01/07/how-to-use-soap-compression-using-jax-rpc</link>
+            <guid>How to use SOAP Compression using JAX-RPC</guid>
+            <pubDate>Sun, 07 Jan 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[HTTP compression has improved a lot the download time of content from]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Groovy 1.0 released]]></title>
+            <link>https://tgrall.github.io/blog/2007/01/02/groovy-1-dot-0-released</link>
+            <guid>Groovy 1.0 released</guid>
+            <pubDate>Tue, 02 Jan 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[Groovy release 1.0 is here now !]]></description>
+        </item>
+        <item>
+            <title><![CDATA[SOAP Client: A simple Web Services testing tools for Mac]]></title>
+            <link>https://tgrall.github.io/blog/2006/12/26/soap-client-a-simple-web-services-testing-tools-for-mac</link>
+            <guid>SOAP Client: A simple Web Services testing tools for Mac</guid>
+            <pubDate>Tue, 26 Dec 2006 00:00:00 GMT</pubDate>
+            <description><![CDATA[I was discussing with a friend about SOAP testing tools. We all know SOAP UI that is a very powerful one, but I am also using a very simple one developed on Mac for Mac (cocoa based application), this application is SOAP Client:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[VMWare finally on Mac (Beta)]]></title>
+            <link>https://tgrall.github.io/blog/2006/12/23/vmware-finally-on-mac-beta</link>
+            <guid>VMWare finally on Mac (Beta)</guid>
+            <pubDate>Sat, 23 Dec 2006 00:00:00 GMT</pubDate>
+            <description><![CDATA[As Mac user I sometimes need to use Windows (too often...) or Linux computer, and for this I have been using either my PC or Parallels. Parallels is great but in my daily job my coworker are mainly using VMWare images....]]></description>
+        </item>
+        <item>
+            <title><![CDATA[A nice christmas present for Groovy and Grails project]]></title>
+            <link>https://tgrall.github.io/blog/2006/12/22/a-nice-christmas-present-for-groovy-and-grails-project</link>
+            <guid>A nice christmas present for Groovy and Grails project</guid>
+            <pubDate>Fri, 22 Dec 2006 00:00:00 GMT</pubDate>
+            <description><![CDATA[The groovy project gets funding for its development. Big Sky is hiring [Jochen]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Jesus Rodriguez: Interoperability between OracleAS and between Windows Communication Foundation (WCF)]]></title>
+            <link>https://tgrall.github.io/blog/2006/12/20/jesus-rodriguez-interoperability-between-oracleas-and-between-windows-communication-foundation-wcf</link>
+            <guid>Jesus Rodriguez: Interoperability between OracleAS and between Windows Communication Foundation (WCF)</guid>
+            <pubDate>Wed, 20 Dec 2006 00:00:00 GMT</pubDate>
+            <description><![CDATA[Jesus Rodrigues has published on his blog multiple articles on interoperability between OracleAS and Microsoft  WCF:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Web Conference: Groovy &amp; Grails UG London]]></title>
+            <link>https://tgrall.github.io/blog/2006/12/05/web-conference-groovy-and-grails-ug-london</link>
+            <guid>Web Conference: Groovy &amp; Grails UG London</guid>
+            <pubDate>Tue, 05 Dec 2006 00:00:00 GMT</pubDate>
+            <description><![CDATA[The London Groovy and Grails User Group will be holding their next meeting on Wednesday, 6th December 2006 at Skills Matter in London and for the first time ever the meeting will be available via a live web conference, so don't worry if you are not in London!]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Calling a Web Services Protected using HTTP Basic]]></title>
+            <link>https://tgrall.github.io/blog/2006/12/04/calling-a-web-services-protected-using-http-basic</link>
+            <guid>Calling a Web Services Protected using HTTP Basic</guid>
+            <pubDate>Mon, 04 Dec 2006 00:00:00 GMT</pubDate>
+            <description><![CDATA[WS-Security provides a way to protect Web Services at the message level (SOAP) and it is]]></description>
+        </item>
+        <item>
+            <title><![CDATA[OC4J: Sending system level message in the console window]]></title>
+            <link>https://tgrall.github.io/blog/2006/11/28/oc4j-sending-system-level-message-in-the-console-window</link>
+            <guid>OC4J: Sending system level message in the console window</guid>
+            <pubDate>Tue, 28 Nov 2006 00:00:00 GMT</pubDate>
+            <description><![CDATA[OracleAS 10gR3, so OC4J standalone, is using the standard Java logging framework. Some of the]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Download the The Oracle Technology Network (OTN) 'Greatest Hits']]></title>
+            <link>https://tgrall.github.io/blog/2006/11/20/download-the-the-oracle-technology-network-otn-greatest-hits</link>
+            <guid>Download the The Oracle Technology Network (OTN) 'Greatest Hits'</guid>
+            <pubDate>Mon, 20 Nov 2006 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Oracle Technology Network (OTN) "Greatest Hits" is a compilation of the most popular technical articles, software downloads, podcasts, sample code, and documentation, we've published in a given 12-month period. The compilation provides you with convenient access to the "best" of OTN as well as an insight into the interests of the Oracle developer and DBA communities.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[IBM article:  JAX-RPC vs JAX-WS]]></title>
+            <link>https://tgrall.github.io/blog/2006/11/13/ibm-article-jax-rpc-vs-jax-ws</link>
+            <guid>IBM article:  JAX-RPC vs JAX-WS</guid>
+            <pubDate>Mon, 13 Nov 2006 00:00:00 GMT</pubDate>
+            <description><![CDATA[I was discussing with a customer not familiar with the JAX-WS standard. I was writing him a mail explaining the difference when I found this nice article on the IBM DeveloperWorks library:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[JDeveloper: What are my System Properties?]]></title>
+            <link>https://tgrall.github.io/blog/2006/10/13/jdeveloper-what-are-my-system-properties</link>
+            <guid>JDeveloper: What are my System Properties?</guid>
+            <pubDate>Fri, 13 Oct 2006 00:00:00 GMT</pubDate>
+            <description><![CDATA[I have been using JDeveloper]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Using HTTPS with Web Services]]></title>
+            <link>https://tgrall.github.io/blog/2006/10/13/using-https-with-web-services</link>
+            <guid>Using HTTPS with Web Services</guid>
+            <pubDate>Fri, 13 Oct 2006 00:00:00 GMT</pubDate>
+            <description><![CDATA[Prerequisites:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Come to Oracle Open World and watch Mr Spring and Mr Apache speak]]></title>
+            <link>https://tgrall.github.io/blog/2006/10/12/come-to-oracle-open-world-and-watch-mr-spring-and-mr-apache-speak</link>
+            <guid>Come to Oracle Open World and watch Mr Spring and Mr Apache speak</guid>
+            <pubDate>Thu, 12 Oct 2006 00:00:00 GMT</pubDate>
+            <description><![CDATA[Oracle Open World is getting very close... And I am very excited to go to lot of sessions, two of them looks very interesting in the Oracle Develop track:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Accessing User Principal in a Web Service]]></title>
+            <link>https://tgrall.github.io/blog/2006/09/21/accessing-user-principal-in-a-web-service</link>
+            <guid>Accessing User Principal in a Web Service</guid>
+            <pubDate>Thu, 21 Sep 2006 00:00:00 GMT</pubDate>
+            <description><![CDATA[WS-Security provides a standard way to secure Web Services. Since based on SOAP it is agnostic of the stack you are using. When using JAX-RPC implementation, you are running in a J2EE container. In this post I am giving a tip to access the Principal object.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Choose a scripting language? Groovy or JRuby?]]></title>
+            <link>https://tgrall.github.io/blog/2006/09/16/choose-a-scripting-language-groovy-or-jruby</link>
+            <guid>Choose a scripting language? Groovy or JRuby?</guid>
+            <pubDate>Sat, 16 Sep 2006 00:00:00 GMT</pubDate>
+            <description><![CDATA[Last week I discussed dynamic languages with some consultants. This discussion was done in the context of integration of scripting technologies into Java EE environment. So the integration to the VM is important, I also think that the learning curve is a thing to consider.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[More Groovy at Javaone !]]></title>
+            <link>https://tgrall.github.io/blog/2006/05/11/more-groovy-at-javaone</link>
+            <guid>More Groovy at Javaone !</guid>
+            <pubDate>Thu, 11 May 2006 00:00:00 GMT</pubDate>
+            <description><![CDATA[If like me you like scripting technologies and in particular Groovy and]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Grails on Oracle (OracleAS and OracleXE)]]></title>
+            <link>https://tgrall.github.io/blog/2006/05/03/grails-on-oracle-oracleas-and-oraclexe</link>
+            <guid>Grails on Oracle (OracleAS and OracleXE)</guid>
+            <pubDate>Wed, 03 May 2006 00:00:00 GMT</pubDate>
+            <description><![CDATA[OTN (Oracle Technology Network)]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Oracle BPEL: Debugging 'internal' SOAP Messages]]></title>
+            <link>https://tgrall.github.io/blog/2006/04/23/oracle-bpel-debugging-internal-soap-messages</link>
+            <guid>Oracle BPEL: Debugging 'internal' SOAP Messages</guid>
+            <pubDate>Sun, 23 Apr 2006 00:00:00 GMT</pubDate>
+            <description><![CDATA[When you develop applications]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Google Data APIs]]></title>
+            <link>https://tgrall.github.io/blog/2006/03/23/google-data-apis</link>
+            <guid>Google Data APIs</guid>
+            <pubDate>Thu, 23 Mar 2006 00:00:00 GMT</pubDate>
+            <description><![CDATA[Google has published a new set of API (and format) to update and access data. It looks really interesting. These services are published using the REST paradigm and XML.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Oracle Industrial Telnet Server (ITS): The OracleAS Hidden Treasure..]]></title>
+            <link>https://tgrall.github.io/blog/2006/03/13/oracle-industrial-telnet-server-its-the-oracleas-hidden-treasure-dot</link>
+            <guid>Oracle Industrial Telnet Server (ITS): The OracleAS Hidden Treasure..</guid>
+            <pubDate>Mon, 13 Mar 2006 00:00:00 GMT</pubDate>
+            <description><![CDATA[When I was working in Oracle Consulting I was surprised to see how many customers are using character mode applications, base on Oracle Forms. Lot of applications in wharehouses, harbour, ... are using telnet terminal, usually remote/mobile using RF networks.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Oracle Fusion Middleware and Microsoft Interoperability - Developer's Guide]]></title>
+            <link>https://tgrall.github.io/blog/2006/03/02/oracle-fusion-middleware-and-microsoft-interoperability-developers-guide</link>
+            <guid>Oracle Fusion Middleware and Microsoft Interoperability - Developer's Guide</guid>
+            <pubDate>Thu, 02 Mar 2006 00:00:00 GMT</pubDate>
+            <description><![CDATA[Download the Beta version of the Oracle Application Server Developer's Guide for Microsoft Office Interoperability along with sample code (and other technical resources) from this new OTN page.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[SourceLabs SASH certified on Oracle Fusion Middleware]]></title>
+            <link>https://tgrall.github.io/blog/2006/02/10/sourcelabs-sash-certified-on-oracle-fusion-middleware</link>
+            <guid>SourceLabs SASH certified on Oracle Fusion Middleware</guid>
+            <pubDate>Fri, 10 Feb 2006 00:00:00 GMT</pubDate>
+            <description><![CDATA[Oracle Fusion Middleware is now a certified platform for the SourceLabs "SASH" stack: Apache Struts, Apache Axis, the Spring Framework, and Hibernate. Visit this page to download free SASH software!]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Is OracleAS Portal used on the Internet????]]></title>
+            <link>https://tgrall.github.io/blog/2006/01/27/is-oracleas-portal-used-on-the-internet</link>
+            <guid>Is OracleAS Portal used on the Internet????</guid>
+            <pubDate>Fri, 27 Jan 2006 00:00:00 GMT</pubDate>
+            <description><![CDATA[Just use google with a string used byOracleAS Portal URLs...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Javaworld: Jason Hunter's 'New features added to Servlet 2.5']]></title>
+            <link>https://tgrall.github.io/blog/2006/01/04/javaworld-jason-hunters-new-features-added-to-servlet-2-dot-5</link>
+            <guid>Javaworld: Jason Hunter's 'New features added to Servlet 2.5'</guid>
+            <pubDate>Wed, 04 Jan 2006 00:00:00 GMT</pubDate>
+            <description><![CDATA[Jason Hunter has published an interesting article about new features added to servlet 2.5. The focus of this article is like most of the JEE 5 goals all about simplification, easy of use, this is done by leveraging Java5 annotations (resources refences, life cycle support,...), some improvements around the web.xml, and cross context sessions support.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[SearchWebServices: Oracle's Steve Harris on Java and standing out in SOA]]></title>
+            <link>https://tgrall.github.io/blog/2005/12/22/searchwebservices-oracles-steve-harris-on-java-and-standing-out-in-soa</link>
+            <guid>SearchWebServices: Oracle's Steve Harris on Java and standing out in SOA</guid>
+            <pubDate>Thu, 22 Dec 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[Interested to know more about the Oracle Application Server 10g and the SOA/Java strategy?]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Oracle 10g: Oracle Open World Top 10 presentations]]></title>
+            <link>https://tgrall.github.io/blog/2005/11/22/oracle-10g-oracle-open-world-top-10-presentations</link>
+            <guid>Oracle 10g: Oracle Open World Top 10 presentations</guid>
+            <pubDate>Tue, 22 Nov 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[You can find online the top 10 presentations of Oracle Open World 2005:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Using Eclipse WTP and OracleAS/OC4J]]></title>
+            <link>https://tgrall.github.io/blog/2005/11/11/using-eclipse-wtp-and-oracleas-slash-oc4j</link>
+            <guid>Using Eclipse WTP and OracleAS/OC4J</guid>
+            <pubDate>Fri, 11 Nov 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[You have probably heard about Web Tools Platform (WTP), this project]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Installing Blojsom on OracleAS 10g (10.1.3)]]></title>
+            <link>https://tgrall.github.io/blog/2005/10/27/installing-blojsom-on-oracleas-10g-10-dot-1-3</link>
+            <guid>Installing Blojsom on OracleAS 10g (10.1.3)</guid>
+            <pubDate>Thu, 27 Oct 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[I am using internally Blojsom for blogging about the product I am]]></description>
+        </item>
+        <item>
+            <title><![CDATA[PHP will beat Java? Not sure about it...]]></title>
+            <link>https://tgrall.github.io/blog/2005/10/24/php-will-beat-java-not-sure-about-it-dot-dot-dot</link>
+            <guid>PHP will beat Java? Not sure about it...</guid>
+            <pubDate>Mon, 24 Oct 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[I would like react to last week marc andreessen's words (netscape founder during]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Can I do SOA with Web Services today?]]></title>
+            <link>https://tgrall.github.io/blog/2005/10/20/can-i-do-soa-with-web-services-today</link>
+            <guid>Can I do SOA with Web Services today?</guid>
+            <pubDate>Thu, 20 Oct 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[I am just coming back for Toronto where I have been presenting Oracle]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Publishing SQL and DML as Web Service]]></title>
+            <link>https://tgrall.github.io/blog/2005/09/27/publishing-sql-and-dml-as-web-service</link>
+            <guid>Publishing SQL and DML as Web Service</guid>
+            <pubDate>Tue, 27 Sep 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[This morning I have been talking about the Oracle Database and Web Services. If you are]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Oracle Developer Day: September/October Sessions]]></title>
+            <link>https://tgrall.github.io/blog/2005/09/20/oracle-developer-day-september-slash-october-sessions</link>
+            <guid>Oracle Developer Day: September/October Sessions</guid>
+            <pubDate>Tue, 20 Sep 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[Oracle Developer Day](http]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Oracle JDeveloper 10g (10.1.3) EA 1 available]]></title>
+            <link>https://tgrall.github.io/blog/2005/09/20/oracle-jdeveloper-10g-10-dot-1-3-ea-1-available</link>
+            <guid>Oracle JDeveloper 10g (10.1.3) EA 1 available</guid>
+            <pubDate>Tue, 20 Sep 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[You can now downlaod the Early Access 1 version of Oracle JDeveloper 10g (10.1.3) from OTN.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Oracle Open World: Monday]]></title>
+            <link>https://tgrall.github.io/blog/2005/09/19/oracle-open-world-monday</link>
+            <guid>Oracle Open World: Monday</guid>
+            <pubDate>Mon, 19 Sep 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[Another nice day in San Francisco; I have been in booth duty most of the day and I have finished the day with a first presentation, with George Trujillo about J2EE Deployment strategy. This presentation I hope was interested for the quite big audience, the long Q&A session -1h, it is nice to be the last in the room- was very good since I talk with various Oracle customer about J2EE management in perspective of the database management. The benefits of Oracle Grid Control for Database and AppServer administrators... I would invite you if you are not familiar with Oracle Grid Control to take a look to OTN.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Oracle Open World: Sunday]]></title>
+            <link>https://tgrall.github.io/blog/2005/09/18/oracle-open-world-sunday</link>
+            <guid>Oracle Open World: Sunday</guid>
+            <pubDate>Sun, 18 Sep 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[The first Oracle World Day for me has started with finishing the various demonstrations of the J2EE Core OC4J and Web Services demonstration Pods. Tomorrow Monday, we will be showing some very cool stuff around Web Services development and management, with some good news around Web Services Registry. Also on the J2EE Core, nice demonstrations of the different services but some of the new features of the OracleAS 10.1.3 such as the new clustering framework and the usage of scripting technologies, especially Groovy, to administer and monitor OracleAS, thanks to JMX!]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Administer and Monitor OC4J using JConsole]]></title>
+            <link>https://tgrall.github.io/blog/2005/09/16/administer-and-monitor-oc4j-using-jconsole</link>
+            <guid>Administer and Monitor OC4J using JConsole</guid>
+            <pubDate>Fri, 16 Sep 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[OC4J 10g]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Beta Version of Zend Core for Oracle available]]></title>
+            <link>https://tgrall.github.io/blog/2005/09/02/beta-version-of-zend-core-for-oracle-available</link>
+            <guid>Beta Version of Zend Core for Oracle available</guid>
+            <pubDate>Fri, 02 Sep 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[Zend Core for Oracle, developed in partnership with Zend Technologies, supports businesses using PHP with Oracle Database for mission-critical Web applications. It provides a seamless out-of-the-box experience delivering a stable, high performance, easy-to-install and supported PHP development and production environment fully integrated with the Oracle Database.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Online Groovy Beginners Tutorial]]></title>
+            <link>https://tgrall.github.io/blog/2005/08/29/online-groovy-beginners-tutorial</link>
+            <guid>Online Groovy Beginners Tutorial</guid>
+            <pubDate>Mon, 29 Aug 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[Interested by Groovy but never used it... You will be please to use this nice tutorial available on the Groovy site:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[YAIM (Yet Another Instant Messenging): Google Talk]]></title>
+            <link>https://tgrall.github.io/blog/2005/08/25/yaim-yet-another-instant-messenging-google-talk</link>
+            <guid>YAIM (Yet Another Instant Messenging): Google Talk</guid>
+            <pubDate>Thu, 25 Aug 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[I have been playing around with Google Talk It is quite nice, once again I like the look... But I do not see 'revolutionnary' features...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Oracle at FTP Java Pro Live]]></title>
+            <link>https://tgrall.github.io/blog/2005/08/23/oracle-at-ftp-java-pro-live</link>
+            <guid>Oracle at FTP Java Pro Live</guid>
+            <pubDate>Tue, 23 Aug 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[FTP will organize the "Java Pro Live event September 12-14 in San Diego; Oracle will be presenting its vision and solution around Service Oriented Architecture and Java Development. Here some of the events:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[JavaOne Hangover]]></title>
+            <link>https://tgrall.github.io/blog/2005/07/02/javaone-hangover</link>
+            <guid>JavaOne Hangover</guid>
+            <pubDate>Sat, 02 Jul 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[This last 2 weeks have been kind of crazy for me, and for Oracle.. Last week we were present at the Oracle Developer Tools User Group, and immediately jump in for the 10th edition of JavaOne.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[JavaOne Day 1: What do to today?]]></title>
+            <link>https://tgrall.github.io/blog/2005/06/27/javaone-day-1-what-do-to-today</link>
+            <guid>JavaOne Day 1: What do to today?</guid>
+            <pubDate>Mon, 27 Jun 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[Here we go, the first day of Java One is about to start; and here some of the cool stuff to do:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[JavaOne: Oracle activities]]></title>
+            <link>https://tgrall.github.io/blog/2005/06/26/javaone-oracle-activities</link>
+            <guid>JavaOne: Oracle activities</guid>
+            <pubDate>Sun, 26 Jun 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[The 2005 edition of JavaOne will be a very good one, at least based of what Oracle is planning to do.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Google Code: AJAXSLT]]></title>
+            <link>https://tgrall.github.io/blog/2005/06/24/google-code-ajaxslt</link>
+            <guid>Google Code: AJAXSLT</guid>
+            <pubDate>Fri, 24 Jun 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[Google has released via its Google Code project an implementation of XSLT in javascript... Quite interesting to improve the development of AJaX based applications, I think this is the only reason to put the term AJaX in the project... But it is true that everytime you put AJaX in a title of something you are getting people interested...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Thanks to MozBackup...]]></title>
+            <link>https://tgrall.github.io/blog/2005/06/14/thanks-to-mozbackup-dot-dot-dot</link>
+            <guid>Thanks to MozBackup...</guid>
+            <pubDate>Tue, 14 Jun 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[My Windows laptop has been infected by some viruses and adware -why I am not only using my Mac and Linux computers?-, so I just reinstalled the full OS.....]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Pushlets are adopting AJaX]]></title>
+            <link>https://tgrall.github.io/blog/2005/06/13/pushlets-are-adopting-ajax</link>
+            <guid>Pushlets are adopting AJaX</guid>
+            <pubDate>Mon, 13 Jun 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[Back in consulting I did some small projects using the Pushlets framework. A nice and simple solution to create easily Web eventing applications...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[JSR 198 Early Draft Open For Review]]></title>
+            <link>https://tgrall.github.io/blog/2005/06/08/jsr-198-early-draft-open-for-review</link>
+            <guid>JSR 198 Early Draft Open For Review</guid>
+            <pubDate>Wed, 08 Jun 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[The JSR-198:A Standard Extension API for Integrated Development Environment expert group has made the early draft available for review.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Summary of Ajax frameworks]]></title>
+            <link>https://tgrall.github.io/blog/2005/06/08/summary-of-ajax-frameworks</link>
+            <guid>Summary of Ajax frameworks</guid>
+            <pubDate>Wed, 08 Jun 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[Michael Maheomff has published on AjaxPatterns Web site an article that list existing Ajax frameworks. This AJAXFrameworks article talks about server side solutions (Java, PHP, .Net, Lisp, Ruby, ....) and client side solutions that provided helpers around XMLHttpRequests and HTML programming.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Steve Jobs'  Keynote...]]></title>
+            <link>https://tgrall.github.io/blog/2005/06/06/steve-jobs-keynote-dot-dot-dot</link>
+            <guid>Steve Jobs'  Keynote...</guid>
+            <pubDate>Mon, 06 Jun 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[Today is an important day. We’ve got some great stuff for you today.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Apple on Intel.. Xbox on PowerPC is the world getting crazy]]></title>
+            <link>https://tgrall.github.io/blog/2005/06/05/apple-on-intel-dot-xbox-on-powerpc-is-the-world-getting-crazy</link>
+            <guid>Apple on Intel.. Xbox on PowerPC is the world getting crazy</guid>
+            <pubDate>Sun, 05 Jun 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[Once again a rumor of  Apple switching to Intel is making some noise on the net....]]></description>
+        </item>
+        <item>
+            <title><![CDATA['Scripting: Higher Level Programming for the 21st Century' paper from  John K. Ousterhout]]></title>
+            <link>https://tgrall.github.io/blog/2005/06/03/scripting-higher-level-programming-for-the-21st-century-paper-from-john-k-ousterhout</link>
+            <guid>'Scripting: Higher Level Programming for the 21st Century' paper from  John K. Ousterhout</guid>
+            <pubDate>Fri, 03 Jun 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[With all the Java Scripting language around (Groovy, Rhino, Ruby, Jython... and so on) it is always interesting to understand where this come from... but also be able to talk with people about it, especially when they do not understand why scripting is interesting...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Good Bye JAX-RPC, weclome to JAX-WS]]></title>
+            <link>https://tgrall.github.io/blog/2005/05/29/good-bye-jax-rpc-weclome-to-jax-ws</link>
+            <guid>Good Bye JAX-RPC, weclome to JAX-WS</guid>
+            <pubDate>Sun, 29 May 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[Finally the Java specification about Web Service will  have a name that makes sense... moving away from JAX-RPC to JAX-WS (JAX Web Services)...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Leaving for India...]]></title>
+            <link>https://tgrall.github.io/blog/2005/05/15/leaving-for-india-dot-dot-dot</link>
+            <guid>Leaving for India...</guid>
+            <pubDate>Sun, 15 May 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[Tomorrow, I am leaving for India where I will present Oracle Application Server 10g and SOA to some of our partners. (J2EE, Web Services, BPEL and all put together!)]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Oracle SQL Developer Express]]></title>
+            <link>https://tgrall.github.io/blog/2005/05/12/oracle-sql-developer-express</link>
+            <guid>Oracle SQL Developer Express</guid>
+            <pubDate>Thu, 12 May 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[You are a database developer, and want to develop, test and debug PL/SQL routines. You are a Java, PHP or .Net developer and you want to browse your schemas... Oracle has the tool for you: Oracle SQL Developer Express is a free]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Web UI: What's behind AJAX? Simple use cases using XMLHttpRequest]]></title>
+            <link>https://tgrall.github.io/blog/2005/05/09/web-ui-whats-behind-ajax-simple-use-cases-using-xmlhttprequest</link>
+            <guid>Web UI: What's behind AJAX? Simple use cases using XMLHttpRequest</guid>
+            <pubDate>Mon, 09 May 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[I am sure you already heard about AJAX, the "new" way of building Web]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Which kind of developer are you? A software terrorist?]]></title>
+            <link>https://tgrall.github.io/blog/2005/05/03/which-kind-of-developer-are-you-a-software-terrorist</link>
+            <guid>Which kind of developer are you? A software terrorist?</guid>
+            <pubDate>Tue, 03 May 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[Allen Holub just published on SDTime an editorial named "The Terror of Code in the Wrong Hands". I like the description of the "software terrorist": the guy who stays up all night, unwittingly but systematically destroying the entire team’s last month’s work while “improving” the code. He doesn’t tell anybody what he’s done, and he never tests. He’s created a ticking time bomb that won’t be discovered for six months.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[J2EE application development for Forms and Designer developers]]></title>
+            <link>https://tgrall.github.io/blog/2005/04/28/j2ee-application-development-for-forms-and-designer-developers</link>
+            <guid>J2EE application development for Forms and Designer developers</guid>
+            <pubDate>Thu, 28 Apr 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[Back in France, and in Oracle consulting, I was very often called to present, introduce J2EE to Oracle Forms developers, since we all know that J2EE is the way to go!]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Web Services and SOA Web Site]]></title>
+            <link>https://tgrall.github.io/blog/2005/04/28/web-services-and-soa-web-site</link>
+            <guid>Web Services and SOA Web Site</guid>
+            <pubDate>Thu, 28 Apr 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[I was yesterday talking to a customer about Web Services and Services Oriented Architecture, and he was looking for more information. So I shared with him one of my bookmark.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[A very good HTML Editor... and open source]]></title>
+            <link>https://tgrall.github.io/blog/2005/04/26/a-very-good-html-editor-dot-dot-dot-and-open-source</link>
+            <guid>A very good HTML Editor... and open source</guid>
+            <pubDate>Tue, 26 Apr 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[I have started to use on my Mac and PC the free HTML editor NVU, it is really a great product!]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Mike Keith Blog: The EJB 3.0 Hibernate Fallacy]]></title>
+            <link>https://tgrall.github.io/blog/2005/04/21/mike-keith-blog-the-ejb-3-dot-0-hibernate-fallacy</link>
+            <guid>Mike Keith Blog: The EJB 3.0 Hibernate Fallacy</guid>
+            <pubDate>Thu, 21 Apr 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[Mike Keith, Oracle Toplink architect, persistence guru, and member of the EJB 3.0 Expert Group, gives an, in his last entry an overview of EJB 3.0, in the context of the comparison with Hibernate and especially explaining why the statement that we sometimes hear "EJB 3.0 is Hibernate" is  wrong.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Free Subversion Online Book]]></title>
+            <link>https://tgrall.github.io/blog/2005/04/19/free-subversion-online-book</link>
+            <guid>Free Subversion Online Book</guid>
+            <pubDate>Tue, 19 Apr 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[You can find a online version of the book Version Control with Subversion. Thanks to the authors Ben Collins-Sussman, Brian W. Fitzpatrick,C. Michael Pilato, and their publisher O'Reilly.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Infoworld about OracleAS 10gR2: Write once]]></title>
+            <link>https://tgrall.github.io/blog/2005/04/12/infoworld-about-oracleas-10gr2-write-once</link>
+            <guid>Infoworld about OracleAS 10gR2: Write once</guid>
+            <pubDate>Tue, 12 Apr 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[As you can guess, when you work on a product it is always a pleasure to see good feedback, from end users, or from the media...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[JavaPolis Survey: Which Persistence...]]></title>
+            <link>https://tgrall.github.io/blog/2005/04/08/javapolis-survey-which-persistence-dot-dot-dot</link>
+            <guid>JavaPolis Survey: Which Persistence...</guid>
+            <pubDate>Fri, 08 Apr 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[JavaPolis is offering a survey about Persistence Technology, if you have not voted yet go on JavaPolis Web site.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[yagoohoogle : the best of both world.. in a simple way]]></title>
+            <link>https://tgrall.github.io/blog/2005/04/06/yagoohoogle-the-best-of-both-world-dot-in-a-simple-way</link>
+            <guid>yagoohoogle : the best of both world.. in a simple way</guid>
+            <pubDate>Wed, 06 Apr 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[A friend of mine send me this funny and useful link http://www.yagoohoogle.com/...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Simplified Development using EJB 3.0: Raghu Kodali tested it for us]]></title>
+            <link>https://tgrall.github.io/blog/2005/03/31/simplified-development-using-ejb-3-dot-0-raghu-kodali-tested-it-for-us</link>
+            <guid>Simplified Development using EJB 3.0: Raghu Kodali tested it for us</guid>
+            <pubDate>Thu, 31 Mar 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[Raghu just posted an interesting article asking the question "Does EJB 3.0 really make application development easy?".]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What to think about all the Ajax noise?]]></title>
+            <link>https://tgrall.github.io/blog/2005/03/28/what-to-think-about-all-the-ajax-noise</link>
+            <guid>What to think about all the Ajax noise?</guid>
+            <pubDate>Mon, 28 Mar 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[In the last 2 months the blogosphere has been very verbal about Ajax technology that describe a way of doing Rich UI using DHTML, Javascript and XML over HTTP.  If you are not already familiar with the concept the article "Ajax: A New Approach to Web Applications" by Jesse James Garrett is a very good introduction.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[New Oracle Products on OTN]]></title>
+            <link>https://tgrall.github.io/blog/2005/03/27/new-oracle-products-on-otn</link>
+            <guid>New Oracle Products on OTN</guid>
+            <pubDate>Sun, 27 Mar 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[Oracle BPEL Process Manager 10.1.2 Beta-3 Preview]]></description>
+        </item>
+        <item>
+            <title><![CDATA[PHP on OC4J??? Yes with JSR 223 RI]]></title>
+            <link>https://tgrall.github.io/blog/2005/03/26/php-on-oc4j-yes-with-jsr-223-ri</link>
+            <guid>PHP on OC4J??? Yes with JSR 223 RI</guid>
+            <pubDate>Sat, 26 Mar 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[In this entry I am explaining how to use the JSR-223 Reference Implementation into Oracle Containers for J2EE (OC4J).]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Blog Beginner: check out w.bloggar and other desktop tools]]></title>
+            <link>https://tgrall.github.io/blog/2005/03/16/blog-beginner-check-out-w-dot-bloggar-and-other-desktop-tools</link>
+            <guid>Blog Beginner: check out w.bloggar and other desktop tools</guid>
+            <pubDate>Wed, 16 Mar 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[A friend a mine just ask me:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[JavaWorld Article:  Choosing a Java scripting language]]></title>
+            <link>https://tgrall.github.io/blog/2005/03/15/javaworld-article-choosing-a-java-scripting-language</link>
+            <guid>JavaWorld Article:  Choosing a Java scripting language</guid>
+            <pubDate>Tue, 15 Mar 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[This new Java World article compares the different Java scripting languages (Groovy, JudoScript, Pnuts, JRuby, Jacl, Jython, Rhino, and BeanShell), and list the issues that you have to select the good one...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Great News ! OracleAS EJB 3.0 Preview is available]]></title>
+            <link>https://tgrall.github.io/blog/2005/03/04/great-news-oracleas-ejb-3-dot-0-preview-is-available</link>
+            <guid>Great News ! OracleAS EJB 3.0 Preview is available</guid>
+            <pubDate>Fri, 04 Mar 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[Looking forward to play around with EJB 3.0?]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Oracle and PHP]]></title>
+            <link>https://tgrall.github.io/blog/2005/02/24/oracle-and-php</link>
+            <guid>Oracle and PHP</guid>
+            <pubDate>Thu, 24 Feb 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[A friend of mine was asking me:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[BPEL: Edwin answer to Dutch'Rant post]]></title>
+            <link>https://tgrall.github.io/blog/2005/02/17/bpel-edwin-answer-to-dutchrant-post</link>
+            <guid>BPEL: Edwin answer to Dutch'Rant post</guid>
+            <pubDate>Thu, 17 Feb 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[If you are interested by BPEL you can take a look to the blog entry 'BPEL: Yes or No?' and the answer/comments from Edwin (VP of Development of Oracle BPEL Process Manager).]]></description>
+        </item>
+        <item>
+            <title><![CDATA[JSR 223: Public Review of the Specification]]></title>
+            <link>https://tgrall.github.io/blog/2005/02/08/jsr-223-public-review-of-the-specification</link>
+            <guid>JSR 223: Public Review of the Specification</guid>
+            <pubDate>Tue, 08 Feb 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[The JSR 223: Scripting for the Java Platform is now open for public review until March 28th.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[JavaWorld Article: Event-driven services in SOA]]></title>
+            <link>https://tgrall.github.io/blog/2005/02/01/javaworld-article-event-driven-services-in-soa</link>
+            <guid>JavaWorld Article: Event-driven services in SOA</guid>
+            <pubDate>Tue, 01 Feb 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[Interesting article about Event Driven Architecture (EDA) and Service Oriented Architecture based on Mule an open source ESB.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[uConnect my best Blue Tooth experience.. so far...]]></title>
+            <link>https://tgrall.github.io/blog/2005/01/23/uconnect-my-best-blue-tooth-experience-dot-so-far-dot-dot-dot</link>
+            <guid>uConnect my best Blue Tooth experience.. so far...</guid>
+            <pubDate>Sun, 23 Jan 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[A friend a mine just bought the top of the line of the Dodge Grand Caravan... Really over-loaded...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[First 2005 resolution: make a donation for South Asia]]></title>
+            <link>https://tgrall.github.io/blog/2005/01/03/first-2005-resolution-make-a-donation-for-south-asia</link>
+            <guid>First 2005 resolution: make a donation for South Asia</guid>
+            <pubDate>Mon, 03 Jan 2005 00:00:00 GMT</pubDate>
+            <description><![CDATA[My first 2005 action was to give money for south Asia. I made a donation to the Unicef Organization and my employer Oracle is matching my amount.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Eclipse and OC4J using the Lomboz Plugin]]></title>
+            <link>https://tgrall.github.io/blog/2004/12/20/eclipse-and-oc4j-using-the-lomboz-plugin</link>
+            <guid>Eclipse and OC4J using the Lomboz Plugin</guid>
+            <pubDate>Mon, 20 Dec 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[You can find a new How-To Document that explains how to use OC4J and Eclipse together using the Lomboz plugin.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What's new in OC4J 10g (10.1.3) Developer Preview]]></title>
+            <link>https://tgrall.github.io/blog/2004/12/15/whats-new-in-oc4j-10g-10-dot-1-3-developer-preview</link>
+            <guid>What's new in OC4J 10g (10.1.3) Developer Preview</guid>
+            <pubDate>Wed, 15 Dec 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[Application Server Control]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Oracle Toplink and Spring framework integration]]></title>
+            <link>https://tgrall.github.io/blog/2004/12/10/oracle-toplink-and-spring-framework-integration</link>
+            <guid>Oracle Toplink and Spring framework integration</guid>
+            <pubDate>Fri, 10 Dec 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[You can now find a preview of the Oracle Toplink &amp; framework integration. This allows you to easily use Toplink features in your Spring application.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[At Oracle Open World all the week]]></title>
+            <link>https://tgrall.github.io/blog/2004/12/07/at-oracle-open-world-all-the-week</link>
+            <guid>At Oracle Open World all the week</guid>
+            <pubDate>Tue, 07 Dec 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[As you may know this is Oracle Open World this week in San Francisco... I am working there all week mainly on the OC4J and JDeveloper demo pods. Come to see the new version that help you to develop J2EE and Web Services. Also I am presenting Thursday at 4pm a paper about Service Oriented Architecture (SOA) and Event Driven Architecture (EDA)]]></description>
+        </item>
+        <item>
+            <title><![CDATA[New OC4J and JDeveloper Release Available]]></title>
+            <link>https://tgrall.github.io/blog/2004/12/04/new-oc4j-and-jdeveloper-release-available</link>
+            <guid>New OC4J and JDeveloper Release Available</guid>
+            <pubDate>Sat, 04 Dec 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[Oracle Containers for J2EE 10g (10.1.3) Developer Preview]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Article: Transaction Processing in Distributed Service-Oriented Applications]]></title>
+            <link>https://tgrall.github.io/blog/2004/11/29/article-transaction-processing-in-distributed-service-oriented-applications</link>
+            <guid>Article: Transaction Processing in Distributed Service-Oriented Applications</guid>
+            <pubDate>Mon, 29 Nov 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[Jon Maron from Oracle has just published an article about transaction processing in distributed SOA.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Some cool stuff about JSP 2.0]]></title>
+            <link>https://tgrall.github.io/blog/2004/11/26/some-cool-stuff-about-jsp-2-dot-0</link>
+            <guid>Some cool stuff about JSP 2.0</guid>
+            <pubDate>Fri, 26 Nov 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[J2EE 1.4 introduces a major release of JSP: 2.0.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[New Oracle White Paper: Accelerate Development and Deployment of Service-Oriented Applications]]></title>
+            <link>https://tgrall.github.io/blog/2004/11/19/new-oracle-white-paper-accelerate-development-and-deployment-of-service-oriented-applications</link>
+            <guid>New Oracle White Paper: Accelerate Development and Deployment of Service-Oriented Applications</guid>
+            <pubDate>Fri, 19 Nov 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[Oracle has published a new white paper about Service Oriented Architecture, and how Oracle Application Server 10g accelerates SOA development and deployment.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Oracle TopLink: Happy 10th Anniversary]]></title>
+            <link>https://tgrall.github.io/blog/2004/11/17/oracle-toplink-happy-10th-anniversary</link>
+            <guid>Oracle TopLink: Happy 10th Anniversary</guid>
+            <pubDate>Wed, 17 Nov 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[In the context of the 10th anniversary of Oracle TopLink, The Server Side published an interview of Mike Keith and Doug Clark, architect and product manager of TopLink. They talk about persistence in J2EE using EJB 3.0, but also the differences between TopLink and other persistence solutions...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Windows User finally you will be able to use Konfabulator]]></title>
+            <link>https://tgrall.github.io/blog/2004/11/15/windows-user-finally-you-will-be-able-to-use-konfabulator</link>
+            <guid>Windows User finally you will be able to use Konfabulator</guid>
+            <pubDate>Mon, 15 Nov 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[One of my favorites tools on my Mac is Konfabulator that allows you to create -or use prebuilt- application called Widgets. This Widgets are for example battery level, weather, see the Widget Gallery.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[HTML/Javascript tip: Refreshing an image not the full page]]></title>
+            <link>https://tgrall.github.io/blog/2004/11/08/html-javascript-tip-refreshing-an-image-not-the-full-page</link>
+            <guid>HTML/Javascript tip: Refreshing an image not the full page</guid>
+            <pubDate>Mon, 08 Nov 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[I was discussing with a friend about the creation of a monitoring dashboard in HTML. As any monitoring tool you want to be able to see the information in real-time, so you need to refresh the content....]]></description>
+        </item>
+        <item>
+            <title><![CDATA[First contact with Oracle Database XE]]></title>
+            <link>https://tgrall.github.io/blog/2004/10/31/first-contact-with-oracle-database-xe</link>
+            <guid>First contact with Oracle Database XE</guid>
+            <pubDate>Sun, 31 Oct 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[Oracle Database 10g Express Edition Beta Release is now available for download, from OTN:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Oracle Application Server and OC4J Certification]]></title>
+            <link>https://tgrall.github.io/blog/2004/10/28/oracle-application-server-oc4j-certification</link>
+            <guid>Oracle Application Server and OC4J Certification</guid>
+            <pubDate>Thu, 28 Oct 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[If you ask yourself on which Operating Systems, JDK, Browser, etc... you can use Oracle Application Server 10g just consult OTN or Oracle Metalink:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Mike Keith about Java2 5.0 Annotations]]></title>
+            <link>https://tgrall.github.io/blog/2004/10/26/mike-keith-about-java2-5-dot-0-annotations</link>
+            <guid>Mike Keith about Java2 5.0 Annotations</guid>
+            <pubDate>Tue, 26 Oct 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[Mike Keith,architect for Oracle Containers for J2EE (OC4J) and TopLink products and currently represents Oracle in the EJB 3.0 expert group, has published an interesting article about Annotations in Java 5.0:.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[New Dynamic Menu for OracleAS Portal 10g]]></title>
+            <link>https://tgrall.github.io/blog/2004/10/07/new-dynamic-menu-for-oracleas-portal-10g</link>
+            <guid>New Dynamic Menu for OracleAS Portal 10g</guid>
+            <pubDate>Thu, 07 Oct 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ronaldo Viscuso has just released a new version of his DHTML Menu Portlet. This portlet generates a DHTML menu for site navigation, with links to pages and subpages from a selected page group.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Jive portlets for OracleAS Portal]]></title>
+            <link>https://tgrall.github.io/blog/2004/10/06/jive-portlets-for-oracleas-portal</link>
+            <guid>Jive portlets for OracleAS Portal</guid>
+            <pubDate>Wed, 06 Oct 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[An Oracle Application Server (OracleAS) Provider for Jive Forums is now available to download from the Portal Integration Solutions page on OTN.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Looking for articles: use JavaPro magazine collection]]></title>
+            <link>https://tgrall.github.io/blog/2004/10/06/looking-for-articles-use-javapro-magazine-collection</link>
+            <guid>Looking for articles: use JavaPro magazine collection</guid>
+            <pubDate>Wed, 06 Oct 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[You are looking for a articles about J2EE, JavaPro magazine put online a nice tool to search and view all the published articles:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Groovy, Java's New Scripting Language]]></title>
+            <link>https://tgrall.github.io/blog/2004/10/04/groovy</link>
+            <guid>Groovy, Java's New Scripting Language</guid>
+            <pubDate>Mon, 04 Oct 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[Groovy, Java's New Scripting Language by Ian F. Darwin -- When some Java developers hear about Groovy, their first reaction is often, "Oh, no, not another scripting language for Java." Ian Darwin had the same reaction, until he took a good look at Groovy.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Good taste tool: del.icio.us]]></title>
+            <link>https://tgrall.github.io/blog/2004/10/03/good-taste-tool-del-dot-icio-dot-us</link>
+            <guid>Good taste tool: del.icio.us</guid>
+            <pubDate>Sun, 03 Oct 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[I am starting to use del.icio.us. A great way to manage your own bookmarks but also to share them with others...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Sample Code: BLOB insertion in Oracle10g]]></title>
+            <link>https://tgrall.github.io/blog/2004/10/01/sample-code-blob-insertion-in-oracle10g</link>
+            <guid>Sample Code: BLOB insertion in Oracle10g</guid>
+            <pubDate>Fri, 01 Oct 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[Responding to a customer question about Blob insertion in Oracle 10g DB using the JDBC 3.0 driver. Very Simple application. Download Java Source See insertBlob method.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Struts or JSF by Craig McClanahan]]></title>
+            <link>https://tgrall.github.io/blog/2004/09/29/struts-or-jsf-by-craig-mcclanahan</link>
+            <guid>Struts or JSF by Craig McClanahan</guid>
+            <pubDate>Wed, 29 Sep 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[Craig McClanahan has started a blog... and his second post -after a quick introduction- is about the 'hot' subject of the usage of Struts or JSF.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Persistence reconciliation for POJO....]]></title>
+            <link>https://tgrall.github.io/blog/2004/09/27/persistence-reconciliation-for-pojo-dot-dot-dot</link>
+            <guid>Persistence reconciliation for POJO....</guid>
+            <pubDate>Mon, 27 Sep 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[Sun has sent a letter to the Java Community to start a single POJO persistence model, this will be done under the EJB 3.0 specification (JSR-220).]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Oracle Application Server 10g Sets World Record SPECjAppServer 2002 Performance Result on Fujitsu PRIMEPOWER Servers]]></title>
+            <link>https://tgrall.github.io/blog/2004/09/14/oracle-application-server-10g-sets-world-record-specjappserver-2002-performance-result-on-fujitsu-primepower-servers</link>
+            <guid>Oracle Application Server 10g Sets World Record SPECjAppServer 2002 Performance Result on Fujitsu PRIMEPOWER Servers</guid>
+            <pubDate>Tue, 14 Sep 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[Oracle and Fujistu just announced new SpecJ2002 results, establishing a new record of 5,991.73 TOPS@MultipleNode (total operations per second) with a price-performance of 654.20 Euros/TOPS@MultipleNode. This was realized using Oracle Application Server 10g running on Fujitsu servers.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[O/R Mapping Benchmark: new Oracle Toplink results]]></title>
+            <link>https://tgrall.github.io/blog/2004/09/07/o-slash-r-mapping-benchmark-new-oracle-toplink-results</link>
+            <guid>O/R Mapping Benchmark: new Oracle Toplink results</guid>
+            <pubDate>Tue, 07 Sep 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Middleware company has created an initiative to test the different Object-Relational mapping tools, this test is named Torpedo. You can find the announcement of this O-R benchmark initiative on TSS Web site.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Portlet Development Book and Web Site]]></title>
+            <link>https://tgrall.github.io/blog/2004/08/27/portlet-development-book-and-web-site</link>
+            <guid>Portlet Development Book and Web Site</guid>
+            <pubDate>Fri, 27 Aug 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[Portalbook.com is the site of Jeff Linwood and Dave Minter, authors of the book Building Portals with the Java Portlet API.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Have we lost the Groove ?]]></title>
+            <link>https://tgrall.github.io/blog/2004/08/22/have-we-lost-the-groove</link>
+            <guid>Have we lost the Groove ?</guid>
+            <pubDate>Sun, 22 Aug 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[Like lot of Java developers I was very excited about the announcement of the creation of the JSR-241... But where are we now ?]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Oracle releases early version of JavaServer Faces Components]]></title>
+            <link>https://tgrall.github.io/blog/2004/08/17/oracle-releases-early-version-of-javaserver-faces-components</link>
+            <guid>Oracle releases early version of JavaServer Faces Components</guid>
+            <pubDate>Tue, 17 Aug 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[Oracle has been involved in the JavaServer Faces (JSR 127) since its creation, and released yesterday a set of components. The list of the available component is available here.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Weather syndication]]></title>
+            <link>https://tgrall.github.io/blog/2004/07/29/weather-syndication</link>
+            <guid>Weather syndication</guid>
+            <pubDate>Thu, 29 Jul 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[Lot of us want to create portlets (or publish content) based on weather information. The best solution that I found is the Weather Channel XML.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[AspectJ Tool for JDeveloper 10g]]></title>
+            <link>https://tgrall.github.io/blog/2004/07/14/aspectj-tool-for-jdeveloper-10g</link>
+            <guid>AspectJ Tool for JDeveloper 10g</guid>
+            <pubDate>Wed, 14 Jul 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[Gerard Davidson has created a java.net project to integrate AOP Framework to JDeveloper 10g, starting with an extension for AspectJ!]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Struts 1.2.1 Beta available /  JDeveloper 10g How-To]]></title>
+            <link>https://tgrall.github.io/blog/2004/07/12/struts-1-dot-2-1-beta-available-slash-jdeveloper-10g-how-to</link>
+            <guid>Struts 1.2.1 Beta available /  JDeveloper 10g How-To</guid>
+            <pubDate>Mon, 12 Jul 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[Struts 1.2.1 Beta is now available for download.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Which Version I am running ?]]></title>
+            <link>https://tgrall.github.io/blog/2004/07/12/which-version-i-am-running</link>
+            <guid>Which Version I am running ?</guid>
+            <pubDate>Mon, 12 Jul 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[Today I was helping a customer on a deployment issue...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Opening the Black Box of Integration]]></title>
+            <link>https://tgrall.github.io/blog/2004/07/09/opening-the-black-box-of-integration</link>
+            <guid>Opening the Black Box of Integration</guid>
+            <pubDate>Fri, 09 Jul 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[Web Service Journal just publish an article 'Opening the Black Box of Integration' written by Mike Lehmann OracleAS 10g Product Manager.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Shirky.com: In Praise of Evolvable Systems]]></title>
+            <link>https://tgrall.github.io/blog/2004/04/08/shirky-dot-com-in-praise-of-evolvable-systems</link>
+            <guid>Shirky.com: In Praise of Evolvable Systems</guid>
+            <pubDate>Thu, 08 Apr 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[Rob,colleague of mine, pointed me to an article about "Evolvable Systems":]]></description>
+        </item>
+        <item>
+            <title><![CDATA[JavaOne and Apple WWDC 2004]]></title>
+            <link>https://tgrall.github.io/blog/2004/04/07/javaone-and-apple-wwdc-2004</link>
+            <guid>JavaOne and Apple WWDC 2004</guid>
+            <pubDate>Wed, 07 Apr 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[I have been working on the JavaOne Oracle Demo Ground where I was demonstrating OracleAS Portal 10g. I also attend several sessions (EJB 3.0 & CMP Persistence, J2EE 1.4 Web Services, AOP) and Thomas Kurian and James Gosling keynotes.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Do not remember the default password... here a list...]]></title>
+            <link>https://tgrall.github.io/blog/2004/01/26/do-not-remember-the-default-password-dot-dot-dot-here-a-list-dot-dot-dot</link>
+            <guid>Do not remember the default password... here a list...</guid>
+            <pubDate>Mon, 26 Jan 2004 00:00:00 GMT</pubDate>
+            <description><![CDATA[I am sure that like me sometimes when you are testing product you do not know, or remember the default password.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[OmniPortlet tip: use stored procedure with the SQL data source]]></title>
+            <link>https://tgrall.github.io/blog/2003/11/19/omniportlet-tip-use-stored-procedure-with-the-sql-data-source</link>
+            <guid>OmniPortlet tip: use stored procedure with the SQL data source</guid>
+            <pubDate>Wed, 19 Nov 2003 00:00:00 GMT</pubDate>
+            <description><![CDATA[OmniPortlet provides to page designer an easy and powerful way to publish]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How to configure Web Cache to cache remote portlet content]]></title>
+            <link>https://tgrall.github.io/blog/2003/11/16/how-to-configure-web-cache-to-cache-remote-portlet-content</link>
+            <guid>How to configure Web Cache to cache remote portlet content</guid>
+            <pubDate>Sun, 16 Nov 2003 00:00:00 GMT</pubDate>
+            <description><![CDATA[Some portlet developers have hard time to set up a correct environment to use]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Add columns to OmniPortlet]]></title>
+            <link>https://tgrall.github.io/blog/2003/11/03/add-columns-to-omniportlet</link>
+            <guid>Add columns to OmniPortlet</guid>
+            <pubDate>Mon, 03 Nov 2003 00:00:00 GMT</pubDate>
+            <description><![CDATA[I had some questions about the limitation to 5 columns of the]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Looking for Portlets ?]]></title>
+            <link>https://tgrall.github.io/blog/2003/10/27/looking-for-portlets</link>
+            <guid>Looking for Portlets ?</guid>
+            <pubDate>Mon, 27 Oct 2003 00:00:00 GMT</pubDate>
+            <description><![CDATA[You are implementing a Portal based on Oracle 9iAS Portal, do not reinvent the wheel !]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Portlet with a vertical scroll bar]]></title>
+            <link>https://tgrall.github.io/blog/2003/10/27/portlet-with-a-vertical-scroll-bar</link>
+            <guid>Portlet with a vertical scroll bar</guid>
+            <pubDate>Mon, 27 Oct 2003 00:00:00 GMT</pubDate>
+            <description><![CDATA[To have a better control of the layout of your Portal Pages, you can use a]]></description>
+        </item>
+    </channel>
+</rss>

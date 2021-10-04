@@ -1,0 +1,1 @@
+(self.webpackChunktgrall_blog=self.webpackChunktgrall_blog||[]).push([[70008],{95236:function(l){"use strict";l.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/redis","name":"redis","count":5,"permalink":"/blog/tags/redis"}')}}]);

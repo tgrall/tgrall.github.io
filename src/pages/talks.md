@@ -128,7 +128,7 @@ title: Talks
 - 2015-09-23 - <a href="http://www.toursjug.org/">ToursJUG</a> : Introduction to Apache Drill : &ldquo;SQL On Everything&rdquo;
 - 2015-09-18 - <a href="http://www.jugsummercamp.org/edition/6">Jug Summer Camp</a> : <a href="http://events.linuxfoundation.org/sites/events/files/slides/apache_drill_budapest_2015.pdf">Big Data Journey</a> with <a href="http://twitter.com/dadoonet">@dadoonet</a>
 - 2015-06-23 - <a href="http://www.brownbaglunch.fr/">BBL</a> in Retail - Introduction to Big Data &amp; NoSQL
-- 2015-06-11 - <a href="http://RivieraDev.fr">RivieraDev</a> - <a href="www.slideshare.net/tgrall/proud-to-be-polyglot-riviera-dev-2015">Proud to be Polyglot</a>
+- 2015-06-11 - <a href="http://RivieraDev.fr">RivieraDev</a> - <a href="https://www.slideshare.net/tgrall/proud-to-be-polyglot-riviera-dev-2015">Proud to be Polyglot</a>
 - 2015-04-14 - <a href="http://www.meetup.com/Nantes-MongoDB-User-Group/">Nantes MongoDB User Group</a> - MongoDB 3.0 &amp; Ops Manager
 - 2015-04-10 - <a href="http://devoxx.fr">Devoxx France</a>: - Quickie - <a href="https://github.com/tgrall/mongodb-realtime-pubsub">Pub/Sub with MongoDB</a>
 - 2015-03-31 - <a href="http://www.meetup.com/Paris-MongoDB-User-Group/">Paris MongoDB User Group</a> - MongoDB 3.0 &amp; Ops Manager
@@ -137,7 +137,7 @@ title: Talks
 - 2015-03-20 - <a href="http://www.lavajug.org/">Lava JUG</a>: <a href="https://github.com/tgrall/mongodb-workshop">MongoDB Workshop</a>
 - 2015-03-19 - <a href="http://www.lavajug.org/">Lava JUG</a>: Introduction to NoSQL With MongoDB
 - 2015-03-17 - <a href="http://www.normandyjug.org/">Normandy JUG</a>: What&rsquo;s new in MongoDN 3.0 (WiredTiger &amp; OpsManager)
-- 2015-03-10 - <a href="www.bigdataparis.com">Big Data Paris</a> MongoDB &amp; Hadoop
+- 2015-03-10 - <a href="https://www.bigdataparis.com">Big Data Paris</a> MongoDB &amp; Hadoop
 - 2015-02-06 - <a href="http://www.brownbaglunch.fr/">BBL</a> at Infotel - Introduction to NoSQL with MongoDB
 - 2015-02-05 - NoSQL Event Lyon with SQL-i - Drop your tables with MongoDB
 - 2015-01-21 - <a href="http://nantesjug.org">Nantes JUG</a> - Quickie - <a href="https://github.com/tgrall/mongodb-realtime-pubsub">Pub/Sub with MongoDB</a>

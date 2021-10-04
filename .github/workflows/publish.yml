@@ -36,6 +36,7 @@ jobs:
           ssh-private-key: ${{ secrets.GH_PAGES_DEPLOY }}
       - name: Release to GitHub Pages
         env:
+          DEPLOYMENT_BRANCH: main
           USE_SSH: true
           GIT_USER: git
         run: |

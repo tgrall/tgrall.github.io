@@ -71,12 +71,8 @@ module.exports = {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
       additionalLanguages: ['java'],
-    },
-    googleAnalytics: {
-      trackingID: 'UA-1520374-2',
-      // Optional fields.
-      anonymizeIP: true, // Should IPs be anonymized?
-    },  },
+    }
+},
   presets: [
     [
       '@docusaurus/preset-classic',

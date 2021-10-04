@@ -20,4 +20,4 @@ I look forward to sharing what I like about NoSQL and Couchbase and discuss with
 
 See you soon online and in real life during conferences and meetups!
 
-{% img http://4.bp.blogspot.com/-jxz50giRSQM/ULnaWxkHkyI/AAAAAAAAAZM/s0y7CFw4jUk/s320/couch-logo-company-page.png "Couchbase Logo" )
+![Couchbase Logo](http://4.bp.blogspot.com/-jxz50giRSQM/ULnaWxkHkyI/AAAAAAAAAZM/s0y7CFw4jUk/s320/couch-logo-company-page.png)

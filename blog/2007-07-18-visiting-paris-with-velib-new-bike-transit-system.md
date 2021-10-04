@@ -4,7 +4,7 @@ title: "Visiting Paris with Velib (new bike transit system)"
 categories:
 ---
 
-{% img http://3.bp.blogspot.com/_aoQgQ1obiyE/Rp3kJ-2QaVI/AAAAAAAAABU/BmlcbzgcwCk/s200/photos_velib_visuel_article.gif )
+![](http://3.bp.blogspot.com/_aoQgQ1obiyE/Rp3kJ-2QaVI/AAAAAAAAABU/BmlcbzgcwCk/s200/photos_velib_visuel_article.gif )
 
 I was in Paris last week end so I took this as a good opportunity to visit the city using the new "Velib" system. Velib is a new self service rental bike system that the city of Paris and JCDecaux put in place on July 15th. So you can take and return any of the 10,000+ bikes in any of the 750 locations all around Paris. I believe that Paris wants to a total number of 20,000 bikes for  1,400 locations.
 

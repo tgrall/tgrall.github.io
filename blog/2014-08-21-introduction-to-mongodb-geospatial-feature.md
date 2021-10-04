@@ -43,7 +43,7 @@ By default GeoJSON, and MongoDB use these values but **the coordinates must be s
 }
 ```
 
-{% img http://2.bp.blogspot.com/-0GfvAvSgLM8/U_NwAR_BCpI/AAAAAAAAArI/INweKtutfDQ/s1600/01-geojson-point.png )
+![](http://2.bp.blogspot.com/-0GfvAvSgLM8/U_NwAR_BCpI/AAAAAAAAArI/INweKtutfDQ/s1600/01-geojson-point.png )
 
 This is a simple "Point", let's now for example look at a line, a very nice walk on the beach :
 
@@ -61,7 +61,7 @@ This is a simple "Point", let's now for example look at a line, a very nice walk
 ```
 
 
-{% img http://1.bp.blogspot.com/-dg_myaJAG-c/U_Nv80jrncI/AAAAAAAAArA/utmCcBlQeqY/s1600/02-geojson-linestring.png )
+http://1.bp.blogspot.com/-dg_myaJAG-c/U_Nv80jrncI/AAAAAAAAArA/utmCcBlQeqY/s1600/02-geojson-linestring.png )
 
 
 So using the same approach you will be able to create MultiPoint, MultiLineString, Polygon, MultiPolygon. It is also possible to mix all these in a single document using a GeometryCollection. The following example is a Geometry Collection of MultiLineString and Polygon over Central Park:
@@ -95,7 +95,7 @@ So using the same approach you will be able to create MultiPoint, MultiLineStrin
 }
 ```
 
-{% img http://3.bp.blogspot.com/-tIxoUIeSMWw/U_SUsEJ_EDI/AAAAAAAAArY/2qelBrB1xRY/s1600/03-gejson-collection.png )
+![](http://3.bp.blogspot.com/-tIxoUIeSMWw/U_SUsEJ_EDI/AAAAAAAAArY/2qelBrB1xRY/s1600/03-gejson-collection.png )
 
 Note: You can if you want test/visualize these JSON documents using the [http://geojsonlint.com/](http://geojsonlint.com/) service.
 
@@ -184,7 +184,7 @@ Result:
 
 So the query is using the "California MultiPolygon" and looks in the airports collection to find all the airports that are in these polygons. This looks like the following image on a map:
 
-{% img http://1.bp.blogspot.com/-AO6C6fgsrYQ/U_Wyr2RHPWI/AAAAAAAAAro/hVn6YFJQtNI/s1600/04-geojson-cal-airport.png )
+![](http://1.bp.blogspot.com/-AO6C6fgsrYQ/U_Wyr2RHPWI/AAAAAAAAAro/hVn6YFJQtNI/s1600/04-geojson-cal-airport.png )
 
 You can use any other query features or criteria, for example you can limit the query to international airport only sorted by name :
 
@@ -241,7 +241,7 @@ Result:
 { "name" : "Arizona", "code" : "AZ" }
 ```
 
-{% img http://3.bp.blogspot.com/--Kh1AzmsaSU/U_XreY-tRlI/AAAAAAAAAr4/cS1pgjgF2Pc/s1600/05-geojson-intersect.png )
+![](http://3.bp.blogspot.com/--Kh1AzmsaSU/U_XreY-tRlI/AAAAAAAAAr4/cS1pgjgF2Pc/s1600/05-geojson-intersect.png )
 
 Same as before `$geoIntersect` operator does not need an index to work, but it will be more efficient with the following index:
 

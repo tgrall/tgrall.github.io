@@ -15,7 +15,7 @@ You believe that you have a big data project?
 * Look at the volume -- very often it is not "that" big
 * Then implement it, and take a simple approach, for example start with MongoDB + Apache Spark
 
-{% img center center http://cdn.meme.am/instances/500x/47510205.jpg  320 'Big Data' )
+!['Big Data'](http://cdn.meme.am/instances/500x/47510205.jpg )
 
 
 <!-- truncate -->

@@ -37,7 +37,7 @@ To start Couchbase Server, just double click on the Couchbase Server. Once the s
 
 You can now configure your Couchbase instance, for this you just need to access the Admin Console, available at the following location [http://127.0.0.1:8091](http://127.0.0.1:8091/) (change the IP address if needed) or simply by going in the Couchbase menu and click on Open Admin Console entry.
 
-{% img http://4.bp.blogspot.com/-UokiHs1DlFw/T_VpJHmn8KI/AAAAAAAAAUo/oy7bh5w9nOw/s1600/couchbase-menu.png )
+![](http://4.bp.blogspot.com/-UokiHs1DlFw/T_VpJHmn8KI/AAAAAAAAAUo/oy7bh5w9nOw/s1600/couchbase-menu.png )
 
 
 1.  Welcome Screen : Click Setup
@@ -48,7 +48,7 @@ You can now configure your Couchbase instance, for this you just need to access 
 6.  Configure the server with a final step with the administrator username and password
 7.  When this is done you are automatically redirected to the Admin Console.
 
-{% img http://2.bp.blogspot.com/-_a1iynqdk8w/T_VpTwa5qEI/AAAAAAAAAUw/ZGBHZsC6x_8/s320/install-step8.png )
+![](http://2.bp.blogspot.com/-_a1iynqdk8w/T_VpTwa5qEI/AAAAAAAAAUw/ZGBHZsC6x_8/s320/install-step8.png )
 
 This is it! You are ready to use your Couchbase server.
 

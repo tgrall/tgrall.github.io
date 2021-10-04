@@ -7,7 +7,7 @@ Last Friday (April 18th) I was attending the launch of "eXo WebOS" in Paris. Ben
 
 Like any internet user, each time I see eXo Web OS and applications I am very very impressed. They have pushed very far the use of AJAX based applications to offer a complete virtualization of the OS/Desktop, not in a Virtual Machine, but simply in your favorite browser.
 
-{% img http://1.bp.blogspot.com/_aoQgQ1obiyE/SAxdf2YzmSI/AAAAAAAAADk/B9iAEMKI8yc/s320/webos001.png )
+![](http://1.bp.blogspot.com/_aoQgQ1obiyE/SAxdf2YzmSI/AAAAAAAAADk/B9iAEMKI8yc/s320/webos001.png )
 
 As you  can see in this screenshot, eXo is launching in your browser, a complete desktop, where I run many applications provided by eXo: Calendar, Forum, Mail, but a also a calculator gadget attached to the desktop itself. The easiest is to try the product, go to [eXoplatform site and download it](http://www.exoplatform.com/portal/public/en/quicktry).
 

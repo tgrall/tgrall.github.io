@@ -33,9 +33,7 @@ Mathieu highlighted the following points:
 * Use the proper [read preference](http://docs.mongodb.org/manual/core/read-preference/)&nbsp; (nearest in this case) to deliver the data as fast as possible,
 * Develop with JSON Documents provides lot of flexibility to the developers, that can add new features faster.
 
-{% img center http://4.bp.blogspot.com/-AWHn75hAyBY/VL9EMpRrFVI/AAAAAAAAAwA/CrDMkKL5A1Y/s1600/IMG_3743.jpg )
-
-{% slideshare 43741214 )
+![](http://4.bp.blogspot.com/-AWHn75hAyBY/VL9EMpRrFVI/AAAAAAAAAwA/CrDMkKL5A1Y/s1600/IMG_3743.jpg )
 
 
 ### Aggregation Framework

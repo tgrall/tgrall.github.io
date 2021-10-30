@@ -4,9 +4,16 @@
         <title>Tug's Site Blog</title>
         <link>https://tgrall.github.io/blog</link>
         <description>Tug's Site Blog</description>
-        <lastBuildDate>Sat, 16 May 2020 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 30 Oct 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[How to Write Custom GitHub Action (Part 1/2)]]></title>
+            <link>https://tgrall.github.io/blog/2021/10/30/how-to-write-a-github-action</link>
+            <guid>How to Write Custom GitHub Action (Part 1/2)</guid>
+            <pubDate>Sat, 30 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Automation is a key element of modern software development and deployment. GitHub with GitHub Actions allows you to automate many tasks, starting with your continuous integration and continuous deployment... but GitHub Actions a lot more than a CI/CD, you can use it for provisioning your environments, automating some project management tasks. However, it is not the purpose of this post, where I want to focus on the development of your own Github Action!]]></description>
+        </item>
         <item>
             <title><![CDATA[Simple caching service with Redis]]></title>
             <link>https://tgrall.github.io/blog/2020/05/16/simple-caching-service-with-redis</link>

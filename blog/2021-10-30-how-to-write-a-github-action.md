@@ -32,6 +32,9 @@ The following screenshot shows messages and alerts raised by the actions during 
 2. Add some detailed annotation with reference to source code (lines) with error
 3. Deploy the action
 
+If you prefer a video version of it, take a look to "[Build Your Own Action](https://www.youtube.com/embed/kKbIEPsLj88)" on YouTube.
+
+
 It is time now to dive into the example!
 
 <!--truncate-->
@@ -366,4 +369,9 @@ In this first article you have learned how to:
 In the next article we will add more logic to check the content of the `README.md` file and learn how to create detailed checks and annotations.
 
 
-If you have questions, commemnts about this article, you can use the Discussions: 
+If you have questions, commemnts about this article, you can use the following [GitHub Discussion](https://github.com/tgrall/tgrall.github.io/discussions/7).
+
+
+## Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kKbIEPsLj88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

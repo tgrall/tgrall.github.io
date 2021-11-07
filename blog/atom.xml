@@ -2,14 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tgrall.github.io/blog</id>
     <title>Tug's Site Blog</title>
-    <updated>2021-10-30T00:00:00.000Z</updated>
+    <updated>2021-11-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tgrall.github.io/blog"/>
     <subtitle>Tug's Site Blog</subtitle>
     <icon>https://tgrall.github.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[How to Write Custom GitHub Action (Part 1/2)]]></title>
-        <id>How to Write Custom GitHub Action (Part 1/2)</id>
+        <title type="html"><![CDATA[Write GitHub Action: Checks and Annotations API (Part 2)]]></title>
+        <id>Write GitHub Action: Checks and Annotations API (Part 2)</id>
+        <link href="https://tgrall.github.io/blog/2021/11/07/how-to-write-a-github-action-annotation-api"/>
+        <updated>2021-11-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In the first blog post of this series, I have explained how to create a custom GitHub Action that is interesting when you do not find the action that you need on the GitHub Marketplace.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Write Custom GitHub Action (Part 1)]]></title>
+        <id>How to Write Custom GitHub Action (Part 1)</id>
         <link href="https://tgrall.github.io/blog/2021/10/30/how-to-write-a-github-action"/>
         <updated>2021-10-30T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Automation is a key element of modern software development and deployment. GitHub with GitHub Actions allows you to automate many tasks, starting with your continuous integration and continuous deployment... but GitHub Actions a lot more than a CI/CD, you can use it for provisioning your environments, automating some project management tasks. However, it is not the purpose of this post, where I want to focus on the development of your own Github Action!]]></summary>

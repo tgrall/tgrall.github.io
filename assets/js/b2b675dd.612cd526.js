@@ -1,0 +1,1 @@
+(self.webpackChunktgrall_blog=self.webpackChunktgrall_blog||[]).push([[90533],{2383:function(l){"use strict";l.exports=JSON.parse('{"permalink":"/blog","page":1,"postsPerPage":10,"totalPages":26,"totalCount":252,"previousPage":null,"nextPage":"/blog/page/2","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

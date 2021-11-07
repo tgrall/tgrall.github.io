@@ -1,5 +1,5 @@
 ---
-title: How to Write Custom GitHub Action (Part 1/2)
+title: How to Write Custom GitHub Action (Part 1)
 tags: [github, actions, automation, javascript]
 ---
 

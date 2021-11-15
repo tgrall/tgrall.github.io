@@ -14,13 +14,12 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Windsurfing Sessions',
-    link: 'https://windr.org/riders/10155176187373201',
+    title: 'YouTube Channel',
+    link: 'https://www.youtube.com/channel/UCA1kgHJTFZW-MRcr8KX_QYQ',
     img: '/img/tgrall-001.png',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Demonstrations & Talks
       </>
     ),
   },

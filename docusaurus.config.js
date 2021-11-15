@@ -46,13 +46,13 @@ module.exports = {
               href: 'https://twitter.com/tgrall',
             },
             {
+              label: 'YouTube',
+              href: 'https://www.youtube.com/channel/UCA1kgHJTFZW-MRcr8KX_QYQ',
+            },            
+            {
               label: 'LinkedIn',
               href: 'https://www.linkedin.com/in/tugdualgrall/',
             },
-            {
-              label: 'Instagram',
-              href: 'https://www.instagram.com/tgrall/',
-            },            
           ],
         },
         {

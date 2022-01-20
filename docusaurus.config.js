@@ -69,7 +69,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © 2003 - ${new Date().getFullYear()} Tugdual Grall built with Docusaurus.`,
+      copyright: `Copyright © 2003 -- ${new Date().getFullYear()} Tugdual Grall built with Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,

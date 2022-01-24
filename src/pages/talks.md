@@ -4,20 +4,24 @@ title: Talks
 
 # Talks
 
+### 2022
+
+- 2022-02-15 - Microsoft DevOps Forum 2022 - DevSecOps : Add Security to your DevOps
 
 ### 2021
 
-- 2021-11-02 - [Asynconf 2021](http://asynconf.fr/)
-- 2021-10-07 - [CloudNord _(Virtual)_](https://www.cloudnord.fr/programme2021) : GitHub Codespaces: Contribute to a project in few minutes
-- 2021-09-29 - [DevoxxFR](https://cfp.devoxx.fr/2021/talk/FKI-6245/Redis_du_Cle%2FValeur_au_Multi-Modele): Redis: From key value to multi-model
-- 2021-09-23 - [DataOps.Rocks](https://summit-2021.dataops.rocks/en/session/dd486f21-b4b8-eb11-94b3-000d3a219024) : From DevOps to DevSecOps: developing secure applications, together!
+- 2021-12-08 - [Microsoft DevOps Forum 2021](https://mktoevents.com/Microsoft+Event/303674/157-GQE-382) - Application Security & DevSecOps: Shifting Left with GitHub Advanced Security
+- 2021-11-02 - [Asynconf 2021](http://asynconf.fr/) - GitHub Codespaces: Contribute to a project in few minutes
+- 2021-10-07 - [CloudNord _(Virtual)_](https://www.cloudnord.fr/programme2021) - GitHub Codespaces: Contribute to a project in few minutes
+- 2021-09-29 - [DevoxxFR](https://cfp.devoxx.fr/2021/talk/FKI-6245/Redis_du_Cle%2FValeur_au_Multi-Modele) - Redis: From key value to multi-model
+- 2021-09-23 - [DataOps.Rocks](https://summit-2021.dataops.rocks/en/session/dd486f21-b4b8-eb11-94b3-000d3a219024) - From DevOps to DevSecOps: developing secure applications, together!
 - 2021-07-08 - [SAAS Forward](https://events.microsoft.fr/saas-forward/session/d835aa64-ffa7-eb11-94b3-501ac5921410)
-- 2021-06-29 - [SophiaConf](https://www.youtube.com/watch?v=7NC7U_KMYwM): Code to Clode, codez, testez et déployez dans le cloud avec GitHub & Codespaces
+- 2021-06-29 - [SophiaConf](https://www.youtube.com/watch?v=7NC7U_KMYwM) - Code to Clode, codez, testez et déployez dans le cloud avec GitHub & Codespaces
 
 
 ---
   
-## 2020
+### 2020
 
 - 2020-01-23 - <a href="http://www.poitoucharentesjug.org/">Poitou JUG</a> : Redis: From Key/Value to Multimodal database
 - 2020-01-20 - <a href="https://nantesjug.org">Nantes JUG</a> : Redis: From Key/Value to Multimodal database

@@ -1,1 +1,0 @@
-(self.webpackChunktgrall_blog=self.webpackChunktgrall_blog||[]).push([[34162],{69743:function(l){"use strict";l.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/pivotal","name":"pivotal","count":1,"permalink":"/blog/tags/pivotal"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktgrall_blog=self.webpackChunktgrall_blog||[]).push([[69159],{85455:function(g){g.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/groovy","name":"groovy","count":4,"permalink":"/blog/tags/groovy"}')}}]);

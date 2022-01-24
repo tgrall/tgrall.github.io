@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktgrall_blog=self.webpackChunktgrall_blog||[]).push([[19526],{81200:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/webservices","name":"webservices","count":1,"permalink":"/blog/tags/webservices"}')}}]);

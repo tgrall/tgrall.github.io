@@ -4,9 +4,16 @@
         <title>Tug's Site Blog</title>
         <link>https://tgrall.github.io/blog</link>
         <description>Tug's Site Blog</description>
-        <lastBuildDate>Sun, 07 Nov 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Jan 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Use private actions with your team]]></title>
+            <link>https://tgrall.github.io/blog/2022/01/24/share-private-actions-enterprise</link>
+            <guid>Use private actions with your team</guid>
+            <pubDate>Mon, 24 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[A long-awaited feature is now available on GitHub: share actions in your workflows in your enterprise from Internal Repositories 🤖 !]]></description>
+        </item>
         <item>
             <title><![CDATA[Write GitHub Action: Checks and Annotations API (Part 2)]]></title>
             <link>https://tgrall.github.io/blog/2021/11/07/how-to-write-a-github-action-annotation-api</link>

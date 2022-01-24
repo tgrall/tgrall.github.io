@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktgrall_blog=self.webpackChunktgrall_blog||[]).push([[71785],{55785:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/javaee","name":"javaee","count":3,"permalink":"/blog/tags/javaee"}')}}]);

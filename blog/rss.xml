@@ -8,9 +8,9 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Use private actions with your team]]></title>
+            <title><![CDATA[Use Private Actions with your Team]]></title>
             <link>https://tgrall.github.io/blog/2022/01/24/share-private-actions-enterprise</link>
-            <guid>Use private actions with your team</guid>
+            <guid>Use Private Actions with your Team</guid>
             <pubDate>Mon, 24 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[A long-awaited feature is now available on GitHub: share actions in your workflows in your enterprise from Internal Repositories 🤖 !]]></description>
         </item>

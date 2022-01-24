@@ -8,8 +8,8 @@
     <subtitle>Tug's Site Blog</subtitle>
     <icon>https://tgrall.github.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Use private actions with your team]]></title>
-        <id>Use private actions with your team</id>
+        <title type="html"><![CDATA[Use Private Actions with your Team]]></title>
+        <id>Use Private Actions with your Team</id>
         <link href="https://tgrall.github.io/blog/2022/01/24/share-private-actions-enterprise"/>
         <updated>2022-01-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[A long-awaited feature is now available on GitHub: share actions in your workflows in your enterprise from Internal Repositories 🤖 !]]></summary>

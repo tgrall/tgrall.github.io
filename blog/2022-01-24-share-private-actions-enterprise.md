@@ -1,11 +1,11 @@
 ---
-title: "Use private actions with your team"
+title: "Use Private Actions with your Team"
 tags: [github, actions, automation, javascript]
 ---
 
 A long-awaited feature is now available on GitHub: share **actions** in your workflows in your enterprise from Internal Repositories 🤖 !
 
-When a developer does not find a suitable GitHub Action in the [Marketplace](http://github.com/marketplace), they can create their own, something that I have documented in the "[How to Write Custom GitHub Action](/blog/2022-01-24-how-to-write-custom-github-action.md)" post.
+When a developer does not find a suitable GitHub Action in the [Marketplace](http://github.com/marketplace), they can create their own, something that I have documented in the "[How to Write Custom GitHub Action](/blog/2021/10/30/how-to-write-a-github-action)" post.
 
 Until today, Actions had to be stored in a public repository, to allow other repositories to use them in workflows *(or take a complex approach)*. This has changed 🎉.
 

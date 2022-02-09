@@ -15,7 +15,7 @@ Once your repository visibility is set to "Internal", in the **Settings** pages,
 
 ![GitHub Actions Access](/images/posts/share-private-actions-enterprise/01-action-access.png)
 
-The following videi shows this feature in action:
+The following video shows this feature in action:
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IC58NsaiOuI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

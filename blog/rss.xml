@@ -4,9 +4,16 @@
         <title>Tug's Site Blog</title>
         <link>https://tgrall.github.io/blog</link>
         <description>Tug's Site Blog</description>
-        <lastBuildDate>Mon, 24 Jan 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 08 Feb 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Getting Started with GitHub Releases]]></title>
+            <link>https://tgrall.github.io/blog/2022/02/08/getting-started-with-github-releases</link>
+            <guid>Getting Started with GitHub Releases</guid>
+            <pubDate>Tue, 08 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[In the following video, I show how to create a new product release with GitHub. This example shows how to:]]></description>
+        </item>
         <item>
             <title><![CDATA[Use Private Actions with your Team]]></title>
             <link>https://tgrall.github.io/blog/2022/01/24/share-private-actions-enterprise</link>

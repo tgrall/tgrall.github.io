@@ -1,0 +1,1 @@
+(self.webpackChunktgrall_blog=self.webpackChunktgrall_blog||[]).push([[43024],{62557:function(g){"use strict";g.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/mongodb","name":"mongodb","count":1,"permalink":"/blog/tags/mongodb"}')}}]);

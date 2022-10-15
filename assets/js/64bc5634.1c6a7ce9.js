@@ -1,1 +1,0 @@
-(self.webpackChunktgrall_blog=self.webpackChunktgrall_blog||[]).push([[77973],{50238:function(l){"use strict";l.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/failover","name":"failover","count":1,"permalink":"/blog/tags/failover"}')}}]);

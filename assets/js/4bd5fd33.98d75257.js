@@ -1,1 +1,0 @@
-(self.webpackChunktgrall_blog=self.webpackChunktgrall_blog||[]).push([[56560],{15294:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/automation","name":"automation","count":4,"permalink":"/blog/tags/automation"}')}}]);

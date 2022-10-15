@@ -1,1 +1,0 @@
-(self.webpackChunktgrall_blog=self.webpackChunktgrall_blog||[]).push([[21369],{79006:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/maprdb","name":"maprdb","count":1,"permalink":"/blog/tags/maprdb"}')}}]);

@@ -1,1 +1,0 @@
-(self.webpackChunktgrall_blog=self.webpackChunktgrall_blog||[]).push([[16304],{27688:function(l){"use strict";l.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/oracle","name":"oracle","count":13,"permalink":"/blog/tags/oracle"}')}}]);

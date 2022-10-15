@@ -76,9 +76,6 @@ module.exports = {
       darkTheme: darkCodeTheme,
       additionalLanguages: ['java'],
     },
-    googleAnalytics: {
-      trackingID: 'UA-1520374-2'
-    }
 },
   presets: [
     [
@@ -99,6 +96,9 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        googleAnalytics: {
+          trackingID: 'UA-1520374-2'
+        }    
       },
     ],
   ],

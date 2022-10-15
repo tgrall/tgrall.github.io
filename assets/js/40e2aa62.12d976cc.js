@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktgrall_blog=self.webpackChunktgrall_blog||[]).push([[77377],{72083:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/microservices","name":"microservices","count":1,"permalink":"/blog/tags/microservices"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktgrall_blog=self.webpackChunktgrall_blog||[]).push([[77973],{83439:l=>{l.exports=JSON.parse('{"label":"failover","permalink":"/blog/tags/failover","allTagsPath":"/blog/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktgrall_blog=self.webpackChunktgrall_blog||[]).push([[27064],{17219:l=>{l.exports=JSON.parse('{"label":"scala","permalink":"/blog/tags/scala","allTagsPath":"/blog/tags","count":1}')}}]);

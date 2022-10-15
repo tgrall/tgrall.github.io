@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktgrall_blog=self.webpackChunktgrall_blog||[]).push([[77158],{26017:function(l){l.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/oc-4-j","name":"oc4j","count":5,"permalink":"/blog/tags/oc-4-j"}')}}]);

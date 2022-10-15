@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktgrall_blog=self.webpackChunktgrall_blog||[]).push([[6635],{88031:function(l){l.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/cluster","name":"cluster","count":2,"permalink":"/blog/tags/cluster"}')}}]);

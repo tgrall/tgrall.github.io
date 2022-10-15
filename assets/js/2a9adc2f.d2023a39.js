@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktgrall_blog=self.webpackChunktgrall_blog||[]).push([[19526],{81200:e=>{e.exports=JSON.parse('{"label":"webservices","permalink":"/blog/tags/webservices","allTagsPath":"/blog/tags","count":1}')}}]);

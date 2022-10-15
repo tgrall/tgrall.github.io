@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktgrall_blog=self.webpackChunktgrall_blog||[]).push([[44621],{13500:l=>{l.exports=JSON.parse('{"label":"osx","permalink":"/blog/tags/osx","allTagsPath":"/blog/tags","count":1}')}}]);

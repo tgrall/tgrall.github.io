@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktgrall_blog=self.webpackChunktgrall_blog||[]).push([[24923],{71027:l=>{l.exports=JSON.parse('{"label":"jpa","permalink":"/blog/tags/jpa","allTagsPath":"/blog/tags","count":2}')}}]);

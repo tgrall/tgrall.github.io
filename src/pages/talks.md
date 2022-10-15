@@ -6,14 +6,6 @@ title: Talks
 
 ### 2022
 
-- 2022-10-20 - [DevFest Nantes](https://devfest.gdgnantes.com/) - DevSecOps : de la sécurité dans mon DevOps avec [@adrienpessu](https://twitter.com/adrienpessu)
-- 2022-09-13 - [Telecom Valley](https://www.telecom-valley.fr/13-septembre-2022-workshop-github/) - GitHub from Zero to Hero
-- 2022-09-09 - [Jug Summer Camp](https://www.jugsummercamp.org/edition/13)- Developer et Deployer sur le cloud avec GitHub
-- 2002-07-01 - [Breizhcamp](https://www.breizhcamp.org/) - DevSecOps : de la sécurité dans mon DevOps avec [@adrienpessu](https://twitter.com/adrienpessu)
-- 2022-06-28 - [Agile Trends](https://agiletrendsbr.com/programacao-dev-trends-2022/) - Copilot: Your AI Programmer
-- 2022-06-27 - [DevOps and Cloud Days](https://devopsandclouddays.com/2022-eng/) - Develop and Deploy in the Cloud for the Cloud with GitHub | Copilot: Your AI Programmer
-- 2022-06-27 - [SophiaConf](https://www.telecom-valley.fr/sophiaconf-2022/) - Copilot : L’intelligence artificielle au service des développeurs
-- 2022-06-16 - [Kubernetes Geneva Meetup](https://www.meetup.com/kubernetes-geneva/) - Simplifier le developpement et déploiment d'applications sur Kubernetes avec GitHub
 - 2022-02-15 - Microsoft DevOps Forum 2022 - DevSecOps : Add Security to your DevOps
 
 ### 2021

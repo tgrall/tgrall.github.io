@@ -8,6 +8,8 @@ title: Talks
 
 - 2022-11-04 - [GoTech World](https://www.gotech.world/devops-speakers) - DevSecOps: add Security to your DevOps!
 - 2022-10-20 - [DevFest Nantes](https://devfest.gdgnantes.com/) - DevSecOps : de la sécurité dans mon DevOps avec [@adrienpessu](https://twitter.com/adrienpessu)
+- 2022-10-11 - [SFEIR Cloud Night](hthttps://nantesjug.org/#/events/2022_09_22)_(Internal Event)_ - Copilot: Your AI Programmer
+- 2022-09-22 - [NantesJUG](hthttps://nantesjug.org/#/events/2022_09_22) - Copilot: Your AI Programmer
 - 2022-09-13 - [Telecom Valley](https://www.telecom-valley.fr/13-septembre-2022-workshop-github/) - GitHub from Zero to Hero
 - 2022-09-09 - [Jug Summer Camp](https://www.jugsummercamp.org/edition/13)- Developer et Deployer sur le cloud avec GitHub
 - 2002-07-01 - [Breizhcamp](https://www.breizhcamp.org/) - DevSecOps : de la sécurité dans mon DevOps avec [@adrienpessu](https://twitter.com/adrienpessu)

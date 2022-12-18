@@ -4,15 +4,22 @@ title: Talks
 
 # Talks
 
+### 2023
+
+- 2022-01-26 - [Ch'ti JUG](http://chtijug.org/) - TBD
+
 ### 2022
 
+- 2022-12-17 - [DevFest Mons](https://gdg.community.dev/events/details/google-gdg-mons-presents-devfest-mons-2022/) - DevSecOps: add Security to your DevOps! (with [@adrienpessu](https://twitter.com/adrienpessu))
+- 2022-12-01 - Microsoft (internal) - How to talk _(and why)_ to Developers!
+- 2022-11-17 - [Cloud Expo Europe](https://www.cloudexpoeurope.fr/programme-de-conferences-2022/devsecops-de-la-s%C3%A9curit%C3%A9-dans-mon-devops) - DevSecOps : de la Sécurité dans mon DevOps
 - 2022-11-04 - [GoTech World](https://www.gotech.world/devops-speakers) - DevSecOps: add Security to your DevOps!
-- 2022-10-20 - [DevFest Nantes](https://devfest.gdgnantes.com/) - DevSecOps : de la sécurité dans mon DevOps avec [@adrienpessu](https://twitter.com/adrienpessu)
+- 2022-10-20 - [DevFest Nantes](https://devfest.gdgnantes.com/) - DevSecOps : de la sécurité dans mon DevOps (with [@adrienpessu](https://twitter.com/adrienpessu))
 - 2022-10-11 - [SFEIR Cloud Night](hthttps://nantesjug.org/#/events/2022_09_22)_(Internal Event)_ - Copilot: Your AI Programmer
 - 2022-09-22 - [NantesJUG](hthttps://nantesjug.org/#/events/2022_09_22) - Copilot: Your AI Programmer
 - 2022-09-13 - [Telecom Valley](https://www.telecom-valley.fr/13-septembre-2022-workshop-github/) - GitHub from Zero to Hero
 - 2022-09-09 - [Jug Summer Camp](https://www.jugsummercamp.org/edition/13)- Developer et Deployer sur le cloud avec GitHub
-- 2002-07-01 - [Breizhcamp](https://www.breizhcamp.org/) - DevSecOps : de la sécurité dans mon DevOps avec [@adrienpessu](https://twitter.com/adrienpessu)
+- 2002-07-01 - [Breizhcamp](https://www.breizhcamp.org/) - DevSecOps : de la sécurité dans mon DevOps (with [@adrienpessu](https://twitter.com/adrienpessu))
 - 2022-06-28 - [Agile Trends](https://agiletrendsbr.com/programacao-dev-trends-2022/) - Copilot: Your AI Programmer
 - 2022-06-27 - [DevOps and Cloud Days](https://devopsandclouddays.com/2022-eng/) - Develop and Deploy in the Cloud for the Cloud with GitHub | Copilot: Your AI Programmer
 - 2022-06-27 - [SophiaConf](https://www.telecom-valley.fr/sophiaconf-2022/) - Copilot : L’intelligence artificielle au service des développeurs

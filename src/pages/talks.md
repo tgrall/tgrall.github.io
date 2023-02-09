@@ -7,6 +7,7 @@ title: Talks
 ### 2023
 
 - 2022-02-09 - [IMT](https://www.imt.fr/) - [DevSecOps: add Security to your DevOps!](https://www.linkedin.com/posts/chaire-d-enseignement-archops_tout-savoir-sur-le-devsecops-cest-possible-activity-7019595771322728448-GA92/?utm_source=share&utm_medium=member_desktop)
+- 2022-01-13 - [ASI Group]([http://chtijug.org/](https://asi-group.fr/en/)) - BBL: Developper et Deployer avec GitHub, Codespaces, Copilot et Actions!
 - 2022-01-26 - [Ch'ti JUG](http://chtijug.org/) - [Developper et Deployer avec GitHub, Codespaces, Copilot et Actions!](https://www.meetup.com/chtijug/events/290693844/) 
 
 ### 2022

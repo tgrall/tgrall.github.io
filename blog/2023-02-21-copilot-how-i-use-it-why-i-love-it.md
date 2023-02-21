@@ -72,7 +72,7 @@ Here, I am using Copilot in VS Code, and I am working on a project that uses EJS
 
 By adding new comments in the HTML file, Copilot can suggest the code I need to add to the page, and the context of the page is used to use the proper HTML elements, a single value for the header, and a list for the detailed view. And as you may have noticed, the suggested code is using the coding style of the project, so I do not have to change the way I code.
 
-When I am using Copilot this way, I am rarely used the Copilot Window (`ctrl+enter`), I am using the suggestions directly in the editor. So this is why I can say that you do not have to change the way you code when using Copilot, just code as you usually do, and Copilot will help with some portions of the code almost "transparently".
+When I am using Copilot this way, I am rarely using the Copilot Window (`ctrl+enter`), I am using the suggestions directly in the editor. So this is why I can say that you do not have to change the way you code when using Copilot, just code as you usually do, and Copilot will help with some portions of the code almost "transparently".
 
 _So you can see now why I am saying that Copilot is helping me to write code faster._
 

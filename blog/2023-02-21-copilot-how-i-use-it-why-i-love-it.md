@@ -106,7 +106,7 @@ Copilot is quite handy when you want to learn new programming languages and/or n
 
 There, I am using a mix of inline suggestions and the Copilot Window, to discover new things. 
 
-One thing I am learning is [Playwright](https://playwright.dev/)](https://playwright.dev/), to write end-to-end tests; and I want to use it to create screenshots in the feature I have described above - and move from Python to TypeScript.
+One thing I am learning is [Playwright](https://playwright.dev/), to write end-to-end tests; and I want to use it to create screenshots in the feature I have described above - and move from Python to TypeScript.
 
 ### And now... ChatGPT
 

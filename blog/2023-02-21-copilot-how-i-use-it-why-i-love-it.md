@@ -3,6 +3,7 @@ title: "GitHub Copilot: How I use it, and Why I love it"
 tags: [Github, development, Copilot, AI, IDE]
 ---
 
+![GitHub Copilot: How I use it, and Why I love it](/images/posts/2023-02-04-a-year-with-copilot/header.jpeg)
 
 Since its launch, GitHub Copilot has been a hot topic in the developer community. Some people love it, some people hate it, and some people are just curious about it.  I am part of the first group, and I have been using it for more than a year now. I will not go into the details of how Copilot works, but I will share with you my experience with it, and how it has changed my life as a developer.
 

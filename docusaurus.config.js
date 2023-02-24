@@ -14,6 +14,7 @@ module.exports = {
   projectName: 'tgrall.github.io', // Usually your repo name.
   trailingSlash: false,
   themeConfig: {
+    metadata: [{name: 'keywords', content: 'github, development, blog, devops, devsecops, cloud, java, javascript, copilot'}],
     navbar: {
       title: "Tug's Site",
       logo: {

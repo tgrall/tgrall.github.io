@@ -1,6 +1,8 @@
 ---
 title: "GitHub Copilot: How I use it, and Why I love it"
+description: How do I use GitHub Copilot during my development, why I love it!.
 tags: [Github, development, Copilot, AI, IDE]
+keywords: [Github, development, Copilot, AI, IDE]
 ---
 
 ![GitHub Copilot: How I use it, and Why I love it](/images/posts/2023-02-04-a-year-with-copilot/header.jpeg)

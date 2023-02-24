@@ -6,6 +6,7 @@ title: Talks
 
 ### 2023
 
+- 2023-03-02 - [MTG .Net Nantes](https://www.meetup.com/fr-FR/mtg-nantes/) - [Developper et Deployer avec GitHub, Codespaces, Copilot et Actions!](https://www.meetup.com/fr-FR/mtg-nantes/events/291759422/)
 - 2023-02-09 - [IMT](https://www.imt.fr/) - [DevSecOps: add Security to your DevOps!](https://www.linkedin.com/posts/chaire-d-enseignement-archops_tout-savoir-sur-le-devsecops-cest-possible-activity-7019595771322728448-GA92/?utm_source=share&utm_medium=member_desktop)
 - 2023-01-13 - [ASI Group](https://asi-group.fr/en/) - BBL: Developper et Deployer avec GitHub, Codespaces, Copilot et Actions!
 - 2023-01-26 - [Ch'ti JUG](http://chtijug.org/) - [Developper et Deployer avec GitHub, Codespaces, Copilot et Actions!](https://www.meetup.com/chtijug/events/290693844/) 

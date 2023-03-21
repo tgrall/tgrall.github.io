@@ -6,6 +6,9 @@ title: Talks
 
 ### 2023
 
+- 2023-07-10 - [RivieraDev '23](https://rivieradev.fr/) - [Developper et Deployer dans le Cloud avec GitHub, Codespaces, Copilot et Actions!](https://gist.github.com/tgrall/c0e26567f200b2efe28a389d1b461e98#file-github-generic-talk-fr-md)
+- 2023-06-29 - [Sunny Tech '23](https://sunny-tech.io/) - [Copilot : L’intelligence artificielle au service des développeurs](https://gist.github.com/tgrall/c0e26567f200b2efe28a389d1b461e98#file-copilot-intro-fr-md)
+- 2023-03-15 - [Microsoft Azure Middle East Community](https://www.meetup.com/azure-middle-east/)(virtual) - Augmented Development with GitHub Copilot
 - 2023-03-02 - [MTG .Net Nantes](https://www.meetup.com/fr-FR/mtg-nantes/) - [Developper et Deployer avec GitHub, Codespaces, Copilot et Actions!](https://www.meetup.com/fr-FR/mtg-nantes/events/291759422/)
 - 2023-02-09 - [IMT](https://www.imt.fr/) - [DevSecOps: add Security to your DevOps!](https://www.linkedin.com/posts/chaire-d-enseignement-archops_tout-savoir-sur-le-devsecops-cest-possible-activity-7019595771322728448-GA92/?utm_source=share&utm_medium=member_desktop)
 - 2023-01-13 - [ASI Group](https://asi-group.fr/en/) - BBL: Developper et Deployer avec GitHub, Codespaces, Copilot et Actions!

@@ -6,7 +6,12 @@ title: Talks
 
 ### 2023
 
-- 2023-07-10 - [RivieraDev '23](https://rivieradev.fr/) - [Developper et Deployer dans le Cloud avec GitHub, Codespaces, Copilot et Actions!](https://gist.github.com/tgrall/c0e26567f200b2efe28a389d1b461e98#file-github-generic-talk-fr-md)
+- 2023-11-30 - [ADN Ouest](https://www.adnouest.org/evenement/quels-impacts-de-l-ia-sur-les-metiers-du-developpement-informatique-aujourd-hui-et-demain) - Quels impacts de l'IA sur les métiers du développement informatique aujourd'hui et demain ?
+- 2023-11-30 - [Gen AI Paris ](https://www.generativeai.paris/genaiparis) - L'IA générative au service du développeur
+- 2023-11-28 - [Generative AI Nantes](https://www.meetup.com/generative-ai-nantes/events/297052000/) - Améliorer la productivité des développeurs avec Github Copilot
+- 2023-11-16 - [DevOps Live Paris](https://www.cloudexpoeurope.fr/programme-de-conferences-2023/github-copilot-lintelligence-artificielle-au-service-du-devops) - GitHub Copilot : L’Intelligence Artificielle au service du DevOps
+- 2023-10-06 - [DevFest Perros Guirec](https://devfest.codedarmor.fr/) - Copilot : L’intelligence artificielle au service des développeurs
+- 2023-07-10 - [RivieraDev '23](https://rivieradev.fr/) - [Developper et Deployer avec GitHub, Codespaces, Copilot et Actions!](https://gist.github.com/tgrall/c0e26567f200b2efe28a389d1b461e98#file-github-generic-talk-fr-md)
 - 2023-06-29 - [Sunny Tech '23](https://sunny-tech.io/) - [Copilot : L’intelligence artificielle au service des développeurs](https://gist.github.com/tgrall/c0e26567f200b2efe28a389d1b461e98#file-copilot-intro-fr-md)
 - 2023-03-15 - [Microsoft Azure Middle East Community](https://www.meetup.com/azure-middle-east/)(virtual) - Augmented Development with GitHub Copilot
 - 2023-03-02 - [MTG .Net Nantes](https://www.meetup.com/fr-FR/mtg-nantes/) - [Developper et Deployer avec GitHub, Codespaces, Copilot et Actions!](https://www.meetup.com/fr-FR/mtg-nantes/events/291759422/)

@@ -24,29 +24,115 @@ This view list all the breweries by country, the index looks like:
 
 
 <table>
-<tbody>
-<tr><th>Doc id</th><th>Key</th><th>Value</th></tr>
-<tr><td>bersaglier</td><td>Argentina</td><td>null</td></tr>
-<tr><td>cervecera_jerome</td><td>Argentina</td><td>null</td></tr>
-<tr><td>brouwerij_nacional_balashi</td><td>Aruba</td><td>null</td></tr>
-<tr><td>australian_brewing_corporation</td><td>Australia</td><td>null</td></tr>
-<tr><td>carlton_and_united_breweries</td><td>Australia</td><td>null</td></tr>
-<tr><td>coopers_brewery</td><td>Australia</td><td>null</td></tr>
-<tr><td>foster_s_australia_ltd</td><td>Australia</td><td>null</td></tr>
-<tr><td>gold_coast_brewery</td><td>Australia</td><td>null</td></tr>
-<tr><td>lion_nathan_australia_hunter_street</td><td>Australia</td><td>null</td></tr>
-<tr><td>little_creatures_brewery</td><td>Australia</td><td>null</td></tr>
-<tr><td>malt_shovel_brewery</td><td>Australia</td><td>null</td></tr>
-<tr><td>matilda_bay_brewing</td><td>Australia</td><td>null</td></tr>
-<tr><td>...</td><td>...</td><td>...</td></tr>
-<tr><td>...</td><td>...</td><td>...</td></tr>
-<tr><td>...</td><td>...</td><td>...</td></tr>
-<tr><td>yellowstone_valley_brewing</td><td>United States</td><td>null</td></tr>
-<tr><td>yuengling_son_brewing</td><td>United States</td><td>null</td></tr>
-<tr><td>zea_rotisserie_and_brewery</td><td>United States</td><td>null</td></tr>
-<tr><td>fosters_tien_gang</td><td>Viet Nam</td><td>null</td></tr>
-<tr><td>hue_brewery</td><td>Viet Nam</td><td>null</td></tr>
-</tbody></table>
+  <tbody>
+    <tr>
+      <th>Doc id</th>
+      <th>Key</th>
+      <th>Value</th>
+    </tr>
+    <tr>
+      <td>bersaglier</td>
+      <td>Argentina</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>cervecera_jerome</td>
+      <td>Argentina</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>brouwerij_nacional_balashi</td>
+      <td>Aruba</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>australian_brewing_corporation</td>
+      <td>Australia</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>carlton_and_united_breweries</td>
+      <td>Australia</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>coopers_brewery</td>
+      <td>Australia</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>foster_s_australia_ltd</td>
+      <td>Australia</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>gold_coast_brewery</td>
+      <td>Australia</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>lion_nathan_australia_hunter_street</td>
+      <td>Australia</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>little_creatures_brewery</td>
+      <td>Australia</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>malt_shovel_brewery</td>
+      <td>Australia</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>matilda_bay_brewing</td>
+      <td>Australia</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <td>yellowstone_valley_brewing</td>
+      <td>United States</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>yuengling_son_brewing</td>
+      <td>United States</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>zea_rotisserie_and_brewery</td>
+      <td>United States</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>fosters_tien_gang</td>
+      <td>Viet Nam</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>hue_brewery</td>
+      <td>Viet Nam</td>
+      <td>null</td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 So now you want to navigate in this index with a page size of 5 rows.
@@ -84,42 +170,171 @@ To make this pagination more efficient it is possible to take another approach. 
 
 So if we look at the index, and add a row number to explain the pagination
 
-
 <table>
-<tbody>
-<tr><th>Row num</th><th>Doc id</th><th>Key</th><th>Value</th></tr>
-<tr><td colspan="4"><br />
-Query for page 1<br />
-`?limit=5`</td></tr>
-<tr><td>1</td><td></td><td>bersaglier</td><td>Argentina</td><td>null</td></tr>
-<tr><td>2</td><td></td><td>cervecera_jerome</td><td>Argentina</td><td>null</td></tr>
-<tr><td>3</td><td></td><td>brouwerij_nacional_balashi</td><td>Aruba</td><td>null</td></tr>
-<tr><td>4</td><td></td><td>australian_brewing_corporation</td><td>Australia</td><td>null</td></tr>
-<tr><td>5</td><td></td><td>carlton_and_united_breweries</td><td>Australia</td><td>null</td></tr>
-<tr><td colspan="4">
-Query for page 2<br />
-`?limit=5&amp;startkey="Australia"&amp;startkey_docid=carlton_and_united_breweries&amp;skip=1`
-</td></tr>
-<tr><td>6</td><td></td><td>coopers_brewery</td><td>Australia</td><td>null</td></tr>
-<tr><td>7</td><td></td><td>foster_s_australia_ltd</td><td>Australia</td><td>null</td></tr>
-<tr><td>8</td><td></td><td>gold_coast_brewery</td><td>Australia</td><td>null</td></tr>
-<tr><td>9</td><td></td><td>lion_nathan_australia_hunter_street</td><td>Australia</td><td>null</td></tr>
-<tr><td>10</td><td></td><td>little_creatures_brewery</td><td>Australia</td><td>null</td></tr>
-<tr><td colspan="4"><br />
-Query for page 3<br />
-`?limit=5&amp;startkey="Australia"&amp;startkey_docid=little_creatures_brewery``&amp;skip=1`
-</td></tr>
-<tr><td>11</td><td></td><td>malt_shovel_brewery</td><td>Australia</td><td>null</td></tr>
-<tr><td>12</td><td></td><td>matilda_bay_brewing</td><td>Australia</td><td>null</td></tr>
-<tr><td>...</td><td>...</td><td>...</td></tr>
-<tr><td>...</td><td>...</td><td>...</td></tr>
-<tr><td>...</td><td>...</td><td>...</td></tr>
-<tr><td>...</td><td></td><td>yellowstone_valley_brewing</td><td>United States</td><td>null</td></tr>
-<tr><td>...</td><td></td><td>yuengling_son_brewing</td><td>United States</td><td>null</td></tr>
-<tr><td>...</td><td></td><td>zea_rotisserie_and_brewery</td><td>United States</td><td>null</td></tr>
-<tr><td>...</td><td></td><td>fosters_tien_gang</td><td>Viet Nam</td><td>null</td></tr>
-<tr><td>...</td><td></td><td>hue_brewery</td><td>Viet Nam</td><td>null</td></tr>
-</tbody></table>
+  <tbody>
+    <tr>
+      <th>Row num</th>
+      <th>Doc id</th>
+      <th>Key</th>
+      <th>Value</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <br />
+        Query for page 1<br />
+        `?limit=5`
+      </td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td></td>
+      <td>bersaglier</td>
+      <td>Argentina</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td></td>
+      <td>cervecera_jerome</td>
+      <td>Argentina</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td></td>
+      <td>brouwerij_nacional_balashi</td>
+      <td>Aruba</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td></td>
+      <td>australian_brewing_corporation</td>
+      <td>Australia</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td></td>
+      <td>carlton_and_united_breweries</td>
+      <td>Australia</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        Query for page 2<br />
+        `?limit=5&amp;startkey="Australia"&amp;startkey_docid=carlton_and_united_breweries&amp;skip=1`
+      </td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td></td>
+      <td>coopers_brewery</td>
+      <td>Australia</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td></td>
+      <td>foster_s_australia_ltd</td>
+      <td>Australia</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td></td>
+      <td>gold_coast_brewery</td>
+      <td>Australia</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td></td>
+      <td>lion_nathan_australia_hunter_street</td>
+      <td>Australia</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td></td>
+      <td>little_creatures_brewery</td>
+      <td>Australia</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <br />
+        Query for page 3<br />
+        `?limit=5&amp;startkey="Australia"&amp;startkey_docid=little_creatures_brewery``&amp;skip=1`
+      </td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td></td>
+      <td>malt_shovel_brewery</td>
+      <td>Australia</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td></td>
+      <td>matilda_bay_brewing</td>
+      <td>Australia</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <td>...</td>
+      <td></td>
+      <td>yellowstone_valley_brewing</td>
+      <td>United States</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>...</td>
+      <td></td>
+      <td>yuengling_son_brewing</td>
+      <td>United States</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>...</td>
+      <td></td>
+      <td>zea_rotisserie_and_brewery</td>
+      <td>United States</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>...</td>
+      <td></td>
+      <td>fosters_tien_gang</td>
+      <td>Viet Nam</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>...</td>
+      <td></td>
+      <td>hue_brewery</td>
+      <td>Viet Nam</td>
+      <td>null</td>
+    </tr>
+  </tbody>
+</table>
+
 
 So as you can see in the examples above, the query uses the startkey, a document id, and just passes it using skip=1.
 

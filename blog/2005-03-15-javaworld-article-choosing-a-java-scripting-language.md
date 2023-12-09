@@ -7,4 +7,4 @@ This new [Java World article](http://www.javaworld.com/javaworld/jw-03-2005/jw-0
 
 In this article that I like I would like to read a little about the JSR-223 that should help with the integration part.
 
-I will be very interested to know how you use Java Scripting language in your projects, so feel free to drop me a comment or mail ( [tugdual[at]grallandco[dot]com](mailto:tugdual[at]grallandco[dot]com) )
+I will be very interested to know how you use Java Scripting language in your projects, so feel free to drop me a comment or mail ( tugdual at gmail)

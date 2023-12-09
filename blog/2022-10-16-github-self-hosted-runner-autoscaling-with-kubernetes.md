@@ -265,19 +265,19 @@ The `actions-runner` image is the default image used by the controller, it is a 
 
 Note: 
 
-> As you may have seen the runner pods have 2 containers, the `runner` container, and the `dind` container. The `dind` container to use docker.
-> 
->```bash
+As you may have seen the runner pods have 2 containers, the `runner` container, and the `dind` container. The `dind` container to use docker.
+ 
+```bash
 kubectl get pods -n runners -o jsonpath="{.items[*].spec.containers[*].image}" |\
   tr -s '[[:space:]]' '\n' |\
   sort |\
   uniq -c
 ```
->
->
-> Results:
->
->```bash
+
+
+Results:
+
+```bash
    2 docker:dind
    2 summerwind/actions-runner:latest
 ```

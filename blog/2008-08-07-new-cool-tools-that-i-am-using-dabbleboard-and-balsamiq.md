@@ -16,9 +16,9 @@ Take a look to this screencast explaining the basic features and use of the prod
 
 Another interesting tool is the online white board "[DabbleBoard](http://www.dabbleboard.com/main)" that allows user to quickly create and share graphs, ideas, ... A very cool feature of this tool is the automatic recognition of shapes. The best way to understand, is simply to see it in action:
 
-    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="viddler" height="342" width="437">
-        <param name="movie" value="http://www.viddler.com//simple_on_site/a95e1956" />
-        <param name="allowScriptAccess" value="always"><param name="allowFullScreen" value="true"/>
-        <embed src="http://www.viddler.com//simple_on_site/a95e1956" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" name="viddler" height="342" width="437">
-        </embed>
-    </object>
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="viddler" height="342" width="437">
+<param name="movie" value="http://www.viddler.com//simple_on_site/a95e1956" />
+<param name="allowScriptAccess" value="always" />
+<param name="allowFullScreen" value="true"/>
+<embed src="http://www.viddler.com//simple_on_site/a95e1956" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" name="viddler" height="342" width="437"></embed>
+</object>

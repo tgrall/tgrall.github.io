@@ -19,6 +19,20 @@
             <category>panache</category>
             <category>java</category>
             <category>orm</category>
+            <category>learning quarkus</category>
+        </item>
+        <item>
+            <title><![CDATA[Seamless Internationalization with GitHub Copilot]]></title>
+            <link>https://tgrall.github.io/blog/2023/12/15/github-copilot-internationalisation</link>
+            <guid>https://tgrall.github.io/blog/2023/12/15/github-copilot-internationalisation</guid>
+            <pubDate>Fri, 15 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[How GitHub Copilot helped me translate my website in seconds]]></description>
+            <content:encoded><![CDATA[<p><img loading="lazy" alt="Copilot Helping " src="/assets/images/header-1d02b97deb747fdcafcb3aef192e823e.png" width="1704" height="910" class="img_ev3q"></p><p>In the course of developing using NextJS, the integration of internationalization became a pivotal requirement on my checklist. The aim was to enable seamless translation of the application into multiple languages, leveraging the native i18n features provided by NextJS, as outlined in the <a href="https://nextjs.org/docs/app/building-your-application/routing/internationalization" target="_blank" rel="noopener noreferrer">official documentation</a>.</p><p>To facilitate this, I organized a set of JSON files, each containing translations for the application in a specific language. For simplicity, I adopted a one-file-per-language approach, ensuring uniformity by maintaining identical keys across all files. The translation process involves replacing the values associated with each key.</p><p>To expedite this crucial task, I turned to GitHub Copilot for assistance. Witness the efficiency and precision of Copilot in action by watching the following video:</p><iframe width="560" height="315" src="https://www.youtube.com/embed/C-UfSQrmI_8?si=NVZepFaOa-9yl1Jb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe><p>Yet again, GitHub Copilot proves to be the hero of my coding journey – making my day, one efficient line of code at a time!</p><p>PS: In this video I am translating the full file, but you can also translate a single key, or a set of keys, as you type them in the IDE, GitHub Copilot completion will propose you the translation.</p>]]></content:encoded>
+            <category>github</category>
+            <category>copilot</category>
+            <category>javascript</category>
+            <category>typescript</category>
+            <category>coding with copilot</category>
         </item>
         <item>
             <title><![CDATA[Simplifying Data Generation with GitHub Copilot]]></title>
@@ -56,6 +70,7 @@
             <category>panache</category>
             <category>java</category>
             <category>orm</category>
+            <category>learning quarkus</category>
         </item>
         <item>
             <title><![CDATA[Revoke Deploy Keys with GitHub CLI]]></title>

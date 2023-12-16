@@ -33,6 +33,19 @@
             <category>coding with copilot</category>
         </item>
         <item>
+            <title><![CDATA[Accelerating REST Development with GitHub Copilot]]></title>
+            <link>https://tgrall.github.io/blog/2023/12/11/github-copilot-assist-writing-a-rest-client</link>
+            <guid>https://tgrall.github.io/blog/2023/12/11/github-copilot-assist-writing-a-rest-client</guid>
+            <pubDate>Mon, 11 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[How GitHub Copilot helped me write a REST Client in seconds]]></description>
+            <content:encoded><![CDATA[<p><img loading="lazy" alt="Copilot Helping " src="/assets/images/header-196c9ff67c06d8e08eab0033edce4325.png" width="1704" height="910" class="img_ev3q"></p><p>In the process of constructing a product catalog within NextJS, I found myself in need of seamlessly interfacing with my backend using REST APIs, each adorned with a variety of URIs and parameters.</p><p>The typical structure of these URLs, such as <code>/api/v1/products?category=shoes&amp;color=red&amp;size=10</code>, prompted me to harness the power of GitHub Copilot to expedite the creation of functions with the appropriate parameters. Copilot not only assists in generating the function but also crafts the necessary fetch code for calling the API with precision.</p><p>Watch this video to witness the rapid development in action:</p><iframe width="560" height="315" src="https://www.youtube.com/embed/-WWwTHudP4I?si=-TrVAxgW_OjtF2WB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe><p>Yet again, GitHub Copilot proves to be the hero of my coding journey – making my day, one efficient line of code at a time!</p>]]></content:encoded>
+            <category>github</category>
+            <category>copilot</category>
+            <category>javascript</category>
+            <category>typescript</category>
+            <category>coding with copilot</category>
+        </item>
+        <item>
             <title><![CDATA[Quarkus: Default Values for Panache Entity Fields]]></title>
             <link>https://tgrall.github.io/blog/2023/12/09/quarkus-entity-default-value</link>
             <guid>https://tgrall.github.io/blog/2023/12/09/quarkus-entity-default-value</guid>

@@ -1,7 +1,7 @@
 ---
 title: "Quarkus: Database Projection with Panache"
 description: "Learn how to use Database Projection with Panache."
-tags: [quarkus, panache, java, orm]
+tags: [quarkus, panache, java, orm, learning quarkus]
 keywords: [quarkus, panache, java, orm]
 ---
 

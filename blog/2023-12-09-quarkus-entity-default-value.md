@@ -1,7 +1,7 @@
 ---
 title: "Quarkus: Default Values for Panache Entity Fields"
 description: "Learn how to set default values for Panache entity fields in Quarkus."
-tags: [quarkus, panache, java, orm]
+tags: [quarkus, panache, java, orm, learning quarkus]
 keywords: [quarkus, panache, java, orm]
 ---
 

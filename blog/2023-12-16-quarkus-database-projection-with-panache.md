@@ -8,7 +8,7 @@ keywords: [quarkus, panache, java, orm]
 ![Quarkus: Database Projection with Panache](/images/posts/2023-12-16-quarkus-database-projection-with-panache/header.png)
 
 
-Welcome back to the second installment of our exploration into Quarkus and Panache! In the previous blog post, we delved into [setting default values for Panache entity fields](/blog/2023-12-16-quarkus-reference-table-default-value/). Now, as we continue refining the WindR.org website with Quarkus integration, our primary focus shifts to implementing **Database Projection with Panache**.
+Welcome back to the second installment of our exploration into Quarkus and Panache! In the previous blog post, we delved into [setting default values for Panache entity fields](/blog/2023/12/09/quarkus-entity-default-value). Now, as we continue refining the WindR.org website with Quarkus integration, our primary focus shifts to implementing **Database Projection with Panache**.
 
 Code Example on GitHub:
 

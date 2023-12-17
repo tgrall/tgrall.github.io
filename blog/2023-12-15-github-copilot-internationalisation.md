@@ -3,6 +3,7 @@ title: "Seamless Internationalization with GitHub Copilot"
 description: "How GitHub Copilot helped me translate my website in seconds"
 tags: [github, copilot, javascript, typescript,coding with copilot]
 keywords: [github, copilot, javascript, typescript]
+image: /images/posts/2023-12-15/header.png
 ---
 
 ![Copilot Helping ](/images/posts/2023-12-15/header.png)

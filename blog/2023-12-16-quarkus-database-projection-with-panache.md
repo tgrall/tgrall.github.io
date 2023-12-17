@@ -295,4 +295,4 @@ By utilizing Panache's simple projection definition with a Java record, our API 
 
 In this blog post, we've explored the power of Database Projection with Panache in a Quarkus environment. By efficiently selecting specific columns through a projection, we strike a balance between data completeness and performance, ensuring a streamlined experience for both developers and end-users alike.
 
-Feel free to check out the complete code on GitHub, experiment with the examples, and stay tuned for more Quarkus insights in future posts!
+Feel free to check out [the complete code on GitHub](https://github.com/tgrall/learning-quarkus/tree/main/projection-with-panache), experiment with the examples, and stay tuned for more Quarkus insights in future posts!

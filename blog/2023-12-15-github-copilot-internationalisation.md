@@ -6,7 +6,6 @@ keywords: [github, copilot, javascript, typescript]
 image: /images/posts/2023-12-15/header.png
 ---
 
-![Copilot Helping ](/images/posts/2023-12-15/header.png)
 
 
 In the course of developing using NextJS, the integration of internationalization became a pivotal requirement on my checklist. The aim was to enable seamless translation of the application into multiple languages, leveraging the native i18n features provided by NextJS, as outlined in the [official documentation](https://nextjs.org/docs/app/building-your-application/routing/internationalization).

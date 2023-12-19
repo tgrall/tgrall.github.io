@@ -3,10 +3,8 @@ title: "Simplifying Data Generation with GitHub Copilot"
 description: "How GitHub Copilot is helping me to generate sample test data."
 tags: [github, copilot, java,coding with copilot]
 keywords: [github, copilot, java]
+image: /images/posts/2023-12-13-copilot-sample-data/header.png
 ---
-
-![Copilot Helping ](/images/posts/2023-12-13-copilot-sample-data/header.png)
-
 
 
 In the process of crafting an updated version of the product catalog for WindR.org, the need to generate sample data arises. Leveraging the power of Quarkus and Panache, I find myself tasked with creating entities that embody various technical specifications for "windsurfing boards" – encompassing attributes like size, volume, width, and more.

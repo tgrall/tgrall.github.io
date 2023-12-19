@@ -3,9 +3,8 @@ title: "Accelerating REST Development with GitHub Copilot"
 description: "How GitHub Copilot helped me write a REST Client in seconds"
 tags: [github, copilot, javascript, typescript,coding with copilot]
 keywords: [github, copilot, javascript, typescript]
+image: /images/posts/2023-12-11-github-copilot-assist-writing-a-rest-client/header.png
 ---
-
-![Copilot Helping ](/images/posts/2023-12-11-github-copilot-assist-writing-a-rest-client/header.png)
 
 
 In the process of constructing a product catalog within NextJS, I found myself in need of seamlessly interfacing with my backend using REST APIs, each adorned with a variety of URIs and parameters.

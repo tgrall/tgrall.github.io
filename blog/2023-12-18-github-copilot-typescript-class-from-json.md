@@ -3,7 +3,8 @@ title: "Creating a Typescript Class from a JSON file"
 description: "How GitHub Copilot helped me create a Typescript class from a JSON file"
 tags: [github, copilot, javascript, typescript,coding with copilot]
 keywords: [github, copilot, javascript, typescript]
-image: /images/posts/2023-12-18/header.png
+image: https://tgrall.github.io/images/posts/2023-12-18/header.png
+date: "2023-12-18T21:12"
 ---
 
 

@@ -4,10 +4,25 @@
         <title>Tug's Site Blog</title>
         <link>https://tgrall.github.io/blog</link>
         <description>Tug's Site Blog</description>
-        <lastBuildDate>Sun, 24 Dec 2023 10:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Dec 2023 10:12:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Hiding a React/Next Component]]></title>
+            <link>https://tgrall.github.io/blog/2023/12/26/github-copilot-hide-component</link>
+            <guid>https://tgrall.github.io/blog/2023/12/26/github-copilot-hide-component</guid>
+            <pubDate>Tue, 26 Dec 2023 10:12:00 GMT</pubDate>
+            <description><![CDATA[How GitHub Copilot helped me to hide a React/Next component]]></description>
+            <content:encoded><![CDATA[<p>When working with React/Next, I find myself needing to hide a component based on a condition, in this case it was to hide an image when a field was empty. Instead of going through a Google or StackOverflow search, I turned to GitHub Copilot for assistance. Witness the efficiency and precision of Copilot in action by watching the following video:</p><iframe width="560" height="315" src="https://www.youtube.com/embed/SxvV41ZdY_A?si=q3x-81gsVglSbhK7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe><p>Yet again, GitHub Copilot proves to be the hero of my coding journey – making my day, one efficient line of code at a time!</p>]]></content:encoded>
+            <category>github</category>
+            <category>copilot</category>
+            <category>javascript</category>
+            <category>typescript</category>
+            <category>next</category>
+            <category>react</category>
+            <category>coding with copilot</category>
+        </item>
         <item>
             <title><![CDATA[Quarkus: Simplifying Cloud File Uploads]]></title>
             <link>https://tgrall.github.io/blog/2024/12/24/quarkus-uploading-image-to-the-cloud</link>

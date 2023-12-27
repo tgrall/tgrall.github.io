@@ -19,4 +19,4 @@ The last time I have worked with Java and an RDBMS system was in 2012, since I h
 
 - [Default Values for Panache Entity Fields](/blog/2023/12/09/quarkus-entity-default-value) <small>_(2023-12-09)_: learn how to set default values in Java beans & SQL tables fields.</small>
 - [Database Projection with Panache](/blog/2023/12/16/quarkus-database-projection-with-panache) <small>_(2023-12-16)_: learn how to select fields when doing a SQL Query using Java Record</small>
-- [Upload file to the Cloud using a REST Service](/blog/2024/12/24/quarkus-uploading-image-to-the-cloud) <small>_(2023-12-24)_: learn how to upload an file to Azure, Google and AWS</small>
+- [Upload file to the Cloud using a REST Service](/blog/2023/12/24/quarkus-uploading-image-to-the-cloud) <small>_(2023-12-24)_: learn how to upload an file to Azure, Google and AWS</small>

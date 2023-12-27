@@ -104,4 +104,18 @@ module.exports = {
     ],
   ],
   themes: ['@docusaurus/theme-live-codeblock'],
+  plugins: [[
+    '@docusaurus/plugin-client-redirects',
+    {
+      redirects: [
+        // /docs/oldDoc -> /docs/newDoc
+        {
+          to: '/blog/2023/12/24/quarkus-uploading-image-to-the-cloud',
+          from: '/blog/2024/12/24/quarkus-uploading-image-to-the-cloud',
+        }
+      ],      
+    }
+  ]
+    
+  ]
 };

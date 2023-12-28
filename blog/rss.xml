@@ -4,10 +4,25 @@
         <title>Tug's Site Blog</title>
         <link>https://tgrall.github.io/blog</link>
         <description>Tug's Site Blog</description>
-        <lastBuildDate>Wed, 27 Dec 2023 10:12:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 28 Dec 2023 07:12:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Resize multiple Next.js components with GitHub Copilot]]></title>
+            <link>https://tgrall.github.io/blog/2023/12/28/github-copilot-resize-nextjs-components</link>
+            <guid>https://tgrall.github.io/blog/2023/12/28/github-copilot-resize-nextjs-components</guid>
+            <pubDate>Thu, 28 Dec 2023 07:12:00 GMT</pubDate>
+            <description><![CDATA[See how Copilot has helped me resize multiple Next.js components in a matter of seconds]]></description>
+            <content:encoded><![CDATA[<p>Today, I tackled the creation of a new NextJS form for my application, opting for a sleek horizontal arrangement of components. Striving for a 100% width within the parent container proved trickier than expected. Copilot came to the rescue, aiding with the necessary math to resize the components accurately.</p><p>Catch a glimpse of the journey in this brief video:</p><iframe width="560" height="315" src="https://www.youtube.com/embed/imt6Ttn8Njw?si=naKXRVzUfJfAhp3C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe><p>Yet again, GitHub Copilot proves to be the hero of my coding journey – making my day, one efficient line of code at a time!</p>]]></content:encoded>
+            <category>github</category>
+            <category>copilot</category>
+            <category>javascript</category>
+            <category>typescript</category>
+            <category>next</category>
+            <category>react</category>
+            <category>coding with copilot</category>
+        </item>
         <item>
             <title><![CDATA[Seamless React State Updates: Mastering Lists with GitHub Copilot]]></title>
             <link>https://tgrall.github.io/blog/2023/12/27/github-copilot-update-react-state</link>

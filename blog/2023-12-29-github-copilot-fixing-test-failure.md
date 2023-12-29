@@ -3,7 +3,7 @@ title: "TDD/Test Failures: Resolving Issues with GitHub Copilot"
 description: "See how Copilot has helped me implement business logic to fix a test failure"
 tags: [coding with copilot, github, copilot, rest, quarkus, panache, java,tdd, test]
 keywords: [coding with copilot, github, copilot, tdd, test, testing, quarkus]
-image: /images/posts/2023-12-28/header.png
+image: /images/posts/2023-12-29/header.png
 date: "2023-12-29T06:12"
 ---
 

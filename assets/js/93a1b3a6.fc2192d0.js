@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktgrall_blog=self.webpackChunktgrall_blog||[]).push([[28829],{68740:l=>{l.exports=JSON.parse('{"label":"tdd","permalink":"/blog/tags/tdd","allTagsPath":"/blog/tags","count":1}')}}]);

@@ -17,7 +17,7 @@ The JSON schema for my REST service looked like this:
 {
     "id": 1,
     "name": "Fanatic Falcon",
-    "description": "string",
+    "description": "Slalom board",
     "specifications" : [
         {"id": 10, "name": "Falcom 100", "volume": 100},
         {"id": 11, "name": "Falcom 110", "volume": 110},

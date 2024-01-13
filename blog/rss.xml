@@ -4,10 +4,23 @@
         <title>Tug's Site Blog</title>
         <link>https://tgrall.github.io/blog</link>
         <description>Tug's Site Blog</description>
-        <lastBuildDate>Fri, 29 Dec 2023 06:12:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 13 Jan 2024 06:12:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Rapid Prototyping with GitHub Copilot: A Quick Journey into Image Processing]]></title>
+            <link>https://tgrall.github.io/blog/2024/01/13/github-copilot-implementing-an-ide-in-mn</link>
+            <guid>https://tgrall.github.io/blog/2024/01/13/github-copilot-implementing-an-ide-in-mn</guid>
+            <pubDate>Sat, 13 Jan 2024 06:12:00 GMT</pubDate>
+            <description><![CDATA[GitHub Copilot expedites the creation of an image processing prototype for WindR.org's transition to Next.js, seamlessly converting a described script into functional code within minutes, showcasing its transformative potential for rapid prototyping.]]></description>
+            <content:encoded><![CDATA[<p>As I transition WindR.org to Next.js, the necessity arises to clean up the product catalog's images, which come in various sizes and formats; hence, I opted to write a small Python script using Pillow for resizing and standardizing the images. Despite not being a Python developer, I'm equipped with basic knowledge, making it easy to read and utilize the language's numerous libraries.</p><p>Using Visual Studio Code, I initiated a new script to fulfill the image cleanup requirements, specifying the objective: </p><ul><li><em>download an image from a given URL, save it locally as 'original.png,' resize it into a square with a transparent background, and save copies at 1000x1000 pixels and 256x256 pixels in greyscale</em>.</li></ul><p>The Copilot then effortlessly executed the specified tasks, as demonstrated in the accompanying video:</p><p>Watch the video <a href="https://www.youtube.com/embed/doFGEFdfp24?si=gX7J35CALGfSNJTi" target="_blank" rel="noopener noreferrer">here</a></p><iframe width="560" height="315" src="https://www.youtube.com/embed/doFGEFdfp24?si=gX7J35CALGfSNJTi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe><p>While this script serves as a fundamental prototype, the next step involves incorporating this logic into a complete application. GitHub Copilot's assistance not only jumpstarted the development process but also facilitated the creation of a functional prototype within minutes.</p>]]></content:encoded>
+            <category>coding with copilot</category>
+            <category>github</category>
+            <category>copilot</category>
+            <category>python</category>
+            <category>images</category>
+        </item>
         <item>
             <title><![CDATA[TDD/Test Failures: Resolving Issues with GitHub Copilot]]></title>
             <link>https://tgrall.github.io/blog/2023/12/29/github-copilot-fixing-test-failure</link>

@@ -4,10 +4,23 @@
         <title>Tug's Site Blog</title>
         <link>https://tgrall.github.io/blog</link>
         <description>Tug's Site Blog</description>
-        <lastBuildDate>Sat, 13 Jan 2024 06:12:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 10 Feb 2024 06:12:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Creating a CSV from SQL statements with GitHub Copilot]]></title>
+            <link>https://tgrall.github.io/blog/2024/02/10/github-copilot-create-csv-from-sql</link>
+            <guid>https://tgrall.github.io/blog/2024/02/10/github-copilot-create-csv-from-sql</guid>
+            <pubDate>Sat, 10 Feb 2024 06:12:00 GMT</pubDate>
+            <description><![CDATA[GitHub Copilot assists in creating a CSV from an SQL statements.]]></description>
+            <content:encoded><![CDATA[<p>During one of my test I had to create some CSV files, and needed some data. I could have used Copilot directly to generate random data, but I wanted to test something else. </p><p>In my SpringBoot PetClinic application, I have a SQL file that contains some data, and I wanted to use this data to create a CSV file, directly from the insert statements without any code.</p><p>The Copilot then effortlessly executed the specified tasks, as demonstrated in the accompanying video:</p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_YFS7Wbzurc?si=Hy7sKxxPNpzIjS4b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe><p>Note, I could have also use Copilot to do it directly from the database, but just wanted to see if Copilot could extract the data from the SQL file, and it did it!..</p>]]></content:encoded>
+            <category>coding with copilot</category>
+            <category>github</category>
+            <category>copilot</category>
+            <category>python</category>
+            <category>images</category>
+        </item>
         <item>
             <title><![CDATA[Rapid Prototyping with GitHub Copilot: A Quick Journey into Image Processing]]></title>
             <link>https://tgrall.github.io/blog/2024/01/13/github-copilot-implementing-an-ide-in-mn</link>

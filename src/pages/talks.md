@@ -4,6 +4,17 @@ title: Talks
 
 # Talks
 
+### 2024
+
+- 2024-04-25 - [MixIT 2024](https://mixitconf.org/en/) - L'IA générative au service du développeur
+- 2024-04-04 - [Code d'Armor](https://codedarmor.fr/) - GitHub Copilot
+- 2024-03-15 - [AppDevCon 2024 - Amsterdam](https://appdevcon.nl/session/code-security-reinvented-navigating-the-era-of-ai/) - Code Security Reinvented: Navigating the era of AI
+- 2024-02-07 - [Github Copilot Workshop @ Microsoft Labs Lyon ](https://www.linkedin.com/posts/ppaiola_ai-artificialintelligence-microsoft-activity-7161259964617965568-X3Je)
+- 2023-02-06 - [BrownBag Lunch @ Micropole Nantes](https://www.linkedin.com/posts/sandrinecosson_github-ia-techtalk-activity-7160219436677779457-DK7O) - Introduction to GitHub Copilot
+- 2024-01-29 - [Epitech : Innovation Week](https://www.linkedin.com/feed/update/urn:li:activity:7158731751576506368/) - L'IA générative au service du développeur
+- 2023-01-18 - [BrownBag Lunch @ Lengow](https://www.linkedin.com/posts/marinesaffar_ai-lengow-github-activity-7155091802784493569-IKwD) - Introduction to GitHub Copilot
+- 2024-01-15&19 : [Sogeti](https://www.linkedin.com/posts/pierreolivierpatin_great-week-of-technical-enablement-with-our-activity-7154121732050620416-eOaL) Copilot Workshop (internal) 
+
 ### 2023
 
 - 2023-11-30 - [ADN Ouest](https://www.adnouest.org/evenement/quels-impacts-de-l-ia-sur-les-metiers-du-developpement-informatique-aujourd-hui-et-demain) - Quels impacts de l'IA sur les métiers du développement informatique aujourd'hui et demain ?
@@ -13,6 +24,7 @@ title: Talks
 - 2023-10-06 - [DevFest Perros Guirec](https://devfest.codedarmor.fr/) - Copilot : L’intelligence artificielle au service des développeurs
 - 2023-07-10 - [RivieraDev '23](https://rivieradev.fr/) - [Developper et Deployer avec GitHub, Codespaces, Copilot et Actions!](https://gist.github.com/tgrall/c0e26567f200b2efe28a389d1b461e98#file-github-generic-talk-fr-md)
 - 2023-06-29 - [Sunny Tech '23](https://sunny-tech.io/) - [Copilot : L’intelligence artificielle au service des développeurs](https://gist.github.com/tgrall/c0e26567f200b2efe28a389d1b461e98#file-copilot-intro-fr-md)
+- 2023-05-05 - [Poitou-Charentes JUG](https://www.poitoucharentesjug.org/rencontres/copilot) - Copilot : Intelligence artificielle au service des développeurs
 - 2023-03-15 - [Microsoft Azure Middle East Community](https://www.meetup.com/azure-middle-east/)(virtual) - Augmented Development with GitHub Copilot
 - 2023-03-02 - [MTG .Net Nantes](https://www.meetup.com/fr-FR/mtg-nantes/) - [Developper et Deployer avec GitHub, Codespaces, Copilot et Actions!](https://www.meetup.com/fr-FR/mtg-nantes/events/291759422/)
 - 2023-02-09 - [IMT](https://www.imt.fr/) - [DevSecOps: add Security to your DevOps!](https://www.linkedin.com/posts/chaire-d-enseignement-archops_tout-savoir-sur-le-devsecops-cest-possible-activity-7019595771322728448-GA92/?utm_source=share&utm_medium=member_desktop)

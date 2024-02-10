@@ -13,7 +13,7 @@ title: Talks
 - 2023-02-06 - [BrownBag Lunch @ Micropole Nantes](https://www.linkedin.com/posts/sandrinecosson_github-ia-techtalk-activity-7160219436677779457-DK7O) - Introduction to GitHub Copilot
 - 2024-01-29 - [Epitech : Innovation Week](https://www.linkedin.com/feed/update/urn:li:activity:7158731751576506368/) - L'IA générative au service du développeur
 - 2023-01-18 - [BrownBag Lunch @ Lengow](https://www.linkedin.com/posts/marinesaffar_ai-lengow-github-activity-7155091802784493569-IKwD) - Introduction to GitHub Copilot
-- 2024-01-15&19 : [Sogeti](https://www.linkedin.com/posts/pierreolivierpatin_great-week-of-technical-enablement-with-our-activity-7154121732050620416-eOaL) Copilot Workshop (internal) 
+- 2024-01-15&19 - [Sogeti](https://www.linkedin.com/posts/pierreolivierpatin_great-week-of-technical-enablement-with-our-activity-7154121732050620416-eOaL) Copilot Workshop (internal) 
 
 ### 2023
 

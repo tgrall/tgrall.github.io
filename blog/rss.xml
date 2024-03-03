@@ -4,10 +4,35 @@
         <title>Tug's Site Blog</title>
         <link>https://tgrall.github.io/blog</link>
         <description>Tug's Site Blog</description>
-        <lastBuildDate>Sat, 10 Feb 2024 06:12:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 03 Mar 2024 06:12:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Effortlessly Generate JSON Arrays from Raw Data with GitHub Copilot]]></title>
+            <link>https://tgrall.github.io/blog/2024/03/03/github-copilot-from-raw-data-to-json-array</link>
+            <guid>https://tgrall.github.io/blog/2024/03/03/github-copilot-from-raw-data-to-json-array</guid>
+            <pubDate>Sun, 03 Mar 2024 06:12:00 GMT</pubDate>
+            <description><![CDATA[Discover how GitHub Copilot simplifies the creation of JSON arrays from raw data, streamlining the process of updating product catalogs]]></description>
+            <content:encoded><![CDATA[<p>When developing my WindR application, I frequently encounter the task of adding new entries to the product catalog, a process that hasn't yet been automated. Consequently, I find myself creating JSON documents for the MongoDB database.</p><p>Products such as boards, sails, fins, and foils possess diverse specifications that vary depending on their type. Extracting these values from official product websites can be laborious, particularly when field names differ across brands, as illustrated by the example of two sails from different manufacturers:</p><p><img loading="lazy" alt="Patrik" src="/assets/images/patrik-7bc8d29f28d911913997401fbad25553.png" width="612" height="236" class="img_ev3q"></p><p><img loading="lazy" alt="Duotone" src="/assets/images/duotone-4e839a5553a1668631159e3e9c79482e.png" width="617" height="276" class="img_ev3q"></p><p>In the accompanying video, I demonstrate how I leverage Copilot Chat to extract data from copied website content. By providing a simple prompt outlining the array-to-JSON attribute mapping, I swiftly convert the data:</p><iframe width="560" height="315" src="https://www.youtube.com/embed/WrfpGJz-2B4?si=vuMaeAGf-DuSCA7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe><p>This approach streamlines the addition of new products to my catalog. Looking ahead, I aim to automate this process using a combination of a small script and GenAI programming. However, that's a tale for another time.</p>]]></content:encoded>
+            <category>coding with copilot</category>
+            <category>github</category>
+            <category>copilot</category>
+            <category>json</category>
+            <category>data</category>
+        </item>
+        <item>
+            <title><![CDATA[Efficiently Format Data in My IDE with GitHub Copilot]]></title>
+            <link>https://tgrall.github.io/blog/2024/02/16/github-copilot-formatting-data-in-my-ide</link>
+            <guid>https://tgrall.github.io/blog/2024/02/16/github-copilot-formatting-data-in-my-ide</guid>
+            <pubDate>Fri, 16 Feb 2024 06:12:00 GMT</pubDate>
+            <description><![CDATA[Discover how GitHub Copilot streamlines the formatting of data extracted from GitHub Issues]]></description>
+            <content:encoded><![CDATA[<p>In this brief demonstration, I showcase how GitHub Copilot help me to format data sourced from a web page and pasted into my IDE. By simply copying information from a webpage and pasting it into my coding environment, I initiate the process.</p><p>Then, with a straightforward inquiry directed to Copilot Inline Chat, I effortlessly extract specific details —such as GitHub Handles— from the text and neatly organize them into a CSV format:</p><iframe width="560" height="315" src="https://www.youtube.com/embed/xAC6_gjQOeA?si=Ej10BtTeUjwjeu-y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe><p>Although this isn't a task I tackle daily, especially with GitHub Handles, I wanted to illustrate another practical application of Copilot that can significantly assist in your coding endeavors.</p>]]></content:encoded>
+            <category>coding with copilot</category>
+            <category>github</category>
+            <category>copilot</category>
+            <category>issue</category>
+        </item>
         <item>
             <title><![CDATA[Creating a CSV from SQL statements with GitHub Copilot]]></title>
             <link>https://tgrall.github.io/blog/2024/02/10/github-copilot-create-csv-from-sql</link>

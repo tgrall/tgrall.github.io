@@ -9,6 +9,8 @@ title: Talks
 - 2024-04-25 - [MixIT 2024](https://mixitconf.org/en/) - L'IA générative au service du développeur
 - 2024-04-04 - [Code d'Armor](https://codedarmor.fr/) - GitHub Copilot
 - 2024-03-15 - [AppDevCon 2024 - Amsterdam](https://appdevcon.nl/session/code-security-reinvented-navigating-the-era-of-ai/) - Code Security Reinvented: Navigating the era of AI
+- 2024-03-13 - [Microsoft AI Tour - Paris](https://www.microsoft.com/fr-fr/ai/ai-tour) - Becoming an augmented developer with GitHub Copilot
+- 2023-03-05 - BrownBag Lunch @ Thales Services Numériques Nantes - Introduction to GitHub Copilot
 - 2023-02-28 - [Cape Town Java Community](https://www.meetup.com/cape-town-java-meetup/events/299352292/) - Becoming an augmented developer with GitHub Copilot
 - 2024-02-07 - [Github Copilot Workshop @ Microsoft Labs Lyon ](https://www.linkedin.com/posts/ppaiola_ai-artificialintelligence-microsoft-activity-7161259964617965568-X3Je)
 - 2023-02-06 - [BrownBag Lunch @ Micropole Nantes](https://www.linkedin.com/posts/sandrinecosson_github-ia-techtalk-activity-7160219436677779457-DK7O) - Introduction to GitHub Copilot

@@ -230,6 +230,20 @@ record BoardProjection(
 ```
 The process is straightforward: specify the fields you wish to include, and when referencing a field from a related table, employ the [`@ProjectedFieldName`](https://javadoc.io/doc/io.quarkus/quarkus-hibernate-orm-panache-common/latest/io/quarkus/hibernate/orm/panache/common/ProjectedFieldName.html) annotation.
 
+
+When the field is of collection type, typical in relationships @OneToMany, it is requiered function element:
+
+```java
+record BoardProjection(
+    Long id,
+    String name,
+    String image,
+    String program,
+    @ProjectedFieldName("element(brands).name") String brandName
+) { }
+```
+
+
 To implement this projection, utilize a [`PanacheQuery`](https://javadoc.io/doc/io.quarkus/quarkus-hibernate-orm-panache/latest/io/quarkus/hibernate/orm/panache/PanacheQuery.html) and employ the project method to define the projection.
 
 

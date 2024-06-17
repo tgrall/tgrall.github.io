@@ -6,6 +6,9 @@ title: Talks
 
 ### 2024
 
+- 2024-06-18 - [Station F](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR3zwJTO3s11AuaqpNnBbrwdUQzM4STVaS0wzQ1BLOUVNRDZEUFRBQkgxRS4u) - GitHub Day by Microsoft
+- 2024-06-14 - [DevBCN 2024](https://www.devbcn.com/) - Becoming an augmented developer with GitHub Copilot
+- 2024-06-04 - [GitHub SummerFest'24](https://resources.github.com/github-summerfest-2024/) - Summerfest welcomes you and your trusty AI coach, GitHub Copilot!
 - 2024-04-25 - [MixIT 2024](https://mixitconf.org/en/) - L'IA générative au service du développeur
 - 2024-04-04 - [Code d'Armor](https://codedarmor.fr/) - GitHub Copilot
 - 2024-03-15 - [AppDevCon 2024 - Amsterdam](https://appdevcon.nl/session/code-security-reinvented-navigating-the-era-of-ai/) - Code Security Reinvented: Navigating the era of AI

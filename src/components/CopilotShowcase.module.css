@@ -1,0 +1,109 @@
+/* stylelint-disable docusaurus/copyright-header */
+
+
+.videoTag {
+  color :blue;
+  background-color: red ;
+}
+
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+ :root {
+  --docusaurus-tag-list-border: var(--ifm-color-emphasis-300);
+}
+
+.card {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  background-color: blue;
+}
+
+.img {
+  width: 50%;
+  height: auto;
+  display: block;
+  border-radius: var(--ifm-global-radius);
+  object-fit: cover;
+  object-position: center;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.description {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--ifm-color-emphasis-600);
+  text-align: left;
+}
+
+.tag {
+  border-radius: 5px;
+  border: 1px solid var(--docusaurus-tag-list-border);
+  transition: border var(--ifm-transition-fast);
+  margin: 0.2rem;
+  padding: 0.1rem 0.1rem 0.1rem;
+}
+
+.tag:hover {
+  --docusaurus-tag-list-border: var(--ifm-link-color);
+  text-decoration: none;
+}
+
+.tagRegular {
+  padding: 0.2rem 0.5rem 0.3rem;
+  font-size: 80%;
+  line-height: 1.5;
+}
+
+.tagWithCount {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0 0.5rem 0 1rem;
+  border-left: 0;
+}
+
+.tagWithCount::before,
+.tagWithCount::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  border: 1px solid var(--docusaurus-tag-list-border);
+  transition: inherit;
+}
+
+.tagWithCount::before {
+  right: 100%;
+  transform: translate(50%, -50%) rotate(-45deg);
+  width: 1.18rem;
+  height: 1.18rem;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.tagWithCount::after {
+  left: 0;
+  transform: translateY(-50%);
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+}
+
+.tagWithCount span {
+  background: var(--ifm-color-secondary);
+  color: var(--ifm-color-black);
+  font-size: 0.7rem;
+  line-height: 1.2;
+  border-radius: var(--ifm-global-radius);
+  padding: 0.1rem 0.4rem;
+  margin-left: 0.3rem;
+}

@@ -245,38 +245,6 @@
     }
   },
   {
-    "id": "CeS9dw2mPbE",
-    "snippet": {
-      "title": "Explaining Vulnerable Code & Refactoring",
-      "description": "This demonstration shows how to use GitHub Copilot Chat in IntelliJ to check if some code is safe, and also use the chat to refactor the code:\n- create new API to access database\n- call these new API from a Spring controller",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/CeS9dw2mPbE/default.jpg",
-          "width": 120,
-          "height": 90
-        }
-      },
-      "tags": [
-        "Copilot In the IDE",
-        "Copilot Chat",
-        "Java",
-        "Database",
-        "REST",
-        "IntelliJ",
-        "JetBrains",
-        "Security",
-        "Fixing Bug",
-        "Vulerability",
-        "Help",
-        "Learning",
-        "Explain",
-        "Test",
-        "Refactoring",
-        "Spring Boot"
-      ]
-    }
-  },
-  {
     "id": "gf_LHc_R__g",
     "snippet": {
       "title": "Create a TypeScript class from functionnal specifications, in French",

@@ -1,12 +1,26 @@
 import React, { useState } from 'react';
 import clsx from 'clsx';
 import styles from './CopilotShowcase.module.css';
-import videos from './videos.json';
+import { useEffect } from 'react';
+
 
 
 export default function CopilotShowcase() {
+
+  const [videos, setVideos] = useState([]);
   const [filteredVideos, setFilteredVideos] = useState(videos);
   const [selectedTag, setSelectedTag] = useState(null);
+
+  useEffect(() => {
+    fetch('https://raw.githubusercontent.com/tgrall/automation/refs/heads/main/data/blog/videos.json')
+      .then(response => response.json())
+      .then(data => { 
+        setVideos(data);
+        setFilteredVideos(data);
+    
+      })
+      .catch(error => console.error('Error fetching videos:', error));
+  }, []);
 
   const handleTagClick = (tag) => {
     if (selectedTag === tag) {

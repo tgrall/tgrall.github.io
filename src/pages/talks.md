@@ -7,10 +7,11 @@ title: Talks
 ### 2024
 
 - 2024-11-27 - [DevOps Live Paris](https://www.cloudexpoeurope.fr/devops) - [Accélérez le SDLC avec GitHub Copilot : L'IA au Service du DevOps](https://www.cloudexpoeurope.fr/programme-de-conferences-2024/acc%C3%A9l%C3%A9rez-le-sdlc-avec-github-copilot-lia-au-service-du-devops)
-- 2024-10-22 - [Microsoft AI Tour Paris](https://aitour.microsoft.com/en-US/paris) - GitHub Copilot Workshop | Introduction to GitHub Models
-- 2024-09-20 - [JavaBin](https://www.java.no/) - Oslo - [GitHub Copilot: Generative AI Serving Developers - Tugdual Grall (GitHub)](https://www.meetup.com/javabin/events/302930123/)
+- 2024-11-19 - [DevSecOps Paris with JFrog 🐸](https://events.jfrog.com/devsecops-paris/) - Élever l’innovation : le partenariat GitHub/JFrog
+- 2024-10-22 - [Microsoft AI Tour Paris 🧠](https://aitour.microsoft.com/en-US/paris) - GitHub Copilot Workshop | Introduction to GitHub Models
+- 2024-09-20 - [JavaBin ☕](https://www.java.no/) - Oslo - [GitHub Copilot: Generative AI Serving Developers - Tugdual Grall (GitHub)](https://www.meetup.com/javabin/events/302930123/)
 - 2024-09-20 - [RunWay FBU](https://runwayfbu.com/) - Oslo - [Becoming an augmented developer with GitHub Copilot](https://runwayfbu.com/blog/becoming-an-augmented-developer-with-github-copilot)
-- 2024-09-04 - [Jug Summer Camp](https://www.jugsummercamp.org/edition/15) - [GitHub Copilot : L'IA générative au service du développeur](https://www.jugsummercamp.org/edition/15/presentations/lIXRm185NbtuPRdXQT7F)
+- 2024-09-04 - [Jug Summer Camp ☕](https://www.jugsummercamp.org/edition/15) - [GitHub Copilot : L'IA générative au service du développeur](https://www.jugsummercamp.org/edition/15/presentations/lIXRm185NbtuPRdXQT7F)
 - 2024-07-01 - [Capgemini Toulouse](https://www.linkedin.com/posts/anthony-bernere-capgemini_toulouse-githubcopilot-activity-7216377954623238144-jv7C?utm_source=share&utm_medium=member_desktop) - Copilot Workshop (internal)
 - 2024-06-18 - [Station F](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR3zwJTO3s11AuaqpNnBbrwdUQzM4STVaS0wzQ1BLOUVNRDZEUFRBQkgxRS4u) - GitHub Day by Microsoft
 - 2024-06-14 - [DevBCN 2024](https://www.devbcn.com/) - Becoming an augmented developer with GitHub Copilot

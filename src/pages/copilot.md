@@ -1,7 +1,10 @@
 ---
 title: GitHub Copilot
 ---
-# GitHub Copilot
+# <img src="/images/copilot-profile.png" alt="GitHub Copilot Profile" width="30" height="30" /> GitHub Copilot 
+
+
+
 
 This page provides resources to help you use, understand, and adopt GitHub Copilot.
 
@@ -73,6 +76,8 @@ Learn how GitHub Copilot works with these resources.
   > <small><sup>Research Paper - 05-September-2024</sup></small>
 - 📝 [Survey: The AI wave continues to grow on software development teams](https://github.blog/news-insights/research/survey-ai-wave-grows/)
  > <small><sup>GitHub Blog - 03-September-2024</sup></small>
+- 📝 [Research: Quantifying GitHub Copilot’s impact in the enterprise with Accenture](https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-in-the-enterprise-with-accenture/)
+  > <small><sup>GitHub Blog - 13-May-2024</sup></small>
 - 📓 [The Impact of AI Tools on Engineering at ANZ Bank: An Empirical Study on GitHub Copilot in a Corporate Environment](https://arxiv.org/abs/2402.05636)  
   > <small><sup>Research Paper - 17-April-2024</sup></small>
 - 📓 [Measuring GitHub Copilot's Impact on Productivity](https://dl.acm.org/doi/10.1145/3633453)  

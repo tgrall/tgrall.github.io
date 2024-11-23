@@ -24,6 +24,7 @@ module.exports = {
       items: [
         {to: '/blog', label: 'Blog', position: 'left'},
         {to: '/talks', label: 'Talks', position: 'left'},
+        {to: '/copilot', label: 'Copilot', position: 'left'},
         {
           href: 'https://windr.org',
           label: 'Windsurfing App',

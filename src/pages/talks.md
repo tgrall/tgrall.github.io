@@ -4,6 +4,11 @@ title: Talks
 
 # Talks
 
+### 2025
+
+- 2024-02-06 - [Touraine Tech #25](https://touraine.tech/)
+- 2025-01-23 - [Microsoft AI Tour in Johannesburg](https://aitour.microsoft.com/en-US/johannesburg)
+
 ### 2024
 
 - 2024-11-27 - [DevOps Live Paris](https://www.cloudexpoeurope.fr/devops) - [Accélérez le SDLC avec GitHub Copilot : L'IA au Service du DevOps](https://www.cloudexpoeurope.fr/programme-de-conferences-2024/acc%C3%A9l%C3%A9rez-le-sdlc-avec-github-copilot-lia-au-service-du-devops)

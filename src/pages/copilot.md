@@ -69,6 +69,8 @@ Learn how GitHub Copilot works with these resources.
 
 ### Measuring Impact of Copilot
 
+- 📝 [Does GitHub Copilot improve code quality? Here’s what the data says](https://github.blog/news-insights/research/does-github-copilot-improve-code-quality-heres-what-the-data-says/)
+  > <small><sup>GitHub Blog - 18-November-2024</sup></small>
 - 🎥 [How to measure the effectiveness of GitHub Copilot](https://www.youtube.com/watch?v=QKkhS-yUF_g)  
   > <small>Learn methods for tracking Copilot usage and measuring its effectiveness.  
   <sup>GitHub Universe 2024 - 31-October-2024</sup></small>

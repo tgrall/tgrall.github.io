@@ -24,6 +24,7 @@ This section offers resources to help you learn and effectively use GitHub Copil
 
 ### Tips & Tricks
 
+- 📚 [Copilot Chat Cookbook](https://docs.github.com/en/copilot/example-prompts-for-github-copilot-chat)
 - 📚 [Getting the most out of Copilot](https://code.visualstudio.com/docs/editor/github-copilot#_getting-the-most-out-of-copilot) (applies to all IDEs)
   > <small>The page explains how GitHub Copilot in VS Code suggests and completes code based on context. Tips include writing clear comments and refining prompts for better AI suggestions. It also covers customizing settings and integrating Copilot into the developer workflows.</small>
 - 📚 [Using GitHub Copilot](https://docs.github.com/en/enterprise-cloud@latest/copilot/using-github-copilot)

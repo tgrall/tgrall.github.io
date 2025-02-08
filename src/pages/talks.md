@@ -6,7 +6,11 @@ title: Talks
 
 ### 2025
 
-- 2024-02-06 - [Touraine Tech #25](https://touraine.tech/)
+- 2024-02-06 - [Touraine Tech #25](https://touraine.tech/) - Tours 
+  - [De Copilot à LangChain4j : Comment je suis passé d'un simple utilisateur à un développeur d'IA](https://touraine.tech/talk/cm2xn8bay006513dzvfeuvm8w)
+  - [Developper et Deployer dans le Cloud avec GitHub, Codespaces, Copilot et Actions!](https://touraine.tech/talk/cm2xn12iu005z13dzj2oynfer)
+- 2024-02-05 - [Epitech Summit](https://www.youtube.com/watch?v=_2x2gGLtPjA) - Nantes - L'IA générative au service du développeur
+- 2024-02-03 - [Epitech Summit](https://www.youtube.com/watch?v=_2x2gGLtPjA) - Monptellier - What's new in GitHub Copilot
 - 2025-01-23 - [Microsoft AI Tour in Johannesburg](https://aitour.microsoft.com/en-US/johannesburg)
 
 ### 2024
@@ -169,6 +173,7 @@ title: Talks
 - 2016-03-07 - <a href="http://www.bigdataparis.com/">Big Data Paris</a> : Introduction to MapR 5.1 (Atelier/Workshop)
 - 2016-02-10 - <a href="http://www.bigdataparis.com/webinars.html">Big Data Paris Webinars</a> : Big Data becomes Fast Data with MapR Converged Platform
 - 2016-02-04 - <a href="http://www.oop-konferenz.de/oop2016/startseite-englisch/conference/conference-program/speakerdetails/saction/detail/sspeaker/tugdual-grall.html">Snowcamp</a> : <a href="http://www.slideshare.net/tgrall/lambda-architecture-the-best-way-to-build-scalable-and-reliable-applications">Lambda Architecture: The Best Way to Build Scalable and Reliable Applications!</a>
+- 2016-01-31 - <a href="https://archive.fosdem.org/2016/schedule/event/hpc_bigdatawhy_flow_instead_of_state/">FOSDEM</a> : Streaming Architecture: Why Flow Instead of State?
 - 2016-01-20 - <a href="https://snowcamp2016.sched.org/speaker/tugdual?iframe=no">Snowcamp</a> : Real World Use Cases: Hadoop &amp; NoSQL en Production
 
 ---
@@ -239,6 +244,7 @@ title: Talks
 - 2013-04-25 - <a href="http://www.mix-it.fr/mixit13">MiX IT</a> - Introduction to NoSQL with Couchbase
 - 2013-03-04 - <a href="http://www.bigdataparis.com/">Big Data Paris</a> - NoSQL &amp; Big Data : Hadoop Integration Patterns and tools | Hadoop Ecosystem Panel
 - 2013-03-29 - <a href="http://www.devoxx.com/display/FR13">Devoxx France</a> - Elastifiez votre application : du SQL au NoSQL en moins d&#8217;une heure ! with <a href="http://twitter.com/dadoonet">David Pilato</a> | NoSQL BOF
+- 2013-02-02 - <a href="https://archive.fosdem.org/2013/schedule/event/couchbase/">FOSDEM</a> - Getting Started with Couchbase
 
 ---
 

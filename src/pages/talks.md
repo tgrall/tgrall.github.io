@@ -238,6 +238,7 @@ title: Talks
 - 2013-10-24 - <a href="http://soft-shake.ch/">Softshake</a> (Geneva) - Introduction to NoSQL with Couchbase
 - 2013-09-24 - Couchbase Meetup (London) - Couchbase Document Design and Query
 - 2013-07-18 - Couchbase Meetup (London) - Introduction to Couchbase + meet the Couchbase team
+- 2013-06-15 - <a href="https://video.umontpellier.fr/video/0921-web-5-conference-2013-iut-beziers-2eme-edition-david-pilato-et-tugdual-grall/">WEB-5 Conférence</a> (Beziers) -  Elastify your app : from SQL to NoSQL in less than one hour!
 - 2013-06-13 - <a href="http://www.breizhcamp.org/">Breizhcamp</a> (Rennes) - Introduction to NoSQL with Couchbase
 - 2013-06-07 - <a href="http://www.dotscale.io/">Dot Scale</a> (Paris) - Lightning Talk &ldquo;From 0 to 50 million user in 50 days&rdquo;
 - 2013-04-26 - <a href="https://2013.nosql-matters.org/cgn/index.html">NoSQL Matters</a> (Cologne)  -  Introduction to Map Reduce with Couchbase 2.0 | Generic Panel

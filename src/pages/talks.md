@@ -6,11 +6,20 @@ title: Talks
 
 ### 2025
 
-- 2024-02-06 - [Touraine Tech #25](https://touraine.tech/) - Tours 
+- 2025-09-29 - [VSCode Dev Days '25](https://code.visualstudio.com/dev-days) - Bordeaux - [GitHub Copilot & VSCode](https://www.meetup.com/mtg-bordeaux/events/310407674/)
+- 2025-09-17 - [Capgemini FS France  ](https://www.capgemini.com/solutions/next-gen-financial-services/) - Online - From Vibe Coding to Spec-Driven Development
+- 2025-09-04 - [JugSummerCamp '25](https://www.jugsummercamp.org/edition/16) - La Rochelle - [Vibe Coding en Action : Révolutionnez votre Développement avec l'IA](https://www.jugsummercamp.org/edition/16/presentations/cmc07acv9062hpc3mra2jd55u)
+- 2025-07-08 - Societe Generale API Day - Paris - GitHub Copilot Agent Mode & MCP in Action!
+- 2025-07-01 - [Code Europe](https://www.codeeurope.pl/) - Krakow - [GitHub Copilot: From Hype to Reality](https://www.codeeurope.pl/en/speakers/tugdual-grall)
+- 2025-06-05 - Adeo Dev Summit '25 - Lille - GitHub Copilot : Context Engineering
+- 2025-04-22/24 - [Devoxx France](https://www.devoxx.fr/) - Paris - [Dans les coulisses de Copilot : Contexte + LLM + perf + sécurité = ✨](https://www.devoxx.fr/en/agenda-2025/talk/dans-les-coulisses-de-copilot-contexte-llm-perf-s-curit-/)
+- 2025-04-10 - [MTG Bordeaux](https://www.meetup.com/mtg-bordeaux) - Bordeaux - [GitHub Copilot : L'IA au service des développeurs 🚀](https://www.meetup.com/mtg-bordeaux/events/306572236/)
+- 2025-02-06 - [Touraine Tech #25](https://touraine.tech/) - Tours 
   - [De Copilot à LangChain4j : Comment je suis passé d'un simple utilisateur à un développeur d'IA](https://touraine.tech/talk/cm2xn8bay006513dzvfeuvm8w)
   - [Developper et Deployer dans le Cloud avec GitHub, Codespaces, Copilot et Actions!](https://touraine.tech/talk/cm2xn12iu005z13dzj2oynfer)
-- 2024-02-05 - [Epitech Summit](https://www.youtube.com/watch?v=_2x2gGLtPjA) - Nantes - L'IA générative au service du développeur
-- 2024-02-03 - [Epitech Summit](https://www.youtube.com/watch?v=_2x2gGLtPjA) - Monptellier - What's new in GitHub Copilot
+- 2025-03-26 - [AI Tour Paris](<https://aitour.microsoft.com/en-US/paris)>) - Paris - GitHub Models : Introduction
+- 2025-02-05 - [Epitech Summit](https://www.youtube.com/watch?v=_2x2gGLtPjA) - Nantes - L'IA générative au service du développeur
+- 2025-02-03 - [Epitech Summit](https://www.youtube.com/watch?v=_2x2gGLtPjA) - Monptellier - What's new in GitHub Copilot
 - 2025-01-23 - [Microsoft AI Tour in Johannesburg](https://aitour.microsoft.com/en-US/johannesburg)
 
 ### 2024
@@ -22,6 +31,9 @@ title: Talks
 - 2024-09-20 - [RunWay FBU](https://runwayfbu.com/) - Oslo - [Becoming an augmented developer with GitHub Copilot](https://runwayfbu.com/blog/becoming-an-augmented-developer-with-github-copilot)
 - 2024-09-04 - [Jug Summer Camp ☕](https://www.jugsummercamp.org/edition/15) - [GitHub Copilot : L'IA générative au service du développeur](https://www.jugsummercamp.org/edition/15/presentations/lIXRm185NbtuPRdXQT7F)
 - 2024-07-01 - [Capgemini Toulouse](https://www.linkedin.com/posts/anthony-bernere-capgemini_toulouse-githubcopilot-activity-7216377954623238144-jv7C?utm_source=share&utm_medium=member_desktop) - Copilot Workshop (internal)
+- 2025-06-05 - [Adeo Dev Summit'24](https://adeodevdatapms2024.sched.com/info) - Lille
+  - [GitHub Copilot Hands-On and experience from LMBR](https://adeodevdatapms2024.sched.com/event/1d9uo/github-github-copilot-hands-on-and-experience-from-lmbr)
+  - [GitHub Copilot: Prompts, tips, and use cases](https://adeodevdatapms2024.sched.com/event/1eFRu/github-copilot-prompts-tips-and-use-cases)
 - 2024-06-18 - [Station F](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR3zwJTO3s11AuaqpNnBbrwdUQzM4STVaS0wzQ1BLOUVNRDZEUFRBQkgxRS4u) - GitHub Day by Microsoft
 - 2024-06-14 - [DevBCN 2024](https://www.devbcn.com/) - Becoming an augmented developer with GitHub Copilot
 - 2024-06-04 - [GitHub SummerFest'24](https://resources.github.com/github-summerfest-2024/) - Summerfest welcomes you and your trusty AI coach, GitHub Copilot!

@@ -19,6 +19,8 @@ You can find a video -in French- walkthrough of this approach here:
 
 The key mistake many make is jumping straight from legacy code (like Progress Software in my example) and asking Copilot to "write me a Java app" or "convert this to TypeScript." Instead, the proper approach is to **start with documentation**. We need to begin by creating reverse documentation from the existing code, which then serves as a solid foundation for rewriting. This ensures all functionality is well-documented and provides the right context for generating new code.
 
+If you’re dealing with older Java or .NET applications, the [GitHub Copilot App Modernization](https://github.blog/changelog/2025-09-22-github-copilot-app-modernization-is-now-generally-available-for-java-and-net/) extensions can also assist you. This article focuses on other legacy technologies, but the principle remains the same — Copilot can be a great ally for **retro-documenting** your projects.
+
 You can see a complete example of this retro-documentation process applied to the [Sports App](https://github.com/tug-on-dev/progress-sports-app/tree/main/documentation). _(Originally in French then translated to English using Copilot)_
 
 <!-- truncate -->

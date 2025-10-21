@@ -21,6 +21,9 @@ The key mistake many make is jumping straight from legacy code (like Progress So
 
 You can see a complete example of this retro-documentation process applied to the [Sports App](https://github.com/tug-on-dev/progress-sports-app/tree/main/documentation). _(Originally in French then translated to English using Copilot)_
 
+<!-- truncate -->
+
+
 ## Setting Up Your Context
 
 I'm working with a VS Code project using a Progress Software example application—specifically the Sports app, which includes a complete database and architecture. The first step is establishing context for Copilot.

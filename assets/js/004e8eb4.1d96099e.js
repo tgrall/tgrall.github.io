@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktgrall_blog=self.webpackChunktgrall_blog||[]).push([[54980],{46085:l=>{l.exports=JSON.parse('{"label":"devsecops","permalink":"/blog/tags/devsecops","allTagsPath":"/blog/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktgrall_blog=self.webpackChunktgrall_blog||[]).push([[31669],{98969:e=>{e.exports=JSON.parse('{"label":"spec-driven-development","permalink":"/blog/tags/spec-driven-development","allTagsPath":"/blog/tags","count":1}')}}]);

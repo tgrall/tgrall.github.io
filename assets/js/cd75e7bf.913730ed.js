@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktgrall_blog=self.webpackChunktgrall_blog||[]).push([[90134],{79502:l=>{l.exports=JSON.parse('{"label":"devfest","permalink":"/blog/tags/devfest","allTagsPath":"/blog/tags","count":1}')}}]);

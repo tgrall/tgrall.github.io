@@ -22,73 +22,44 @@ This page provides resources to help you use, understand, and adopt GitHub Copil
 
 This section offers resources to help you learn and effectively use GitHub Copilot.
 
-### Tips & Tricks
+### Prompt & Context Engineering
+
+Clear prompt and context engineering is essential because it steers Copilot toward the right intent, reduces the need for rework, and makes AI-assisted coding reliable for teams that depend on precise guidance. Here are some resources to help you master this skill:
+
+- 📚 [Awesome Copilot](https://github.com/github/awesome-copilot) <small>Instructions, prompts, and configurations to help you make the most of GitHub Copilot. (other example in [Copilot Documentation](https://docs.github.com/en/copilot/tutorials/customization-library)) </small>
+- 📚 [Manage context for AI](https://code.visualstudio.com/docs/copilot/chat/copilot-chat-context) <small>Focus on VSCode context features, but very interesting as general purpose too</small>
+- 📚 [Code reviewer](https://docs.github.com/en/copilot/tutorials/customization-library/custom-instructions/code-reviewer) <small>Instructions for thorough and constructive code reviews.</small>
+- 📝 [5 Tips for Writing Better Custom Instructions for Copilot](https://github.blog/ai-and-ml/github-copilot/5-tips-for-writing-better-custom-instructions-for-copilot/)
+- 📝 [How to build, test, review, and ship code faster (with real prompts)](https://github.blog/ai-and-ml/github-copilot/a-developers-guide-to-writing-debugging-reviewing-and-shipping-code-faster-with-github-copilot/)
+- 📝 [How to build reliable AI workflows with agentic primitives and context engineering](https://github.blog/ai-and-ml/github-copilot/how-to-build-reliable-ai-workflows-with-agentic-primitives-and-context-engineering/)
+
+### Spec Driven Development with AI
+
+- 📝 [**Spec-Kit**: Get started with a new open source toolkit
+](https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/)
+- 📝 [Using Markdown as a programming language when building with AI](https://github.blog/ai-and-ml/generative-ai/spec-driven-development-using-markdown-as-a-programming-language-when-building-with-ai/)
+
+
+### Coding & Reviewing with GitHub Copilot Agents
+
+- 📚 [Customizing the development environment for GitHub Copilot coding agent](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/customize-the-agent-environment)
+- 📚 [Creating custom agents](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-custom-agents) <small></small>
+- 📚 [Coding Agent & VSCode](https://code.visualstudio.com/docs/copilot/copilot-coding-agent)
+
+
+### Tips & Techniques
 
 - 📚 [Copilot Chat Cookbook](https://docs.github.com/en/copilot/example-prompts-for-github-copilot-chat)
 - 📚 [Getting the most out of Copilot](https://code.visualstudio.com/docs/editor/github-copilot#_getting-the-most-out-of-copilot) (applies to all IDEs)
   > <small>The page explains how GitHub Copilot in VS Code suggests and completes code based on context. Tips include writing clear comments and refining prompts for better AI suggestions. It also covers customizing settings and integrating Copilot into the developer workflows.</small>
 - 📚 [Using GitHub Copilot](https://docs.github.com/en/enterprise-cloud@latest/copilot/using-github-copilot)
   > <small>The page explains how to use GitHub Copilot for code generation and productivity, covering its integration in IDEs, best practices, and examples like refactoring and test creation.</small>
-- 📝 [Insider newsletter digest: How to use GitHub Copilot](https://github.blog/2023-11-30-from-the-pages-of-our-insider-newsletter-how-to-use-github-copilot/) 
-  > <small>The blog post from GitHub's Insider newsletter provides practical tips and best practices for using GitHub Copilot, an AI coding assistant, to enhance productivity by offering specific prompting techniques and examples to guide the AI effectively.<br/><sup>30-November-2023</sup></small>
-- 📝 [How to use GitHub Copilot: Prompts, tips, and use cases](https://github.blog/2023-06-20-how-to-write-better-prompts-for-github-copilot/) 
-  > <small>In this prompt guide for GitHub Copilot, two GitHub developer advocates, Rizel and Michelle, will share examples and best practices for communicating your desired results to the AI pair programmer.<br/><sup>20-June-2023</sup></small>
-- 📚 [GitHub Copilot Learning Pathway](https://resources.github.com/learn/pathways/copilot/essentials/essentials-of-github-copilot/)
+
+
+
 
 ### Demonstrations & Use Cases
 - 🎥 [GitHub Copilot Showcase](/showcase): Videos showcasing how I use GitHub Copilot for various use cases.
-- 📝 [Prompting GitHub Copilot Chat to become your personal AI assistant for accessibility](https://github.blog/2023-10-09-prompting-github-copilot-chat-to-become-your-personal-ai-assistant-for-accessibility/) <small><i>10-September-2023</i></small>
-- 📝 [How I used GitHub Copilot Chat to build a ReactJS gallery prototype](https://github.blog/2023-09-27-how-i-used-github-copilot-chat-to-build-a-reactjs-gallery-prototype/) <small><i>07-September-2023</i></small>
-- 📝 [How to build a GPT-3 App with Nextjs, React, and GitHub Copilot](https://github.blog/2023-07-25-how-to-build-a-gpt-3-app-with-nextjs-react-and-github-copilot/) <small><i>27-July-2023</i></small>
-
-
----
-
-## Internals
-
-Learn how GitHub Copilot works with these resources.
-
-- 🎥 [An inside look at how GitHub uses LLMs, fine-tuning, and prompt engineering in GitHub Copilot](https://www.youtube.com/watch?v=IUjXuTrJuPw)  
-  > <small>Learn how Copilot extensions use your code as context to generate completion suggestions. Discover fine-tuning techniques and explore the future of code editing with features like "<a href="https://githubnext.com/projects/copilot-next-edit-suggestions/" target="_blank">Next edit suggestions</a>".  
-  <sup>GitHub Universe 2024 - 31-October-2024</sup></small>
-- 🎥 [Using your repository for RAG: Learnings from GitHub Copilot Chat](https://www.youtube.com/watch?v=MqBBEgpYh0Y)  
-  > <small>Explore how Copilot extensions use Retrieval Augmented Generation (RAG) to enrich questions sent to AI models. Learn how relevance is defined during conversations.  
-  <sup>GitHub Universe 2024 - 31-October-2024</sup></small>
-- 📝 [How to build an enterprise LLM application: Lessons from GitHub Copilot](https://github.blog/ai-and-ml/github-copilot/how-to-build-an-enterprise-llm-application-lessons-from-github-copilot/)
-> <small>  <sup>GitHub Blog - 07-February-2024</sup></small>
-
-
----
-
-## Adoption & Impact of GitHub Copilot
-
-### Adoption
-
-- 🎥 [How GitHub Copilot helped SAP reimagine the developer experience](https://www.youtube.com/watch?v=wGmCYMiIoUc)  
-  > <small>See how introducing Copilot as an AI pair programming tool helped SAP grow from 500 to 18,000 Copilot users in a few months.  
-  <sup>GitHub Universe 2024 - 31-October-2024</sup></small>
-
-### Measuring Impact of Copilot
-
-- 📝 [Does GitHub Copilot improve code quality? Here’s what the data says](https://github.blog/news-insights/research/does-github-copilot-improve-code-quality-heres-what-the-data-says/)
-  > <small><sup>GitHub Blog - 18-November-2024</sup></small>
-- 🎥 [How to measure the effectiveness of GitHub Copilot](https://www.youtube.com/watch?v=QKkhS-yUF_g)  
-  > <small>Learn methods for tracking Copilot usage and measuring its effectiveness.  
-  <sup>GitHub Universe 2024 - 31-October-2024</sup></small>
-- 📓 [The Effects of Generative AI on High Skilled Work: Evidence from Three Field Experiments with Software Developers](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4945566)  
-  > <small><sup>Research Paper - 05-September-2024</sup></small>
-- 📝 [Survey: The AI wave continues to grow on software development teams](https://github.blog/news-insights/research/survey-ai-wave-grows/)
- > <small><sup>GitHub Blog - 03-September-2024</sup></small>
-- 📝 [Research: Quantifying GitHub Copilot’s impact in the enterprise with Accenture](https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-in-the-enterprise-with-accenture/)
-  > <small><sup>GitHub Blog - 13-May-2024</sup></small>
-- 📓 [The Impact of AI Tools on Engineering at ANZ Bank: An Empirical Study on GitHub Copilot in a Corporate Environment](https://arxiv.org/abs/2402.05636)  
-  > <small><sup>Research Paper - 17-April-2024</sup></small>
-- 📓 [Measuring GitHub Copilot's Impact on Productivity](https://dl.acm.org/doi/10.1145/3633453)  
-  > <small><sup>Research Paper - 01-March-2024</sup></small>
-- 📝 [Research: Quantifying GitHub Copilot’s impact on developer productivity and happiness](https://github.blog/2022-09-07-research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/)  
-  > <small><sup>GitHub Blog - 07-September-2022</sup></small>
-
-
 
 ---
 

@@ -6,6 +6,7 @@ title: Talks
 
 ### 2025
 
+- 2025-11-20 - [AlpesJUG](https://www.meetup.com/fr-fr/alpesjug/events/311941158) - Grenoble - GitHub & GitHub Copilot
 - 2025-09-29 - [VSCode Dev Days '25](https://code.visualstudio.com/dev-days) - Bordeaux - [GitHub Copilot & VSCode](https://www.meetup.com/mtg-bordeaux/events/310407674/)
 - 2025-09-17 - [Capgemini FS France  ](https://www.capgemini.com/solutions/next-gen-financial-services/) - Online - From Vibe Coding to Spec-Driven Development
 - 2025-09-04 - [JugSummerCamp '25](https://www.jugsummercamp.org/edition/16) - La Rochelle - [Vibe Coding en Action : Révolutionnez votre Développement avec l'IA](https://www.jugsummercamp.org/edition/16/presentations/cmc07acv9062hpc3mra2jd55u)

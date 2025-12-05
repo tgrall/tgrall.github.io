@@ -4,8 +4,17 @@ title: Talks
 
 # Talks
 
+### 2026
+
+- 2026-01-15 - [GitHub Unviverse '25 Recap](https://github.registration.goldcast.io/events/55fcdf58-faa4-4881-8204-aa6d7337eeb8?utm_source=tgrall.github.io&utm_medium=link&utm_campaign=URTWarsaw) - Warsaw -  Product Update & GitHub Copilot Deep Dive
+
+
 ### 2025
 
+- 2025-12-09 - [VS Code Dev Days @Nantes](https://www.meetup.com/fr-fr/mtg-nantes/events/311973560/) - Nantes - GitHub Copilot : What's new 
+- 2025-12-09 - [GenerationAI Paris](https://www.generationaiconf.com/events/paris-2025) - Paris -  From Vibecoding to Spec-Driven Development with AI
+- 2025-12-01 - [Cape Town Java Community (CTJC)](https://www.meetup.com/cape-town-java-meetup/events/312076887/?eventOrigin=group_past_events) -Cape Town, CA - What's new in Github Copilot
+- 2025-11-27 - [GitHub Unviverse '25 Recap](https://github.registration.goldcast.io/events/0183b401-b81e-4e29-8ff7-e02877b056ca?utm_source=tgrall.github.io&utm_medium=link&utm_campaign=URTJbrg) - Johannesburg - GitHub Copilot Deep Dive
 - 2025-11-20 - [AlpesJUG](https://www.meetup.com/fr-fr/alpesjug/events/311941158) - Grenoble - GitHub & GitHub Copilot
 - 2025-09-29 - [VSCode Dev Days '25](https://code.visualstudio.com/dev-days) - Bordeaux - [GitHub Copilot & VSCode](https://www.meetup.com/mtg-bordeaux/events/310407674/)
 - 2025-09-17 - [Capgemini FS France  ](https://www.capgemini.com/solutions/next-gen-financial-services/) - Online - From Vibe Coding to Spec-Driven Development

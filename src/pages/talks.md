@@ -7,6 +7,7 @@ title: Talks
 ### 2026
 
 - 2026-01-15 - [GitHub Unviverse '25 Recap](https://github.registration.goldcast.io/events/55fcdf58-faa4-4881-8204-aa6d7337eeb8?utm_source=tgrall.github.io&utm_medium=link&utm_campaign=URTWarsaw) - Warsaw -  Product Update & GitHub Copilot Deep Dive
+- 2026-01-08 - [MTG x GitHub x JUG x Betclic #8](https://www.meetup.com/fr-fr/mtg-bordeaux/events/312635439/) - Bordeaux - GitHub Copilot Update
 
 
 ### 2025

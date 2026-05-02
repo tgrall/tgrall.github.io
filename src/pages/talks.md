@@ -6,6 +6,24 @@ title: Talks
 
 ### 2026
 
+
+- 2026-06-12 - [DevQuest](https://www.devquest.fr/) -  Niort - [GitHub Copilot en 2026 : l'ère des agents autonomes](https://www.devquest.fr/sessions/github-copilot-en-2026-l-ere-des-agents-autonomes-cmmci0jj)
+- 2026-05-06 - [GitHub Copilot Forum ](https://github.registration.goldcast.io/events/432a350e-f2e1-4834-8114-c2cc2648a721) -  Istanbul
+  - Product Update: Turning AI Potential into Reality for Engineering Teams
+  - Deep Dive: Copilot Agents, MCP & Agent HQ Under the Hood
+  - Open Discussion, Demos & Q&A
+- 2026-04-30 - [Amadeus Engineering Days](https://amadeusitgroup.github.io/engineeringdays/) Sofia Antipolis
+  - Specialize Your Agents with Skills
+  - GitHub Copilot in 2026: The Era of Autonomous Agents
+- 2026-04-23 - [Devoxx Paris'26](https://www.devoxx.fr/) - Paris 
+  - [Créer un Jeu Vidéo avec GitHub Copilot en 3h](https://m.devoxx.com/events/devoxxfr2026/talks/77076/crer-un-jeu-vido-avec-github-copilot-en-3h) avec Xavier Noya & Arthur Magne
+  - [Spécialisez vos Agents avec les Skills](https://m.devoxx.com/events/devoxxfr2026/talks/65339/spcialisez-vos-agents-avec-les-skills)
+- 2026-04-10 - API Day'26 Societe Generale - Paris - GitHub Copilot in 2026: The Era of Autonomous Agents
+- 2026-04-10 - OpenClassRoom - Online - GitHub Copilot : Introduction
+- 2026-04-01 - [AWS Summit Paris'26](https://aws.amazon.com/fr/events/summits/paris/) - Paris - Smarter on AWS with GigtHub Copilot CLI (with Xavier Noya)
+- 2026-03-31 - [Figma x GitHub](https://fig-events.figma.com/figma-x-github-makercollective/) — Du design au code, à l’ère de l’IA (with Alexandra David)
+- 2026-03-26 - [AI Tour Copenhagen](https://cit-emea.com/copenhagen) - GitHub Copilot as an AI Agent in Developer Workflow (with B.Thillerup)
+- 2026-02-09 - [CHI JUG](https://www.meetup.com/fr-fr/chtijug/events/313005215/) - Lille - GitHub Copilot en 2026 : l'ère des agents autonomes
 - 2026-01-15 - [GitHub Unviverse '25 Recap](https://github.registration.goldcast.io/events/55fcdf58-faa4-4881-8204-aa6d7337eeb8?utm_source=tgrall.github.io&utm_medium=link&utm_campaign=URTWarsaw) - Warsaw -  Product Update & GitHub Copilot Deep Dive
 - 2026-01-08 - [MTG x GitHub x JUG x Betclic #8](https://www.meetup.com/fr-fr/mtg-bordeaux/events/312635439/) - Bordeaux - GitHub Copilot Update
 

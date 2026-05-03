@@ -6,6 +6,9 @@ keywords: [GitHub Copilot, Copilot CLI, statusLine, token usage, context window,
 date: "2026-05-03T08:00"
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 Over the past few months, I have switched most of my development workflows to **[GitHub Copilot CLI](https://github.com/github/copilot-cli/blob/main/README.md)**. Whether I'm exploring a codebase, writing code, debugging, or even building a new application, I find myself in GitHub Copilot CLI most of the time. It's fast, it keeps me in the flow, and the agentic capabilities make it incredibly productive. 
 
 Many users have asked me how to track **context usage** in the CLI ?
@@ -127,6 +130,65 @@ Make it executable:
 ```bash
 chmod +x ~/.copilot/statusline.sh
 ```
+
+---
+
+## Use Any Language
+
+The `statusLine.command` is not limited to Bash — you can use **any language that supports a [shebang](https://en.wikipedia.org/wiki/Shebang_(Unix))** (`#!`). As long as your script reads JSON from `stdin` and prints the status line to `stdout`, it will work.
+
+Here are equivalent examples in **Shell (sh)**, **Python**, and **JavaScript (Node.js)**:
+
+<Tabs>
+<TabItem value="sh" label="Shell (sh)" default>
+
+```bash
+#!/usr/bin/env bash
+
+input=$(cat)
+model=$(echo "$input" | jq -r '.model.display_name')
+displayed_context_limit=$(echo "$input" | jq -r '.context_window.displayed_context_limit')
+printf "%s - Context Limit %s (sh)" "$model" "$displayed_context_limit"
+```
+
+</TabItem>
+<TabItem value="python" label="Python">
+
+```python
+#!/usr/bin/env python3
+
+import sys
+import json
+
+input_data = sys.stdin.read()
+data = json.loads(input_data)
+model = data['model']['display_name']
+displayed_context_limit = data['context_window']['displayed_context_limit']
+print(f"{model} - Context Limit {displayed_context_limit} (Python)")
+```
+
+</TabItem>
+<TabItem value="js" label="JavaScript (Node.js)">
+
+```javascript
+#!/usr/bin/env node
+
+let input = '';
+process.stdin.on('data', chunk => input += chunk);
+process.stdin.on('end', () => {
+    const data = JSON.parse(input);
+    const model = data.model.display_name;
+    const displayedContextLimit = data.context_window.displayed_context_limit;
+    console.log(`${model} - Context Limit ${displayedContextLimit} (JS)`);
+});
+```
+
+</TabItem>
+</Tabs>
+
+:::tip
+Don't forget to make your script executable (`chmod +x`) and ensure the interpreter is available on your `PATH`. For Python and Node.js, you don't need `jq` — the JSON parsing is handled natively.
+:::
 
 ---
 

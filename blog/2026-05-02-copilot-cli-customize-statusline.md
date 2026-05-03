@@ -47,7 +47,7 @@ copilot --experimental
 # (or type /experimental on inside a running session)
 
 # Option B: enable only STATUS_LINE in config
-# Edit ~/.copilot/config.json and add:
+# Edit ~/.copilot/settings.json and add:
 #   "feature_flags": { "enabled": ["STATUS_LINE"] }
 ```
 
@@ -132,7 +132,7 @@ chmod +x ~/.copilot/statusline.sh
 
 ## 3 — Wire It Up in Config
 
-Open **`~/.copilot/config.json`** and add the `statusLine` key:
+Open **`~/.copilot/settings.json`** and add the `statusLine` key:
 
 ```json
 {
@@ -368,7 +368,7 @@ Config:
 
 1. **Enable** the experimental `STATUS_LINE` feature and restart.
 2. **Create** `~/.copilot/statusline.sh` with the gauge script.
-3. **Configure** `statusLine.command` in `~/.copilot/config.json`.
+3. **Configure** `statusLine.command` in `~/.copilot/settings.json`.
 
 And remember: you can always type **`/context`** and **`/usage`** inside a Copilot CLI session to get a one-off snapshot of your context window usage. The status line just makes it *always visible* without interrupting your flow.
 

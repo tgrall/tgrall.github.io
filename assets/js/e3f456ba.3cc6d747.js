@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktgrall_blog=self.webpackChunktgrall_blog||[]).push([[89740],{62538:l=>{l.exports=JSON.parse('{"label":"copilot-cli","permalink":"/blog/tags/copilot-cli","allTagsPath":"/blog/tags","count":1}')}}]);

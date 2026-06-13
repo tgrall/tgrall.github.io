@@ -417,7 +417,7 @@ $json = $input | Out-String | ConvertFrom-Json
 
 $currentTokens = $json.context_window.current_context_tokens
 $contextLimit = $json.context_window.displayed_context_limit
-$usedPct = $json.context_window.used_percentage
+$usedPct = $json.context_window.current_context_used_percentage
 $totalDurationMs = if ($json.cost.total_duration_ms) { $json.cost.total_duration_ms } else { 0 }
 
 function Format-Tokens($n) {
@@ -444,7 +444,7 @@ $totalSeconds = [math]::Floor($totalDurationMs / 1000)
 $h = [math]::Floor($totalSeconds / 3600)
 $m = [math]::Floor(($totalSeconds % 3600) / 60)
 $duration = '{0:D2}:{1:D2}' -f [int]$h, [int]$m
- 
+
 $brain = [char]::ConvertFromUtf32(0x1F9E0)
 $timer = [char]::ConvertFromUtf32(0x23F1)
 $currentStr = Format-Tokens $currentTokens

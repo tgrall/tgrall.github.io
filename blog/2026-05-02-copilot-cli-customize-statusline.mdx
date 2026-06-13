@@ -414,11 +414,43 @@ If you prefer a native Windows approach, save a `.ps1` script:
 ```powershell
 # statusline.ps1
 $json = $input | Out-String | ConvertFrom-Json
-$t = $json.context_window.total_tokens
-$p = [math]::Round($json.context_window.used_percentage)
-$filled = [int]($p / 10)
-$bar = ('█' * $filled) + ('░' * (10 - $filled))
-Write-Host -NoNewline "tokens: $t  $bar ${p}%"
+
+$currentTokens = $json.context_window.current_context_tokens
+$contextLimit = $json.context_window.displayed_context_limit
+$usedPct = $json.context_window.used_percentage
+$totalDurationMs = if ($json.cost.total_duration_ms) { $json.cost.total_duration_ms } else { 0 }
+
+function Format-Tokens($n) {
+  if ($n -ge 1000) { '{0:0.#}k' -f ($n / 1000) } else { "$n" }
+}
+
+# Build gauge bar
+$pctInt = [math]::Round($usedPct)
+$filled = [int]($pctInt / 10)
+if ($pctInt -gt 0 -and $filled -eq 0) { $filled = 1 }
+$empty = 10 - $filled
+$filledBar = ([char]0x2588).ToString() * $filled
+$emptyBar = ([char]0x2591).ToString() * $empty
+
+# Colors
+$e = [char]0x1B
+$reset = "${e}[0m"
+$dim = "${e}[90m"
+$barColor = if ($pctInt -ge 80) { "${e}[31m" } elseif ($pctInt -ge 50) { "${e}[33m" } else { "${e}[32m" }
+$emptyColor = if ($pctInt -ge 80) { "${e}[91m" } elseif ($pctInt -ge 50) { "${e}[33;2m" } else { "${e}[32;2m" }
+
+# Format duration as HH:MM
+$totalSeconds = [math]::Floor($totalDurationMs / 1000)
+$h = [math]::Floor($totalSeconds / 3600)
+$m = [math]::Floor(($totalSeconds % 3600) / 60)
+$duration = '{0:D2}:{1:D2}' -f [int]$h, [int]$m
+ 
+$brain = [char]::ConvertFromUtf32(0x1F9E0)
+$timer = [char]::ConvertFromUtf32(0x23F1)
+$currentStr = Format-Tokens $currentTokens
+$limitStr = Format-Tokens $contextLimit
+
+[Console]::Write("$brain ${dim}Context${reset} ${currentStr}/${limitStr} - ${barColor}${filledBar}${emptyColor}${emptyBar}${reset} ${barColor}${pctInt}%${reset} - `t${timer} ${dim}${duration}${reset}")
 ```
 
 Config:

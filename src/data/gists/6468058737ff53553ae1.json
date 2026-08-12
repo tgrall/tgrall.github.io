@@ -1,0 +1,14 @@
+{
+  "id": "6468058737ff53553ae1",
+  "url": "https://gist.github.com/tgrall/6468058737ff53553ae1",
+  "description": "Call the view for result",
+  "files": {
+    "call_view_result.js": {
+      "filename": "call_view_result.js",
+      "language": "JavaScript",
+      "content": "app.get('/api/results/:id?', function(req, res) {\n\tvar queryParams = {\n\t\tstale: false,\n\t\tgroup_level : 3\n\t};\n\tif (req.params.id != null) {\n\t\tqueryParams.startkey = [req.params.id,0];\n\t\tqueryParams.endkey = [req.params.id,2];\n\t}\n \n\tcb.view(\"ideas\", \"votes_by_idea\", queryParams, function(err, view) {\n\t\tvar result = new Array();\n\t\tvar idx = -1;\n\t\tvar currentKey = null;\n\t\tfor (var i = 0; i < view.length; i++) {\n\t\t\tkey = view[i].key[0];\n\t\t\tif (currentKey == null || currentKey != key ) {\n\t\t\t\tidx = idx +1;\n\t\t\t\tcurrentKey = key;\n\t\t\t\tresult[idx] = { id : key, title : view[i].key[2], value : 0 };\n\t\t\t} else {\n\t\t\t\tresult[idx].value = view[i].value;\n\t\t\t}\n\t\t}\n\t\tres.send(result);\n\t});\t\t\n});",
+      "truncated": false,
+      "rawUrl": "https://gist.githubusercontent.com/tgrall/6468058737ff53553ae1/raw/2d4505eaeec5a1f7779f1cd7587cebccbe673a1e/call_view_result.js"
+    }
+  }
+}

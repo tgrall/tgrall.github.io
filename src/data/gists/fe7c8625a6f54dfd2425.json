@@ -1,0 +1,14 @@
+{
+  "id": "fe7c8625a6f54dfd2425",
+  "url": "https://gist.github.com/tgrall/fe7c8625a6f54dfd2425",
+  "description": "Idea Vote list of values",
+  "files": {
+    "vote_type_list_of_value.js": {
+      "filename": "vote_type_list_of_value.js",
+      "language": "JavaScript",
+      "content": "  $scope.ratings = [\n  {\n  \t\"id\": \"0\",\n  \t\"label\": \"0 - No Interest\",\n\t},\n  \t{\n    \t\"id\": \"1\",\n    \t\"label\": \"1 - Low Interest\",\n  \t},\n  \t{\n    \t\"id\": \"2\",\n    \t\"label\": \"2 - Medium\",\n  \t},\n  \t{\n    \t\"id\": \"3\",\n    \t\"label\": \"3 - Good\",\n  \t},\n  \t{\n    \t\"id\": \"4\",\n    \t\"label\": \"4 - Outstanding\",\n  \t}, \n  \t{\n    \t\"id\": \"5\",\n    \t\"label\": \"5 - Must be done. Now!\",\n  \t}];",
+      "truncated": false,
+      "rawUrl": "https://gist.githubusercontent.com/tgrall/fe7c8625a6f54dfd2425/raw/8e3f168a00dd2808fb991737dee0ad5dbe0c36e1/vote_type_list_of_value.js"
+    }
+  }
+}

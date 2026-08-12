@@ -1,0 +1,14 @@
+{
+  "id": "d4115c3dbdd5a25614d9",
+  "url": "https://gist.github.com/tgrall/d4115c3dbdd5a25614d9",
+  "description": "Select box",
+  "files": {
+    "select_box_idea.html": {
+      "filename": "select_box_idea.html",
+      "language": "HTML",
+      "content": "<div class=\"control-group\">  \n\t<label class=\"control-label\" >Rate</label>  \n\t<div class=\"controls\">  \n      \t\t<select required ng-model=\"vote.rating\" ng-options=\"value.id as value.label group by value.group for value in ratings\">\n      \t\t</select>\n\t</div>\n</div>",
+      "truncated": false,
+      "rawUrl": "https://gist.githubusercontent.com/tgrall/d4115c3dbdd5a25614d9/raw/296b4412ef852b80f4d5ad58daf1d28153595ca6/select_box_idea.html"
+    }
+  }
+}

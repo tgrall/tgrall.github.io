@@ -1,0 +1,21 @@
+{
+  "id": "d8c2acfdc416abcc5d18",
+  "url": "https://gist.github.com/tgrall/d8c2acfdc416abcc5d18",
+  "description": "",
+  "files": {
+    "app.js": {
+      "filename": "app.js",
+      "language": "JavaScript",
+      "content": "\"use strict\";\n\nvar mongo = require(\"mongodb\"),\n    fs = require(\"fs\"),         // to read static files\n    io = require(\"socket.io\"),  // socket io server\n    http = require(\"http\");\n\nvar mongodbUri = \"mongodb://127.0.0.1/chat\";\n\nvar app = http.createServer(handler);\nio = io.listen(app);\napp.listen(3000);\nconsole.log(\"http server on port 3000\");\n\nfunction handler(req, res){\n  fs.readFile(__dirname + \"/index.html\",\n  function (err, data) {\n    res.writeHead(200);\n    res.end(data);\n  });\n}\n\nmongo.MongoClient.connect (mongodbUri, function (err, db) {\n\n  db.collection('messages', function(err, collection) {\n\n    // open socket\n    io.sockets.on(\"connection\", function (socket) {\n      // open a tailable cursor\n      console.log(\"== open tailable cursor\");\n      collection.find({}, {tailable:true, awaitdata:true, numberOfRetries:-1}).sort({ $natural: 1 }).each(function(err, doc) {\n        console.log(doc);\n        // send message to client\n        if (doc.type == \"message\") {\n          socket.emit(\"message\",doc);\n        }\n      })\n\n    });\n\n  });\n\n});\n",
+      "truncated": false,
+      "rawUrl": "https://gist.githubusercontent.com/tgrall/d8c2acfdc416abcc5d18/raw/ce87720a69a52b72209474b93a8d4255a1f8278b/app.js"
+    },
+    "index.html": {
+      "filename": "index.html",
+      "language": "HTML",
+      "content": "<!doctype html>\n<html>\n<head>\n  <title>MongoDB pub/sub</title>\n  <style>\n  * { margin: 0; padding: 10px; box-sizing: border-box; }\n  body { font: 13px Helvetica, Arial; }\n  #messages { list-style-type: none; margin: 0; padding: 0; }\n  #messages li { padding: 5px 10px; }\n  #messages li:nth-child(odd) { background: #eee; }\n  </style>\n</head>\n<body>\n  <h2>MongoDB/Socket.io demonstration</h2>\n\n  <ul id=\"messages\"></ul>\n\n  <script src=\"https://cdn.socket.io/socket.io-1.2.0.js\"></script>\n  <script src=\"https://code.jquery.com/jquery-2.1.3.min.js\"></script>\n  <script>\n  var socket = io();\n  socket.on('message', function(doc){\n    $('#messages').append($('<li>').text(doc.text));\n  });\n  </script>\n</body>\n</html>\n",
+      "truncated": false,
+      "rawUrl": "https://gist.githubusercontent.com/tgrall/d8c2acfdc416abcc5d18/raw/57884485e99966a3264abad18098bf52a0faeaac/index.html"
+    }
+  }
+}

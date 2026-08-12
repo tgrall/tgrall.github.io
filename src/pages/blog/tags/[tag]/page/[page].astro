@@ -1,0 +1,50 @@
+---
+import {getCollection} from 'astro:content';
+import BaseLayout from '../../../../../layouts/BaseLayout.astro';
+import PostList from '../../../../../components/PostList.astro';
+import {collectTags, POSTS_PER_PAGE} from '../../../../../lib/posts';
+
+export async function getStaticPaths() {
+  const tags = collectTags(await getCollection('blog'));
+  return [...tags.entries()].flatMap(([tag, value]) => {
+    const pageCount = Math.ceil(value.posts.length / POSTS_PER_PAGE);
+    return Array.from({length: Math.max(0, pageCount - 1)}, (_, index) => {
+      const page = index + 2;
+      return {
+        params: {tag, page: String(page)},
+        props: {
+          label: value.label,
+          page,
+          pageCount,
+          posts: value.posts.slice((page - 1) * POSTS_PER_PAGE, page * POSTS_PER_PAGE),
+        },
+      };
+    });
+  });
+}
+
+const {label, page, pageCount, posts} = Astro.props;
+const tagPath = `/blog/tags/${Astro.params.tag}`;
+---
+
+<BaseLayout title={`Posts tagged “${label}” – Page ${page}`}>
+  <section class="container page-section">
+    <p><a href="/blog/tags">← All tags</a></p>
+    <h1>Posts tagged “{label}”</h1>
+    <p>Page {page} of {pageCount}</p>
+    <PostList posts={posts} />
+    <nav class="pagination" aria-label={`${label} tag pagination`}>
+      <a href={page === 2 ? tagPath : `${tagPath}/page/${page - 1}`}>← Newer posts</a>
+      {page < pageCount && <a href={`${tagPath}/page/${page + 1}`}>Older posts →</a>}
+    </nav>
+  </section>
+</BaseLayout>
+
+<style>
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    font-weight: 700;
+  }
+</style>

@@ -1,0 +1,32 @@
+---
+import {getCollection} from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import {formatDate, getPostPath, getPublishedDate, sortPosts} from '../../lib/posts';
+
+const posts = sortPosts(await getCollection('blog'));
+const years = Map.groupBy(posts, (post) => getPublishedDate(post).getUTCFullYear());
+---
+
+<BaseLayout title="Blog archive">
+  <section class="container page-section archive">
+    <h1>Blog archive</h1>
+    {[...years.entries()].sort(([a], [b]) => b - a).map(([year, yearPosts]) => (
+      <section>
+        <h2>{year}</h2>
+        <ol>
+          {yearPosts.map((post) => (
+            <li><time datetime={getPublishedDate(post).toISOString()}>{formatDate(getPublishedDate(post))}</time><a href={getPostPath(post)}>{post.data.title}</a></li>
+          ))}
+        </ol>
+      </section>
+    ))}
+  </section>
+</BaseLayout>
+
+<style>
+  .archive { max-width: var(--article-width); }
+  ol { padding: 0; list-style: none; }
+  li { display: grid; grid-template-columns: 10rem 1fr; gap: 1rem; padding: 0.7rem 0; border-bottom: 1px solid var(--color-border); }
+  time { color: var(--color-muted); }
+  @media (max-width: 38rem) { li { grid-template-columns: 1fr; gap: 0.1rem; } }
+</style>

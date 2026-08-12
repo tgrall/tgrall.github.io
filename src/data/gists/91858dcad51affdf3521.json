@@ -1,0 +1,14 @@
+{
+  "id": "91858dcad51affdf3521",
+  "url": "https://gist.github.com/tgrall/91858dcad51affdf3521",
+  "description": "Upsert function",
+  "files": {
+    "upsert_function.js": {
+      "filename": "upsert_function.js",
+      "language": "JavaScript",
+      "content": "function upsert(req, res, docType) {\n\t// check if the body contains a know type, if not error\n\tif (req.body != null && req.body.type == docType) {\n\t\tvar id = req.body.id;\n\t\tif (id == null) {\n\t\t\t// increment the sequence and save the doc\n\t\t\tcb.incr(\"counter:\"+req.body.type, function(err, value, meta) {\n\t\t\t\tid = req.body.type + \":\" + value;\n\t\t\t\treq.body.id = id;\n\t\t\t\tcb.add(id, req.body, function(err, meta) {\n\t\t\t\t\tres.send(200);\n\t\t\t\t});\n\t\t\t});\n\t\t} else {\n\t\t\tcb.replace(id, req.body, function(err, meta) {\n\t\t\t\tres.send(200);\n\t\t\t});\n\t\t}\n\t} else {\n\t\tres.send(403);\n\t}\n}",
+      "truncated": false,
+      "rawUrl": "https://gist.githubusercontent.com/tgrall/91858dcad51affdf3521/raw/c2fd7e3a8986ffd396788ed96553071043d2ba76/upsert_function.js"
+    }
+  }
+}

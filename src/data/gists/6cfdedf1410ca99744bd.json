@@ -1,0 +1,14 @@
+{
+  "id": "6cfdedf1410ca99744bd",
+  "url": "https://gist.github.com/tgrall/6cfdedf1410ca99744bd",
+  "description": "View call result",
+  "files": {
+    "view_call_result.js": {
+      "filename": "view_call_result.js",
+      "language": "JavaScript",
+      "content": "[\n    {\n        \"id\": \"idea:0\",\n        \"title\": \"Add new electric company cars\",\n        \"value\": 0\n    },\n    {\n        \"id\": \"idea:1\",\n        \"title\": \"Develop new blog on Jekyll\",\n        \"value\": 3\n    },\n    {\n        \"id\": \"idea:2\",\n        \"title\": \"Bring your own device project\",\n        \"value\": 1\n    },\n    {\n        \"id\": \"idea:3\",\n        \"title\": \"Test the new Rasperry Pi\",\n        \"value\": 1\n    }\n]",
+      "truncated": false,
+      "rawUrl": "https://gist.githubusercontent.com/tgrall/6cfdedf1410ca99744bd/raw/74e45ef09049e91b1c6518613219ceff5695a20b/view_call_result.js"
+    }
+  }
+}

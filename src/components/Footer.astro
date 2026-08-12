@@ -1,0 +1,42 @@
+---
+import {SITE} from '../config/site';
+---
+
+<footer>
+  <div class="container footer-inner">
+    <p>© 2003–{new Date().getFullYear()} {SITE.author}</p>
+    <nav aria-label="Social links">
+      <a href={SITE.social.github}>GitHub</a>
+      <a href={SITE.social.linkedin}>LinkedIn</a>
+      <a href={SITE.social.youtube}>YouTube</a>
+    </nav>
+  </div>
+</footer>
+
+<style>
+  footer {
+    margin-top: var(--space-section);
+    border-top: 1px solid var(--color-border);
+    color: var(--color-muted);
+  }
+
+  .footer-inner {
+    display: flex;
+    min-height: 7rem;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  nav {
+    display: flex;
+    gap: 1rem;
+  }
+
+  @media (max-width: 36rem) {
+    .footer-inner {
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+</style>

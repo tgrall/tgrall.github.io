@@ -1,0 +1,36 @@
+---
+import {getCollection} from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PostList from '../../../components/PostList.astro';
+import {POSTS_PER_PAGE, sortPosts} from '../../../lib/posts';
+
+export async function getStaticPaths() {
+  const posts = sortPosts(await getCollection('blog'));
+  const pageCount = Math.ceil(posts.length / POSTS_PER_PAGE);
+  return Array.from({length: Math.max(0, pageCount - 1)}, (_, index) => {
+    const page = index + 2;
+    return {
+      params: {page: String(page)},
+      props: {page, pageCount, posts: posts.slice((page - 1) * POSTS_PER_PAGE, page * POSTS_PER_PAGE)},
+    };
+  });
+}
+
+const {page, pageCount, posts} = Astro.props;
+---
+
+<BaseLayout title={`Blog – Page ${page}`}>
+  <section class="container page-section">
+    <h1>Blog</h1>
+    <p>Page {page} of {pageCount}</p>
+    <PostList posts={posts} />
+    <nav class="pagination" aria-label="Blog pagination">
+      <a href={page === 2 ? '/blog' : `/blog/page/${page - 1}`}>← Newer posts</a>
+      {page < pageCount && <a href={`/blog/page/${page + 1}`}>Older posts →</a>}
+    </nav>
+  </section>
+</BaseLayout>
+
+<style>
+  .pagination { display: flex; justify-content: space-between; margin-top: 2rem; font-weight: 700; }
+</style>

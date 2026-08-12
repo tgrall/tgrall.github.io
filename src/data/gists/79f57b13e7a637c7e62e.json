@@ -1,0 +1,28 @@
+{
+  "id": "79f57b13e7a637c7e62e",
+  "url": "https://gist.github.com/tgrall/79f57b13e7a637c7e62e",
+  "description": "",
+  "files": {
+    "idea.js": {
+      "filename": "idea.js",
+      "language": "JavaScript",
+      "content": "{\n  \"type\" : \"idea\",\n  \"id\" : \"idea:4324\",\n  \"title\" : \"Free beer during bug hunt\",\n  \"description\" : \"It will be great to have free beer during our test campaign!\",\n  \"user_id\" : \"user:234\"\n}",
+      "truncated": false,
+      "rawUrl": "https://gist.githubusercontent.com/tgrall/79f57b13e7a637c7e62e/raw/25334af281309a45d004bf4e57c4db0c0734d43d/idea.js"
+    },
+    "user.js": {
+      "filename": "user.js",
+      "language": "JavaScript",
+      "content": "{\n  \"type\" : \"user\",\n  \"id\" : \"user:434\",\n  \"name\" : \"John Doe\",\n  \"email\" : \"jdoe@myideas.com\"\n}",
+      "truncated": false,
+      "rawUrl": "https://gist.githubusercontent.com/tgrall/79f57b13e7a637c7e62e/raw/7daf26537f142ecdab7695f08485c8b3f6e8560f/user.js"
+    },
+    "vote.js": {
+      "filename": "vote.js",
+      "language": "JavaScript",
+      "content": "{\n  \"type\" : \"vote\",\n  \"id\" : \"vote:usr:434-idea:4324\",\n  \"idea_id\" : \"idea:4324\",\n  \"user_id\" : \"user:434\",\n  \"comment\" : \"This is a great idea, beer is excellent to find bugs!\"\n}",
+      "truncated": false,
+      "rawUrl": "https://gist.githubusercontent.com/tgrall/79f57b13e7a637c7e62e/raw/617296a1b437374aa90f1cd15926e52054af0e80/vote.js"
+    }
+  }
+}

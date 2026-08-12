@@ -1,0 +1,61 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import {SITE} from '../config/site';
+import {getLegacyMetadata} from '../lib/legacy-metadata';
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+  canonical?: string;
+  type?: 'website' | 'article';
+}
+
+const {
+  title,
+  description = SITE.description,
+  image,
+  canonical = Astro.url.pathname,
+  type = 'website',
+} = Astro.props;
+const legacyMetadata = getLegacyMetadata(new URL(canonical, SITE.url).pathname);
+const pageTitle = legacyMetadata?.title ?? (title ? `${title} | ${SITE.title}` : SITE.title);
+const pageDescription = legacyMetadata?.description ?? description;
+const canonicalUrl = new URL(legacyMetadata?.canonical ?? canonical, SITE.url);
+const imageUrl = image ? new URL(image, SITE.url) : undefined;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={pageDescription} />
+    <link rel="icon" href="/img/favicon.ico" />
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="alternate" type="application/rss+xml" title={`${SITE.title} Blog`} href="/blog/rss.xml" />
+    <link rel="alternate" type="application/atom+xml" title={`${SITE.title} Blog`} href="/blog/atom.xml" />
+    <meta property="og:type" content={legacyMetadata?.openGraph['og:type'] ?? type} />
+    <meta property="og:title" content={legacyMetadata?.openGraph['og:title'] ?? pageTitle} />
+    <meta property="og:description" content={legacyMetadata?.openGraph['og:description'] ?? pageDescription} />
+    <meta property="og:url" content={canonicalUrl} />
+    {imageUrl && <meta property="og:image" content={imageUrl} />}
+    <title>{pageTitle}</title>
+    <script is:inline>
+      const savedTheme = localStorage.getItem('theme');
+      document.documentElement.dataset.theme =
+        savedTheme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <Header />
+    <main id="main-content">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

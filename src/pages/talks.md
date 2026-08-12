@@ -1,12 +1,16 @@
 ---
 title: Talks
+layout: ../layouts/PageLayout.astro
 ---
 
 # Talks
 
 ### 2026
 
-
+- 2026-10-12 - [Dev With AI Conference #1](https://luma.com/dc1) - Paris - [Tugdual Grall](https://devw.ai/conference/speakers/tugdual-grall) - (title TBD, announced early September)
+- 2026-09-04 - [JugSummerCamp '26](https://www.jugsummercamp.org/edition/17) - La Rochelle - [De l'autocomplete à l'Autopilot : Comment l'IA a transformé ma vie de développeur](https://www.jugsummercamp.org/edition/17/presentations/cmprci1fj01yp01qjzghqcsi8)
+- 2026-07-08 - [WeAreDevelopers World Congress '26](https://www.wearedevelopers.com/world-congress) - Berlin - [GitHub Copilot: From Zero to Hero](https://www.wearedevelopers.com/world-congress/agenda/workshops/github-copilot-from-zero-to-hero-1259312)
+- 2026-07-02 - [Vibecoding / Développer avec l'IA : mythe ou réalité](https://luma.com/yyyrz8a4) - Vannes (ENSIBS)
 - 2026-06-12 - [DevQuest](https://www.devquest.fr/) -  Niort - [GitHub Copilot en 2026 : l'ère des agents autonomes](https://www.devquest.fr/sessions/github-copilot-en-2026-l-ere-des-agents-autonomes-cmmci0jj)
 - 2026-05-06 - [GitHub Copilot Forum ](https://github.registration.goldcast.io/events/432a350e-f2e1-4834-8114-c2cc2648a721) -  Istanbul
   - Product Update: Turning AI Potential into Reality for Engineering Teams
@@ -111,7 +115,8 @@ title: Talks
 - 2022-06-28 - [Agile Trends](https://agiletrendsbr.com/programacao-dev-trends-2022/) - Copilot: Your AI Programmer
 - 2022-06-27 - [DevOps and Cloud Days](https://devopsandclouddays.com/2022-eng/) - Develop and Deploy in the Cloud for the Cloud with GitHub | Copilot: Your AI Programmer
 - 2022-06-27 - [SophiaConf](https://www.telecom-valley.fr/sophiaconf-2022/) - Copilot : L’intelligence artificielle au service des développeurs
-- 2022-06-16 - [Kubernetes Geneva Meetup](https://www.meetup.com/kubernetes-geneva/) - Simplifier le developpement et déploiment d'applications sur Kubernetes avec GitHub- 2022-02-15 - Microsoft DevOps Forum 2022 - DevSecOps : Add Security to your DevOps
+- 2022-06-16 - [Kubernetes Geneva Meetup](https://www.meetup.com/kubernetes-geneva/) - Simplifier le developpement et déploiment d'applications sur Kubernetes avec GitHub
+- 2022-02-15 - Microsoft DevOps Forum 2022 - DevSecOps : Add Security to your DevOps
 
 ### 2021
 
@@ -255,6 +260,7 @@ title: Talks
 - 2015-02-05 - NoSQL Event Lyon with SQL-i - Drop your tables with MongoDB
 - 2015-01-21 - <a href="http://nantesjug.org">Nantes JUG</a> - Quickie - <a href="https://github.com/tgrall/mongodb-realtime-pubsub">Pub/Sub with MongoDB</a>
 - 2015-01-13 - Sage Hackathon (Paris) - <a href="http://tgrall.github.io/blog/2015/01/23/everybody-says-hackathon/">Blog Post</a>
+- 2015-01-12 - Matrix Telco Round Table (Tel Aviv) - MongoDB : Enabling Telco to Build and Run Modern Applications
 
 ---
 
@@ -283,6 +289,9 @@ title: Talks
 - 2013-06-13 - <a href="http://www.breizhcamp.org/">Breizhcamp</a> (Rennes) - Introduction to NoSQL with Couchbase
 - 2013-06-07 - <a href="http://www.dotscale.io/">Dot Scale</a> (Paris) - Lightning Talk &ldquo;From 0 to 50 million user in 50 days&rdquo;
 - 2013-04-26 - <a href="https://2013.nosql-matters.org/cgn/index.html">NoSQL Matters</a> (Cologne)  -  Introduction to Map Reduce with Couchbase 2.0 | Generic Panel
+- 2013-03-13/15 - 33rd Degree (Warsaw)
+  - Couchbase Server: From 0 to 50 Million Users in 50 Days
+  - Introduction to MapReduce with Couchbase 2.0
 - 2013-04-25 - <a href="http://www.mix-it.fr/mixit13">MiX IT</a> - Introduction to NoSQL with Couchbase
 - 2013-03-04 - <a href="http://www.bigdataparis.com/">Big Data Paris</a> - NoSQL &amp; Big Data : Hadoop Integration Patterns and tools | Hadoop Ecosystem Panel
 - 2013-03-29 - <a href="http://www.devoxx.com/display/FR13">Devoxx France</a> - Elastifiez votre application : du SQL au NoSQL en moins d&#8217;une heure ! with <a href="http://twitter.com/dadoonet">David Pilato</a> | NoSQL BOF
@@ -294,13 +303,17 @@ title: Talks
 
 - 2012-12-01 - Open World Forum - Portal: “Enterprise 2.0 Portals: What’s New for Developers?“ | CMS/GED – Share the Information (content and document)
 - 2012-10-23 - Open World Forum - eXo &amp; the Cloud
+- 2012-04-18/20 - Devoxx France 2012 (Paris) - Tribulation d'un développeur Java dans le Cloud
 - 2012-03-21 - Documation - eXo Platform 3.5 | Cloud Workspaces
+- 2012-02-13/17 - SAP Cloud Inside  - Develop and Run on the Cloud  (eXo Cloud IDE) 
 - 2012-01-26 - Cap Gemini Event - eXo Platform | Enterprise Social Network | Cloud Vision
 - 2011-10-13 - MEITO 2011 (Rennes) -  Open Source and Open API
 - 2011-09-16 - Open Source Day (Warsaw) -  eXo Platform: A Journey from the Social Intranet to Development in the Cloud
 - 2011-09-08 - Jug Summer Camp (La Rochelle) -  Cloud IDE | OpenSocial &amp; Portlet development
 - 2011-04-18 - Ippevent Paris - Petit Tour de la Planète eXo
 - 2009-11-12 - Skills Matter/Xebia Open Source Exchange - Open Source Portals &amp; eXo Platform
+- 2009-06-15 - USI 2009 Université du SI (Paris) - Wiki vs CMS Duel* (with Vincent Massol)
 - 2009-05-26 - Google I/0 - Open Social in the Enterprise
-- 2009-03-26 - OW2/Linux Solutions - Next gen Portals: how OpenSocial standard adds social to the mix
+- 2009-05-12 - Salon Intranet {Paris} — eXo Platform, the Open Source solution for your Intranet
+- 2009-03-26 - OW2/Linux Solutions - Next gen Portals: how OpenSocial standard adds social to the mix | Which Portlet Bridge is made for you?
 - 2006-05-16 - Java One - Simplifying Enterprise Development With Scripting with Guillaume Laforge

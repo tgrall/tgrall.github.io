@@ -1,0 +1,14 @@
+{
+  "id": "c163f57778d663632e87",
+  "url": "https://gist.github.com/tgrall/c163f57778d663632e87",
+  "description": "Sample View for Collated View of brewery and beers",
+  "files": {
+    "print_collated_view.jsp": {
+      "filename": "print_collated_view.jsp",
+      "language": "Java Server Pages",
+      "content": "        <table id=\"brewery-table\" class=\"table table-striped\">\n            <thead>\n            <tr>\n                <th>Name</th>\n                <th></th>\n                <th></th>\n            </tr>\n            </thead>\n            <tbody>\n            <c:forEach items=\"${items}\" var=\"item\">\n                <c:if test=\"${ item.type == 'brewery' }\">\n                    <tr>\n                        <td colspan=\"2\"><strong><a href=\"/breweries/show/${item.id}\">${item.name}</a></strong></td>\n                        <td><a class=\"btn btn-small btn-danger\" href=\"/breweries/delete/${item.id}\">Delete</a>\n                        </td>\n                    </tr>\n                </c:if>\n                <c:if test=\"${ item.type == 'beer' }\">\n                    <tr>\n                        <td></td>\n                        <td><a href=\"/beers/show/${item.id}\">${item.name}</a></td>\n                        <td>\n                            <a class=\"btn btn-small btn-danger\" href=\"/beers/delete/${item.id}\">Delete</a>\n                            <a class=\"btn btn-small btn-warning\" href=\"/beers/edit/${item.id}\">Edit</a>\n                        </td>\n                    </tr>\n                </c:if>\n            </c:forEach>\n            </tbody>\n        </table>",
+      "truncated": false,
+      "rawUrl": "https://gist.githubusercontent.com/tgrall/c163f57778d663632e87/raw/3db6b86cdbecd0a1900b916afc9ca5352947d9b8/print_collated_view.jsp"
+    }
+  }
+}

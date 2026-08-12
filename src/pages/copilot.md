@@ -1,5 +1,6 @@
 ---
 title: GitHub Copilot
+layout: ../layouts/PageLayout.astro
 ---
 # <img src="/images/copilot-profile.png" alt="GitHub Copilot Profile" width="30" height="30" /> GitHub Copilot 
 

@@ -2,11 +2,13 @@
 /node_modules
 
 # Production
-/build
+/dist
 
 # Generated files
-.docusaurus
-.cache-loader
+.astro
+/test-results
+/playwright-report
+/external-links-report.json
 
 # Misc
 .DS_Store
@@ -16,8 +18,6 @@
 .env.production.local
 
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
 /wip
 

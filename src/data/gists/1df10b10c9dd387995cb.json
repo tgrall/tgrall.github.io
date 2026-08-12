@@ -1,0 +1,28 @@
+{
+  "id": "1df10b10c9dd387995cb",
+  "url": "https://gist.github.com/tgrall/1df10b10c9dd387995cb",
+  "description": "Couchbase views to query Twitter messages by username, tags and date.",
+  "files": {
+    "by_date.js": {
+      "filename": "by_date.js",
+      "language": "JavaScript",
+      "content": "function (doc, meta) {\n  if (doc.created_at) {\n   emit( dateToArray(doc.created_at));\n  }\n}",
+      "truncated": false,
+      "rawUrl": "https://gist.githubusercontent.com/tgrall/1df10b10c9dd387995cb/raw/1de98fbd9b89f84ad4a889709bbcbe96c83db125/by_date.js"
+    },
+    "by_tags.js": {
+      "filename": "by_tags.js",
+      "language": "JavaScript",
+      "content": "function (doc, meta) {\n  if (doc.entities.hashtags.length > 0) {\n    for (i in doc.entities.hashtags) {\n     emit( doc.entities.hashtags[i].text );\n    }\n  }\n}",
+      "truncated": false,
+      "rawUrl": "https://gist.githubusercontent.com/tgrall/1df10b10c9dd387995cb/raw/15dead4b8f325dc2cda05372629b5e121135d526/by_tags.js"
+    },
+    "by_username.js": {
+      "filename": "by_username.js",
+      "language": "JavaScript",
+      "content": "function (doc, meta) {\n  if ( doc.user.screen_name ) {\n     emit(doc.user.screen_name);\n  }\n}",
+      "truncated": false,
+      "rawUrl": "https://gist.githubusercontent.com/tgrall/1df10b10c9dd387995cb/raw/b859b65d32014068d290f0187a5825fa6bfd834b/by_username.js"
+    }
+  }
+}

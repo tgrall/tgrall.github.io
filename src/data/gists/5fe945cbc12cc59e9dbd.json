@@ -1,0 +1,14 @@
+{
+  "id": "5fe945cbc12cc59e9dbd",
+  "url": "https://gist.github.com/tgrall/5fe945cbc12cc59e9dbd",
+  "description": "",
+  "files": {
+    "vote_by_ideas.js": {
+      "filename": "vote_by_ideas.js",
+      "language": "JavaScript",
+      "content": "function (doc, meta) {\n  switch (doc.type){\n    case \"idea\" :\n      emit([meta.id,0, doc.title],0);\n      break;\n    case \"vote\" :\n      emit([doc.idea_id,1],1);\n      break;\n  }  \n}",
+      "truncated": false,
+      "rawUrl": "https://gist.githubusercontent.com/tgrall/5fe945cbc12cc59e9dbd/raw/d4d6997e00aa527165f670fbbdc18e1b6234c233/vote_by_ideas.js"
+    }
+  }
+}

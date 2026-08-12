@@ -1,0 +1,73 @@
+---
+import type {BlogPost} from '../lib/posts';
+import {formatDate, getDescription, getPostPath, getPublishedDate} from '../lib/posts';
+
+interface Props {
+  posts: BlogPost[];
+}
+
+const {posts} = Astro.props;
+---
+
+<div class="post-list">
+  {posts.map((post) => (
+    <article>
+      <p class="date"><time datetime={getPublishedDate(post).toISOString()}>{formatDate(getPublishedDate(post))}</time></p>
+      <h2><a href={getPostPath(post)}>{post.data.title}</a></h2>
+      <p>{getDescription(post)}</p>
+      {post.data.tags?.length ? (
+        <ul class="tags" aria-label="Tags">
+          {post.data.tags.map((tag) => <li>{tag}</li>)}
+        </ul>
+      ) : null}
+    </article>
+  ))}
+</div>
+
+<style>
+  .post-list {
+    display: grid;
+    gap: 1.25rem;
+  }
+
+  article {
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    background: var(--color-surface);
+    padding: clamp(1.2rem, 3vw, 2rem);
+    box-shadow: var(--shadow-card);
+  }
+
+  h2 {
+    margin: 0.15rem 0 0.65rem;
+    font-size: clamp(1.35rem, 3vw, 1.85rem);
+  }
+
+  h2 a {
+    color: var(--color-text);
+    text-decoration: none;
+  }
+
+  .date {
+    margin: 0;
+    color: var(--color-muted);
+    font-size: 0.9rem;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin: 1rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .tags li {
+    border-radius: 999px;
+    background: var(--color-surface-muted);
+    padding: 0.2rem 0.6rem;
+    color: var(--color-muted);
+    font-size: 0.8rem;
+  }
+</style>

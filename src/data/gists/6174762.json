@@ -1,0 +1,14 @@
+{
+  "id": "6174762",
+  "url": "https://gist.github.com/tgrall/6174762",
+  "description": "Sample Code for Pagination",
+  "files": {
+    "simple-pagination-docid.py": {
+      "filename": "simple-pagination-docid.py",
+      "language": "Python",
+      "content": "from couchbase import Couchbase\ncb = Couchbase.connect(bucket='beer-sample')\n\nhasRow = True\nrowPerPage = 5\npage = 0\ncurrentStartkey=\"\"\nstartDocId=\"\"\n\nwhile hasRow :\n  hasRow = False\n\tskip = 0 if page == 0 else 1\n\tpage = page + 1\n\tprint \"-- Page %s --\" % (page)\n\trows = cb.query(\"test\", \"by_country\", limit=rowPerPage, skip=skip, startkey=currentStartkey, startkey_docid=startDocId)\n\tfor row in rows:\n\t\thasRow = True\n\t\tprint \"Country: \\\"%s\\\" \\t Id: '%s'\" % (row.key, row.docid)\n\t\tcurrentStartkey = row.key\n\t\tstartDocId = row.docid\n\tprint \" -- -- -- -- \\n\"\n\n\n\n",
+      "truncated": false,
+      "rawUrl": "https://gist.githubusercontent.com/tgrall/6174762/raw/714c0d8848505cd5b785a995012ff362a7874058/simple-pagination-docid.py"
+    }
+  }
+}

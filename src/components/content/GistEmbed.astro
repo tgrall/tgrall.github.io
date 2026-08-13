@@ -1,0 +1,95 @@
+---
+import {Code} from 'astro:components';
+
+interface Props {
+  id: string;
+  file?: string;
+}
+
+interface GistFile {
+  filename: string;
+  language: string | null;
+  content: string;
+  truncated: boolean;
+  rawUrl: string;
+}
+
+interface GistData {
+  id: string;
+  url: string;
+  description: string | null;
+  files: Record<string, GistFile>;
+}
+
+const {id, file} = Astro.props;
+const modules = import.meta.glob<{default: GistData}>('../../data/gists/*.json', {eager: true});
+const gist = modules[`../../data/gists/${id}.json`]?.default;
+if (!gist) throw new Error(`Vendored Gist not found: ${id}`);
+
+const selectedFiles = file
+  ? Object.values(gist.files).filter((entry) => entry.filename === file)
+  : Object.values(gist.files);
+if (!selectedFiles.length) throw new Error(`File "${file}" not found in vendored Gist ${id}`);
+
+function getLanguage(language: string | null) {
+  switch (language) {
+    case 'HTML': return 'html';
+    case 'Java': return 'java';
+    case 'Java Server Pages': return 'html';
+    case 'JavaScript': return 'javascript';
+    case 'Python': return 'python';
+    case 'Scala': return 'scala';
+    default: return 'text';
+  }
+}
+---
+
+<figure class="gist">
+  {selectedFiles.map((entry) => (
+    <div class="gist-file">
+      <figcaption>{entry.filename}</figcaption>
+      <Code
+        code={entry.content}
+        lang={getLanguage(entry.language)}
+        theme="github-dark-high-contrast"
+      />
+    </div>
+  ))}
+  <footer><a href={gist.url}>View source Gist on GitHub</a></footer>
+</figure>
+
+<style>
+  .gist {
+    margin: 1.5rem 0;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    background: var(--color-surface);
+  }
+
+  .gist-file + .gist-file {
+    border-top: 1px solid var(--color-border);
+  }
+
+  figcaption,
+  footer {
+    padding: 0.55rem 0.85rem;
+    font-size: 0.85rem;
+  }
+
+  figcaption {
+    border-bottom: 1px solid var(--color-border);
+    font-family: ui-monospace, monospace;
+    font-weight: 700;
+  }
+
+  .gist :global(pre) {
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+  }
+
+  footer {
+    border-top: 1px solid var(--color-border);
+    text-align: right;
+  }
+</style>

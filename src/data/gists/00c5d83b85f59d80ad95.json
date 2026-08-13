@@ -1,0 +1,14 @@
+{
+  "id": "00c5d83b85f59d80ad95",
+  "url": "https://gist.github.com/tgrall/00c5d83b85f59d80ad95",
+  "description": "Dashboard with Drill and Node",
+  "files": {
+    "app001.js": {
+      "filename": "app001.js",
+      "language": "JavaScript",
+      "content": "var blessed = require('blessed')\n  , contrib = require('blessed-contrib')\n  , request = require('request')\n  , screen = blessed.screen()\n  , bar = contrib.bar(\n       { label: 'Bar Chart'\n       , barWidth: 12\n       , barSpacing: 5\n       , maxHeight: 9\n       , height: \"100%\"\n       , width: \"100%\"})\n\nscreen.append(bar);\n\nvar query =  {\n\t\"queryType\" : \"SQL\",\n\t\"query\" : \"select `YEAR`, SUM(`PASSENGER_COUNT`) from dfs.tmp.`airport_data_view` GROUP BY `YEAR`\"\n};\n\nrequest(\n\t{\n   \t\turl: 'http://localhost:8047/query.json', //URL to hit\n\t\tmethod: 'POST',\n\t\tjson: query\n\t}, \n\tfunction(error, response, body){\n     \tvar columns = body.columns;\n\t\tvar data = {\n\t\t\ttitles : [],\n\t\t\tdata : []\n\t\t};\n\t\tfor(var entry of body.rows){\n\t\t\tdata.titles.push(entry[columns[0]]);\n\t\t\tdata.data.push(entry[columns[1]]);\n\t\t}\n\t\tbar.setData(data);\n\t\tscreen.render()\n\t});\n\n\nscreen.key(['escape', 'q', 'C-c'], function(ch, key) {\n\t  return process.exit(0);\n});\n",
+      "truncated": false,
+      "rawUrl": "https://gist.githubusercontent.com/tgrall/00c5d83b85f59d80ad95/raw/32a84afcffd387d97b1ba79f8f464d7d5d38da3b/app001.js"
+    }
+  }
+}

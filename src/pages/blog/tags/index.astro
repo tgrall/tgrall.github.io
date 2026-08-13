@@ -1,0 +1,25 @@
+---
+import {getCollection} from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import {collectTags} from '../../../lib/posts';
+
+const tags = collectTags(await getCollection('blog'));
+---
+
+<BaseLayout title="Blog tags">
+  <section class="container page-section tag-page">
+    <h1>Blog tags</h1>
+    <ul>
+      {[...tags.entries()].map(([slug, tag]) => (
+        <li><a href={`/blog/tags/${slug}`}>{tag.label}<span>{tag.posts.length}</span></a></li>
+      ))}
+    </ul>
+  </section>
+</BaseLayout>
+
+<style>
+  .tag-page { max-width: var(--article-width); }
+  ul { display: flex; flex-wrap: wrap; gap: 0.7rem; padding: 0; list-style: none; }
+  a { display: flex; gap: 0.55rem; border: 1px solid var(--color-border); border-radius: 999px; background: var(--color-surface); padding: 0.45rem 0.8rem; text-decoration: none; }
+  span { color: var(--color-muted); }
+</style>

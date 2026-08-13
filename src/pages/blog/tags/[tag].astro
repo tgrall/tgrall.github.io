@@ -1,0 +1,37 @@
+---
+import {getCollection} from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PostList from '../../../components/PostList.astro';
+import {collectTags, POSTS_PER_PAGE} from '../../../lib/posts';
+
+export async function getStaticPaths() {
+  const tags = collectTags(await getCollection('blog'));
+  return [...tags.entries()].map(([tag, value]) => ({params: {tag}, props: value}));
+}
+
+const {label, posts} = Astro.props;
+const visiblePosts = posts.slice(0, POSTS_PER_PAGE);
+const pageCount = Math.ceil(posts.length / POSTS_PER_PAGE);
+---
+
+<BaseLayout title={`Posts tagged “${label}”`}>
+  <section class="container page-section">
+    <p><a href="/blog/tags">← All tags</a></p>
+    <h1>Posts tagged “{label}”</h1>
+    <PostList posts={visiblePosts} />
+    {pageCount > 1 && (
+      <nav class="pagination" aria-label={`${label} tag pagination`}>
+        <a href={`/blog/tags/${Astro.params.tag}/page/2`}>Older posts →</a>
+      </nav>
+    )}
+  </section>
+</BaseLayout>
+
+<style>
+  .pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+    font-weight: 700;
+  }
+</style>

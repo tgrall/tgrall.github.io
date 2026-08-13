@@ -1,0 +1,47 @@
+name: Check production content health
+
+on:
+  schedule:
+    - cron: '17 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  production-drift:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+      - name: Compare live site with committed baseline
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -o pipefail
+          node scripts/production-baseline/capture.mjs 2>&1 | tee production-drift.txt
+      - if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: production-drift
+          path: production-drift.txt
+
+  external-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - run: node scripts/check-external-links.mjs
+      - if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: external-link-report
+          path: external-links-report.json

@@ -1,0 +1,27 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Page not found">
+  <section class="container page-section not-found">
+    <p class="code">404</p>
+    <h1>That page has gone with the wind.</h1>
+    <p>The address may have changed, or the page may no longer exist.</p>
+    <a href="/">Return home</a>
+  </section>
+</BaseLayout>
+
+<style>
+  .not-found {
+    min-height: 55vh;
+    max-width: var(--article-width);
+  }
+
+  .code {
+    margin: 0;
+    color: var(--color-primary);
+    font-size: 1rem;
+    font-weight: 850;
+    letter-spacing: 0.15em;
+  }
+</style>

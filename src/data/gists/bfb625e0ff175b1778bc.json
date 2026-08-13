@@ -1,0 +1,14 @@
+{
+  "id": "bfb625e0ff175b1778bc",
+  "url": "https://gist.github.com/tgrall/bfb625e0ff175b1778bc",
+  "description": "Simple Collated View emp/dept",
+  "files": {
+    "collated_view_emp_dept.js": {
+      "filename": "collated_view_emp_dept.js",
+      "language": "JavaScript",
+      "content": "function (doc, meta) {\n  if (doc.type == \"emp\" || doc.type == \"dept\") {\n    switch(doc.type) {\n      case \"dept\" :\n        emit( [meta.id, 0, doc.name], 0 );\n        break;\n      case \"emp\" :\n        emit( [doc.dept_id, 1, doc.name ], doc.salary + ((doc.comm)?doc.comm:0) );\n        break;\n    }\n  }\n}\n",
+      "truncated": false,
+      "rawUrl": "https://gist.githubusercontent.com/tgrall/bfb625e0ff175b1778bc/raw/cceed2830ab9e910c8308393ec25bbb672b2af39/collated_view_emp_dept.js"
+    }
+  }
+}

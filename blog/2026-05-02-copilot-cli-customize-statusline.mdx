@@ -7,10 +7,6 @@ date: "2026-05-03T08:00"
 image: /images/posts/2026-05-03/header.png
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
-
 ![Customize GitHub Copilot CLI Status Line](https://tgrall.github.io/images/posts/2026-05-03/header.png)
 
 Over the past few months, I have switched most of my development workflows to **[GitHub Copilot CLI](https://github.com/github/copilot-cli/blob/main/README.md)**. Whether I'm exploring a codebase, writing code, debugging, or even building a new application, I find myself in GitHub Copilot CLI most of the time. It's fast, it keeps me in the flow, and the agentic capabilities make it incredibly productive. 
@@ -22,9 +18,11 @@ First of all, you can always use the [`/context`](https://docs.github.com/en/cop
 Nevertheless, you can also have a **live status line** that shows your token consumption and context usage percentage in real time, without needing to type any command, you just need to use the **experimental `statusLine.command`** feature to run a custom script to generate the status line content.
 
 
-:::warning Experimental Feature
+<aside className="admonition admonition-warning">
+<strong>Experimental Feature</strong>
+
 As of 1st of May 2026, `statusLine.command` is an **experimental feature** and is subject to change. The payload format, configuration keys, and behavior described here may evolve in future releases. I'll do my best to keep this post updated, but always check the official docs for the latest.
-:::
+</aside>
 
 This post walks you through setting it up from scratch. I also document the **full JSON payload** that Copilot sends to your script — I captured it directly from a live session to build the reference table below.
 
@@ -34,7 +32,7 @@ I’ve also published two demonstrations on my YouTube channel:
 - [🇫🇷 Personnaliser la "Status Line" de GitHub Copilot CLI : Boostez votre terminal !](https://www.youtube.com/watch?v=uZjPT69TklY)
 
 
-<!-- truncate -->
+{/* truncate */}
 
 ---
 
@@ -149,8 +147,8 @@ The `statusLine.command` is not limited to Bash — you can use **any language t
 
 Here are equivalent examples in **Shell (sh)**, **Python**, and **JavaScript (Node.js)**:
 
-<Tabs>
-<TabItem value="sh" label="Shell (sh)" default>
+<details open>
+<summary>Shell (sh)</summary>
 
 ```bash
 #!/usr/bin/env bash
@@ -161,8 +159,9 @@ displayed_context_limit=$(echo "$input" | jq -r '.context_window.displayed_conte
 printf "%s - Context Limit %s (sh)" "$model" "$displayed_context_limit"
 ```
 
-</TabItem>
-<TabItem value="python" label="Python">
+</details>
+<details>
+<summary>Python</summary>
 
 ```python
 #!/usr/bin/env python3
@@ -177,8 +176,9 @@ displayed_context_limit = data['context_window']['displayed_context_limit']
 print(f"{model} - Context Limit {displayed_context_limit} (Python)")
 ```
 
-</TabItem>
-<TabItem value="js" label="JavaScript (Node.js)">
+</details>
+<details>
+<summary>JavaScript (Node.js)</summary>
 
 ```javascript
 #!/usr/bin/env node
@@ -193,12 +193,13 @@ process.stdin.on('end', () => {
 });
 ```
 
-</TabItem>
-</Tabs>
+</details>
 
-:::tip
+<aside className="admonition admonition-tip">
+<strong>Tip</strong>
+
 Don't forget to make your script executable (`chmod +x`) and ensure the interpreter is available on your `PATH`. For Python and Node.js, you don't need `jq` — the JSON parsing is handled natively.
-:::
+</aside>
 
 ---
 

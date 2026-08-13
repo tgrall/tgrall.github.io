@@ -1,0 +1,188 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="GitHub Copilot Showcase" description="Videos demonstrating GitHub Copilot in action.">
+  <section class="container page-section showcase">
+    <header>
+      <p class="eyebrow">Practical demonstrations</p>
+      <h1>Copilot Showcase</h1>
+      <p>Videos showing GitHub Copilot in real development workflows. Select a topic to filter the collection.</p>
+    </header>
+    <div id="showcase-status" class="status" role="status">Loading videos…</div>
+    <div id="showcase-filters" class="filters" aria-label="Filter videos by topic"></div>
+    <div id="showcase-videos" class="videos"></div>
+  </section>
+</BaseLayout>
+
+<script>
+  interface Video {
+    id: string;
+    snippet: {
+      title: string;
+      description: string;
+      tags?: string[];
+      thumbnails: {default: {url: string}};
+    };
+  }
+
+  const endpoint = 'https://raw.githubusercontent.com/tgrall/automation/refs/heads/main/data/blog/videos.json';
+  const status = document.querySelector<HTMLElement>('#showcase-status');
+  const filters = document.querySelector<HTMLElement>('#showcase-filters');
+  const videosElement = document.querySelector<HTMLElement>('#showcase-videos');
+
+  function renderVideos(videos: Video[], selectedTag?: string) {
+    if (!videosElement || !status) return;
+    const visible = selectedTag ? videos.filter((video) => video.snippet.tags?.includes(selectedTag)) : videos;
+    videosElement.replaceChildren(...visible.map((video) => {
+      const article = document.createElement('article');
+      const link = document.createElement('a');
+      link.href = `https://www.youtube.com/watch?v=${encodeURIComponent(video.id)}`;
+      const image = document.createElement('img');
+      image.src = video.snippet.thumbnails.default.url;
+      image.alt = '';
+      image.loading = 'lazy';
+      const title = document.createElement('h2');
+      title.textContent = video.snippet.title;
+      const description = document.createElement('p');
+      description.textContent = video.snippet.description;
+      link.append(image, title);
+      article.append(link, description);
+      return article;
+    }));
+    status.textContent = `${visible.length} video${visible.length === 1 ? '' : 's'}`;
+  }
+
+  async function loadShowcase() {
+    if (!status || !filters) return;
+    try {
+      const response = await fetch(endpoint);
+      if (!response.ok) throw new Error(`Video service returned ${response.status}`);
+      const videos = await response.json() as Video[];
+      const tags = [...new Set(videos.flatMap((video) => video.snippet.tags ?? []))].sort();
+      let selectedTag: string | undefined;
+
+      const allButton = document.createElement('button');
+      allButton.type = 'button';
+      allButton.textContent = 'All';
+      allButton.setAttribute('aria-pressed', 'true');
+      const buttons = [allButton, ...tags.map((tag) => {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.textContent = tag;
+        button.setAttribute('aria-pressed', 'false');
+        button.addEventListener('click', () => {
+          selectedTag = selectedTag === tag ? undefined : tag;
+          for (const filter of buttons) filter.setAttribute('aria-pressed', String(
+            selectedTag ? filter.textContent === selectedTag : filter === allButton,
+          ));
+          renderVideos(videos, selectedTag);
+        });
+        return button;
+      })];
+
+      allButton.addEventListener('click', () => {
+        selectedTag = undefined;
+        for (const filter of buttons) filter.setAttribute('aria-pressed', String(filter === allButton));
+        renderVideos(videos);
+      });
+      filters.replaceChildren(...buttons);
+      renderVideos(videos);
+    } catch (error) {
+      status.textContent = 'Videos are temporarily unavailable. Please try again later.';
+      status.dataset.error = 'true';
+      console.error(error);
+    }
+  }
+
+  loadShowcase();
+</script>
+
+<style>
+  .showcase header {
+    max-width: 48rem;
+    margin-bottom: 2rem;
+  }
+
+  .eyebrow {
+    color: var(--color-primary);
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    margin-block: 0.2rem;
+  }
+
+  .status {
+    margin-block: 1rem;
+    color: var(--color-muted);
+  }
+
+  .status[data-error='true'] {
+    border-left: 4px solid #c2410c;
+    padding-left: 1rem;
+  }
+
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .filters :global(button) {
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+    background: var(--color-surface);
+    padding: 0.45rem 0.8rem;
+    color: var(--color-text);
+    cursor: pointer;
+  }
+
+  .filters :global(button[aria-pressed='true']) {
+    border-color: var(--color-primary);
+    background: var(--color-primary);
+    color: var(--color-bg);
+  }
+
+  .videos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 16rem), 1fr));
+    gap: 1rem;
+  }
+
+  .videos :global(article) {
+    overflow: hidden;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    background: var(--color-surface);
+    box-shadow: var(--shadow-card);
+  }
+
+  .videos :global(article > a) {
+    color: var(--color-text);
+    text-decoration: none;
+  }
+
+  .videos :global(img) {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
+
+  .videos :global(h2),
+  .videos :global(p) {
+    padding-inline: 1rem;
+  }
+
+  .videos :global(h2) {
+    font-size: 1.05rem;
+  }
+
+  .videos :global(p) {
+    color: var(--color-muted);
+    font-size: 0.9rem;
+  }
+</style>

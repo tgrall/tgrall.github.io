@@ -18,7 +18,7 @@ Not-authorized
 ![](http://2.bp.blogspot.com/-wcfWsRgV8Xc/TZ8ypzrBsLI/AAAAAAAAAPE/U9VnHpc3q9M/s200/rest-access.png )
 Authorized
 
-If you are not interested to follow steps by step the explanations you can directly jump to the complete [REST Service code](#completeService) or download the full eXo IDE Project from [GitHub](https://github.com/tgrall/sample-gadget-with-security)
+If you are not interested to follow steps by step the explanations you can directly jump to the complete [REST Service code](#complete-rest-service) or download the full eXo IDE Project from [GitHub](https://github.com/tgrall/sample-gadget-with-security)
 
 ### Access the User Profile from your REST Service
 

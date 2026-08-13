@@ -1,4 +1,9 @@
 
+---
+title: Learning Quarkus
+layout: ../layouts/PageLayout.astro
+---
+
 ![Quarkus Logo](/images/quarkuslogo.png)
 
 # Learning Quarkus

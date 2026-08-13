@@ -1,0 +1,14 @@
+{
+  "id": "4944154",
+  "url": "https://gist.github.com/tgrall/4944154",
+  "description": "",
+  "files": {
+    "collated_view_beer_sample.js": {
+      "filename": "collated_view_beer_sample.js",
+      "language": "JavaScript",
+      "content": "function(doc, meta) {\n  switch(doc.type) {\n    case \"brewery\":\n      emit([meta.id, 0, doc.name]);\n      break;\n    case \"beer\":\n      if (doc.name && doc.brewery_id) {\n        emit([doc.brewery_id, 1, doc.name], null);\n      }\n  }                    \n}\n",
+      "truncated": false,
+      "rawUrl": "https://gist.githubusercontent.com/tgrall/4944154/raw/f6254e1bca8951e85942ea119c64a02e48c45440/collated_view_beer_sample.js"
+    }
+  }
+}

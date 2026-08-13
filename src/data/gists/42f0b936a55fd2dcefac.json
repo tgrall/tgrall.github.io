@@ -1,0 +1,14 @@
+{
+  "id": "42f0b936a55fd2dcefac",
+  "url": "https://gist.github.com/tgrall/42f0b936a55fd2dcefac",
+  "description": "Simple REST API ",
+  "files": {
+    "api_getset.js": {
+      "filename": "api_getset.js",
+      "language": "JavaScript",
+      "content": " // get document\n app.get('/api/:type/:id', function(req, res) {\n  \tif (type == 'idea' || type == 'vote' || type == 'user') {\n\t\tget(req, res, type);\n\t} else {\n\t\tres.send(400);\n\t}\n});\n\n// create new document\napp.post('/api/:type', function(req, res) {\n\tif (type == 'idea' || type == 'vote' || type == 'user') {\n\t\tupsert(req, res, type);\n\t} else {\n\t\tres.send(400);\n\t}\n});\n",
+      "truncated": false,
+      "rawUrl": "https://gist.githubusercontent.com/tgrall/42f0b936a55fd2dcefac/raw/2d839ee9d6cb0b4b5e53dbb92b0797e67fbb4bf3/api_getset.js"
+    }
+  }
+}

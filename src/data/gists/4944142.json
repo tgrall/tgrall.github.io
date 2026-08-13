@@ -1,0 +1,14 @@
+{
+  "id": "4944142",
+  "url": "https://gist.github.com/tgrall/4944142",
+  "description": "View call for blog on collated views",
+  "files": {
+    "call_collated_view_from_java.java": {
+      "filename": "call_collated_view_from_java.java",
+      "language": "Java",
+      "content": "        View view = client.getView(\"brewery\", \"all_with_beers\");\n        Query query = new Query();\n        query.setIncludeDocs(true).setLimit(100);\n        ViewResponse result = client.query(view, query);\n\n        ArrayList<HashMap<String, String>> items =\n                new ArrayList<HashMap<String, String>>();\n        for(ViewRow row : result) {\n            HashMap<String, String> parsedDoc = gson.fromJson(\n                    (String)row.getDocument(), HashMap.class);\n\n            HashMap<String, String> item = new HashMap<String, String>();\n            item.put(\"id\", row.getId());\n            item.put(\"name\", parsedDoc.get(\"name\"));\n            item.put(\"type\", parsedDoc.get(\"type\"));\n\n\n            items.add(item);\n        }\n        request.setAttribute(\"items\", items);\n\n        request.getRequestDispatcher(\"/WEB-INF/breweries/all.jsp\")\n                .forward(request, response);",
+      "truncated": false,
+      "rawUrl": "https://gist.githubusercontent.com/tgrall/4944142/raw/21a4bb0f1e2318b31a4a065e728c3a6485b72c6b/call_collated_view_from_java.java"
+    }
+  }
+}

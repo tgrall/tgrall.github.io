@@ -1,0 +1,155 @@
+---
+import {getCollection} from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostList from '../components/PostList.astro';
+import {sortPosts} from '../lib/posts';
+
+const recentPosts = sortPosts(await getCollection('blog')).slice(0, 5);
+---
+
+<BaseLayout>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <p class="eyebrow">Developer · Speaker · Windsurfer</p>
+        <h1>Notes on code, tools, and building software.</h1>
+        <p class="lead">Things I've learned — and am still learning — about Development, DevOps, Data, Java, GitHub Copilot, Development with AI, and many more…</p>
+        <div class="actions">
+          <a class="primary" href="/blog">Read the blog</a>
+          <a href="/talks">View talks</a>
+        </div>
+      </div>
+      <img src="/img/tgrall-001.png" alt="Tugdual Grall speaking at a technical event" />
+    </div>
+  </section>
+  <section class="container page-section topics">
+    <a href="/copilot"><strong>GitHub Copilot</strong><span>Resources and field notes</span></a>
+    <a href="/quarkus"><strong>Java & Quarkus</strong><span>Modern application development</span></a>
+    <a href="/showcase"><strong>Video showcase</strong><span>Practical demonstrations</span></a>
+    <a href="https://www.windr.org" rel="noopener"><strong>WindR</strong><span>Windsurfing, Wingfoiling and Kitesurfing sessions and performances</span></a>
+  </section>
+  <section class="container recent">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">From the archive</p>
+        <h2>Recent writing</h2>
+      </div>
+      <a href="/blog/archive">Browse all posts</a>
+    </div>
+    <PostList posts={recentPosts} />
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    padding-block: clamp(4rem, 10vw, 8rem);
+    background:
+      radial-gradient(circle at 80% 10%, color-mix(in srgb, var(--color-primary) 22%, transparent), transparent 34rem),
+      linear-gradient(160deg, var(--color-surface), var(--color-bg));
+  }
+
+  .hero-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.5fr) minmax(15rem, 0.65fr);
+    align-items: center;
+    gap: clamp(2rem, 8vw, 7rem);
+  }
+
+  .hero h1 {
+    max-width: 15ch;
+    margin: 0.3rem 0 1.2rem;
+  }
+
+  .hero img {
+    width: min(100%, 24rem);
+    aspect-ratio: 1;
+    border-radius: 38% 62% 58% 42% / 42% 35% 65% 58%;
+    object-fit: cover;
+    box-shadow: var(--shadow-card);
+  }
+
+  .eyebrow {
+    margin: 0;
+    color: var(--color-primary);
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+  }
+
+  .lead {
+    max-width: 42rem;
+    color: var(--color-muted);
+    font-size: clamp(1.05rem, 2.5vw, 1.3rem);
+  }
+
+  .actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin-top: 2rem;
+  }
+
+  .actions a {
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+    padding: 0.72rem 1.1rem;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .actions .primary {
+    border-color: var(--color-primary);
+    background: var(--color-primary);
+    color: var(--color-bg);
+  }
+
+  .topics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    gap: 1rem;
+  }
+
+  .topics a {
+    display: grid;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    background: var(--color-surface);
+    padding: 1.4rem;
+    color: var(--color-text);
+    text-decoration: none;
+    box-shadow: var(--shadow-card);
+  }
+
+  .topics span {
+    color: var(--color-muted);
+  }
+
+  .recent {
+    padding-bottom: var(--space-section);
+  }
+
+  .section-heading {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .section-heading h2 {
+    margin: 0.25rem 0 0;
+  }
+
+  @media (max-width: 44rem) {
+    .hero-grid,
+    .topics {
+      grid-template-columns: 1fr;
+    }
+
+    .hero img {
+      order: -1;
+      width: 12rem;
+    }
+  }
+</style>

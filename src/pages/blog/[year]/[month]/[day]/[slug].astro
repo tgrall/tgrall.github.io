@@ -1,0 +1,125 @@
+---
+import {getCollection, render} from 'astro:content';
+import BaseLayout from '../../../../../layouts/BaseLayout.astro';
+import {formatDate, getDescription, getPostPath, getPublishedDate, getRouteParts, normalizeTag} from '../../../../../lib/posts';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map((post) => ({
+    params: getRouteParts(post),
+    props: {post},
+  }));
+}
+
+const {post} = Astro.props;
+const {Content, headings} = await render(post);
+const publishedDate = getPublishedDate(post);
+---
+
+<BaseLayout
+  title={post.data.title}
+  description={getDescription(post)}
+  image={post.data.image}
+  canonical={getPostPath(post)}
+  type="article"
+>
+  <article class="container page-section article">
+    <header>
+      <p class="date"><time datetime={publishedDate.toISOString()}>{formatDate(publishedDate)}</time></p>
+      <h1>{post.data.title}</h1>
+      {post.data.description && <p class="description">{post.data.description}</p>}
+      {post.data.tags?.length ? (
+        <ul class="tags" aria-label="Tags">
+          {post.data.tags.map((tag) => <li><a href={`/blog/tags/${normalizeTag(tag)}`}>{tag}</a></li>)}
+        </ul>
+      ) : null}
+    </header>
+    <div class="article-grid">
+      <div class="prose"><!-- feed-content-start --><Content /><!-- feed-content-end --></div>
+      {headings.filter((heading) => heading.depth === 2).length > 2 && (
+        <aside aria-label="On this page">
+          <strong>On this page</strong>
+          <ol>
+            {headings.filter((heading) => heading.depth === 2).map((heading) => (
+              <li><a href={`#${heading.slug}`}>{heading.text}</a></li>
+            ))}
+          </ol>
+        </aside>
+      )}
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .article {
+    width: min(calc(100% - 2rem), var(--content-width));
+  }
+
+  header {
+    width: min(100%, var(--article-width));
+    margin: 0 auto clamp(2.5rem, 7vw, 5rem);
+  }
+
+  h1 {
+    margin: 0.25rem 0 1rem;
+  }
+
+  .date,
+  .description {
+    color: var(--color-muted);
+  }
+
+  .description {
+    font-size: 1.15rem;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    padding: 0;
+    list-style: none;
+  }
+
+  .tags a {
+    display: block;
+    border-radius: 999px;
+    background: var(--color-surface-muted);
+    padding: 0.25rem 0.65rem;
+    font-size: 0.82rem;
+    text-decoration: none;
+  }
+
+  .article-grid {
+    display: grid;
+    grid-template-columns: minmax(0, var(--article-width)) minmax(10rem, 14rem);
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  aside {
+    position: sticky;
+    top: 6rem;
+    align-self: start;
+    max-height: calc(100vh - 8rem);
+    overflow: auto;
+    border-left: 1px solid var(--color-border);
+    padding-left: 1rem;
+    color: var(--color-muted);
+    font-size: 0.86rem;
+  }
+
+  aside ol {
+    padding-left: 1.1rem;
+  }
+
+  @media (max-width: 66rem) {
+    .article-grid {
+      grid-template-columns: minmax(0, var(--article-width));
+    }
+
+    aside {
+      display: none;
+    }
+  }
+</style>

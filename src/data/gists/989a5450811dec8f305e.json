@@ -1,0 +1,14 @@
+{
+  "id": "989a5450811dec8f305e",
+  "url": "https://gist.github.com/tgrall/989a5450811dec8f305e",
+  "description": "Idea by title",
+  "files": {
+    "ideal_by_title.js": {
+      "filename": "ideal_by_title.js",
+      "language": "JavaScript",
+      "content": "function (doc, meta) {\n  if (doc.type == \"idea\") {\n    emit(doc.title);\n  }\n}",
+      "truncated": false,
+      "rawUrl": "https://gist.githubusercontent.com/tgrall/989a5450811dec8f305e/raw/1ae6ba3350cef51669f6050473dfa32c1b918d35/ideal_by_title.js"
+    }
+  }
+}

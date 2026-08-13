@@ -1,0 +1,42 @@
+{
+  "id": "f16b1d3b5bcc12a4270a",
+  "url": "https://gist.github.com/tgrall/f16b1d3b5bcc12a4270a",
+  "description": "Code for the pub/sub blog post-001",
+  "files": {
+    "App.scala": {
+      "filename": "App.scala",
+      "language": "Scala",
+      "content": "package org.mongodb.demos.tailable\n\nimport reactivemongo.api._\nimport reactivemongo.bson._\nimport play.api.libs.iteratee.Iteratee\nimport scala.concurrent.ExecutionContext.Implicits.global\nimport reactivemongo.api.collections.default.BSONCollection\n\nobject Capped extends App {\n\n  val driver = new MongoDriver\n  val connection = driver.connection(List(\"localhost\"))\n  val db = connection(\"chat\")\n  val collection = db.collection[BSONCollection](\"messages\")\n\n  val cursor = collection\n        .find(BSONDocument())\n          .options(QueryOpts().tailable.awaitData)\n            .cursor[BSONDocument]\n\n  println(\"== open tailable cursor\")\n  \n  cursor.enumerate().apply(Iteratee.foreach { doc =>\n    println(s\"Document inserted: ${BSONDocument.pretty(doc)}\")\n  })\n}",
+      "truncated": false,
+      "rawUrl": "https://gist.githubusercontent.com/tgrall/f16b1d3b5bcc12a4270a/raw/e5284bb5d1732e285408de51aa2377588596a6d3/App.scala"
+    },
+    "AppJavaNewOnly.java": {
+      "filename": "AppJavaNewOnly.java",
+      "language": "Java",
+      "content": "      MongoClient mongoClient = new MongoClient();\n        DBCollection coll = mongoClient.getDB(\"events\").getCollection(\"messages\");\n\n        // find the last message\n        ObjectId lastEntryId = (ObjectId)coll.find().sort(BasicDBObjectBuilder.start(\"$natural\", -1).get()).limit(1).next().get(\"_id\");\n\n        DBObject query = QueryBuilder.start(\"_id\").greaterThan(lastEntryId).get();\n\n\n        DBCursor cur = coll.find(query).sort(BasicDBObjectBuilder.start(\"$natural\", 1).get()).addOption(Bytes.QUERYOPTION_TAILABLE).addOption(Bytes.QUERYOPTION_AWAITDATA);\n\n        System.out.println(\"== open cursor ==\");\n\n        Runnable task = () -> {\n            System.out.println(\"\\tWaiting for events\");\n            while (cur.hasNext()) {\n                DBObject obj = cur.next();\n                System.out.println( obj.get(\"text\") );\n\n            }\n        };\n        new Thread(task).start();",
+      "truncated": false,
+      "rawUrl": "https://gist.githubusercontent.com/tgrall/f16b1d3b5bcc12a4270a/raw/79d0747bd46813ce05e32f39eca5dc3c6d47951f/AppJavaNewOnly.java"
+    },
+    "MyApp.java": {
+      "filename": "MyApp.java",
+      "language": "Java",
+      "content": "package org.mongodb.demos.tailable;\n\nimport com.mongodb.*;\n\npublic class MyApp {\n\n    public static void main(String[] args) throws Exception {\n\n        MongoClient mongoClient = new MongoClient();\n        DBCollection coll = mongoClient.getDB(\"chat\").getCollection(\"messages\");\n\n        DBCursor cur = coll.find().sort(BasicDBObjectBuilder.start(\"$natural\", 1).get())\n                .addOption(Bytes.QUERYOPTION_TAILABLE | Bytes.QUERYOPTION_AWAITDATA);\n\n        System.out.println(\"== open cursor ==\");\n\n        Runnable task = () -> {\n            System.out.println(\"\\tWaiting for events\");\n            while (cur.hasNext()) {\n                DBObject obj = cur.next();\n                System.out.println( obj );\n\n            }\n        };\n        new Thread(task).start();\n        \n    }\n    \n}",
+      "truncated": false,
+      "rawUrl": "https://gist.githubusercontent.com/tgrall/f16b1d3b5bcc12a4270a/raw/0efcf277d8372d8db84637f6a81b22eeedd0ea6c/MyApp.java"
+    },
+    "app.js": {
+      "filename": "app.js",
+      "language": "JavaScript",
+      "content": "var mongo = require(\"mongodb\");\n\nvar mongodbUri = \"mongodb://127.0.0.1/chat\";\n\nmongo.MongoClient.connect (mongodbUri, function (err, db) {\n\n  db.collection('messages', function(err, collection) {\n    // open a tailable cursor\n    console.log(\"== open tailable cursor\");\n    collection.find({}, {tailable:true, awaitdata:true, numberOfRetries:-1})\n                      .sort({ $natural: 1 })\n                      .each(function(err, doc) {\n      console.log(doc);\n    })\n  });\n\n});",
+      "truncated": false,
+      "rawUrl": "https://gist.githubusercontent.com/tgrall/f16b1d3b5bcc12a4270a/raw/46001fcf00314af4cda82c0aa2cc9e00e3ed3f29/app.js"
+    },
+    "capped-collection": {
+      "filename": "capped-collection",
+      "language": null,
+      "content": "$> mongo\n\nuse chat\n\ndb.messages.drop()\n\ndb.createCollection('messages', { capped: true, size: 10000 })\n\ndb.messages.insert({\"type\":\"init\"});\n\n",
+      "truncated": false,
+      "rawUrl": "https://gist.githubusercontent.com/tgrall/f16b1d3b5bcc12a4270a/raw/be4e49d3a1d2575352e1be2112bb2596151949af/capped-collection"
+    }
+  }
+}

@@ -1,0 +1,91 @@
+---
+import ThemeToggle from './ThemeToggle.astro';
+---
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/">
+      <img src="/img/logo.png" width="40" height="40" alt="" />
+      <span>Tug's Site</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="/blog">Blog</a>
+      <a href="/talks">Talks</a>
+      <a href="/copilot">Copilot</a>
+      <a href="/showcase">Showcase</a>
+    </nav>
+    <ThemeToggle />
+  </div>
+</header>
+
+<style>
+  .site-header {
+    position: sticky;
+    z-index: 20;
+    top: 0;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-border) 75%, transparent);
+    background: color-mix(in srgb, var(--color-bg) 88%, transparent);
+    backdrop-filter: blur(14px);
+  }
+
+  .header-inner,
+  .brand,
+  nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-inner {
+    min-height: 4.4rem;
+    gap: 1.4rem;
+  }
+
+  .brand {
+    gap: 0.65rem;
+    color: var(--color-text);
+    font-weight: 750;
+    text-decoration: none;
+  }
+
+  .brand img {
+    border-radius: 50%;
+  }
+
+  nav {
+    margin-left: auto;
+    gap: clamp(0.7rem, 2vw, 1.4rem);
+  }
+
+  nav a {
+    color: var(--color-muted);
+    font-size: 0.95rem;
+    font-weight: 650;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    color: var(--color-text);
+  }
+
+  @media (max-width: 44rem) {
+    .brand span {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+    }
+
+    .header-inner {
+      gap: 0.75rem;
+    }
+
+    nav {
+      gap: 0.7rem;
+    }
+
+    nav a:nth-child(4) {
+      display: none;
+    }
+  }
+</style>

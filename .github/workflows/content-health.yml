@@ -24,7 +24,7 @@ jobs:
           set -o pipefail
           node scripts/production-baseline/capture.mjs 2>&1 | tee production-drift.txt
       - if: always()
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: production-drift
           path: production-drift.txt
@@ -41,7 +41,7 @@ jobs:
       - run: npm run build
       - run: node scripts/check-external-links.mjs
       - if: always()
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: external-link-report
           path: external-links-report.json

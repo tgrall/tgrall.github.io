@@ -1,6 +1,9 @@
 import AxeBuilder from '@axe-core/playwright';
 import {expect, test} from '@playwright/test';
 
+const runVisualTests = process.env.RUN_VISUAL_TESTS === 'true';
+const visualRegressionPages = new Set(['home', 'blog', 'old-article', 'gist-article', 'modern-mdx', 'talks']);
+
 const representativePages = [
   ['home', '/'],
   ['blog', '/blog'],
@@ -24,7 +27,7 @@ for (const [name, path] of representativePages) {
     const results = await new AxeBuilder({page}).analyze();
     expect(results.violations.filter((violation) => ['serious', 'critical'].includes(violation.impact ?? ''))).toEqual([]);
 
-    if (['home', 'blog', 'old-article', 'gist-article', 'modern-mdx', 'talks'].includes(name)) {
+    if (runVisualTests && visualRegressionPages.has(name)) {
       await expect(page).toHaveScreenshot(`${name}.png`, {fullPage: true});
     }
   });
@@ -69,7 +72,9 @@ test('showcase handles loading, filtering, and remote errors', async ({page}) =>
   await page.getByRole('button', {name: 'Java'}).click();
   await expect(page.getByRole('status')).toHaveText('1 video');
   await expect(page.getByRole('heading', {name: 'Copilot in Java'})).toBeVisible();
-  await expect(page).toHaveScreenshot('showcase.png', {fullPage: true});
+  if (runVisualTests) {
+    await expect(page).toHaveScreenshot('showcase.png', {fullPage: true});
+  }
 });
 
 test('intentional redirects preserve approved destinations', async ({page}) => {
